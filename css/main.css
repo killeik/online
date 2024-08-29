@@ -1,12 +1,21 @@
 /* Main css file based on lit https://github.com/ajusa/lit */
 :root {
 	--font: Courier New;
-	--primary-color: #fa0;
-	--light: #eee;
+	--primary: #c00;
+	--foreground: #eee;
+	--background: #000;
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--primary: #c00;
+		--foreground: #000;
+		--background: #eee;
+	}
 }
 
 body {
-	background: black;
+	background: var(--background);
 }
 
 * {
@@ -26,27 +35,27 @@ pre {
 		display: table-cell;
 	}
 
-	.\31 {
+	.one {
 		width: 5%;
 	}
 
-	.\33 {
-		width: 22%;
-	}
-
-	.\34 {
-		width: 30%;
-	}
-
-	.\35 {
-		width: 40%;
-	}
-
-	.\32 {
+	.two {
 		width: 15%;
 	}
 
-	.\36 {
+	.three {
+		width: 22%;
+	}
+
+	.four {
+		width: 30%;
+	}
+
+	.five {
+		width: 40%;
+	}
+
+	.six {
 		width: 50%;
 	}
 
@@ -64,13 +73,13 @@ pre {
 .card:focus,
 hr {
 	outline: 0;
-	border: solid var(--primary-color);
+	border: solid var(--primary);
 }
 
 .card,
 pre {
 	padding: 1em;
-	border: solid var(--light);
+	border: solid var(--foreground);
 }
 
 a:hover,
@@ -112,21 +121,21 @@ h1 {
 }
 
 a {
-	color: var(--primary-color);
+	color: var(--primary);
 	text-decoration: none;
 }
 
 .btn.primary {
 	color: white;
-	background: var(--primary-color);
-	border: solid var(--primary-color);
+	background: var(--primary);
+	border: solid var(--primary);
 }
 
 td,
 th {
 	padding: 1em;
 	text-align: left;
-	border-bottom: solid var(--light);
+	border-bottom: solid var(--foreground);
 }
 
 .btn {
@@ -135,9 +144,4 @@ th {
 	background: white;
 	border: solid;
 	font: .7em var(--font);
-}
-
-main {
-	position: relative;
-	z-index: 1;
 }
