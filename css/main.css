@@ -142,7 +142,7 @@ th {
 .btn {
 	padding: 1em;
 	text-transform: uppercase;
-	background: white;
+	background: var(--foreground);
 	border: solid;
 	font: .7em var(--font);
 }
