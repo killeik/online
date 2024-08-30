@@ -55,9 +55,33 @@ pre {
 	border: solid var(--foreground);
 }
 
+a {
+	color: var(--foreground);
+}
+
+a.primary {
+	color: var(--primary);
+	text-decoration: none;
+}
+
 a:hover,
 .btn:hover {
 	opacity: .6;
+}
+
+
+.btn.primary {
+	color: var(--foreground);
+	background: var(--primary);
+	border: solid var(--primary);
+}
+
+.btn {
+	padding: 1em;
+	text-transform: uppercase;
+	background: var(--foreground);
+	border: solid;
+	font: .7em var(--font);
 }
 
 .c {
@@ -65,6 +89,13 @@ a:hover,
 	padding: 1em;
 	margin: auto;
 	font: 1em/1.6 var(--font);
+}
+
+td,
+th {
+	padding: 1em;
+	text-align: left;
+	border-bottom: solid var(--foreground);
 }
 
 h6 {
@@ -89,30 +120,4 @@ h2 {
 
 h1 {
 	font: 100 2.5em var(--font);
-}
-
-a {
-	color: var(--primary);
-	text-decoration: none;
-}
-
-.btn.primary {
-	color: var(--foreground);
-	background: var(--primary);
-	border: solid var(--primary);
-}
-
-td,
-th {
-	padding: 1em;
-	text-align: left;
-	border-bottom: solid var(--foreground);
-}
-
-.btn {
-	padding: 1em;
-	text-transform: uppercase;
-	background: var(--foreground);
-	border: solid;
-	font: .7em var(--font);
 }
