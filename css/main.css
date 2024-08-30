@@ -49,8 +49,7 @@ hr {
 	border: solid var(--primary);
 }
 
-.card,
-pre {
+.card {
 	padding: 1em;
 	border: solid var(--foreground);
 }
@@ -59,7 +58,7 @@ a {
 	color: var(--foreground);
 }
 
-a.primary {
+.primary {
 	color: var(--primary);
 	text-decoration: none;
 }
