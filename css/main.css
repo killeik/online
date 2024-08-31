@@ -56,7 +56,6 @@ hr {
 a {
 	color: var(--foreground);
 	text-decoration: underline dotted gray;
-	;
 }
 
 .primary {
