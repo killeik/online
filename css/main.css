@@ -1,4 +1,3 @@
-/* Main css file based on lit https://github.com/ajusa/lit */
 :root {
 	--font: Courier New;
 	--primary: #c00;
@@ -56,6 +55,8 @@ hr {
 
 a {
 	color: var(--foreground);
+	text-decoration: underline dotted gray;
+	;
 }
 
 .primary {
