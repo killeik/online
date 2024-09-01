@@ -1,5 +1,5 @@
 :root {
-	--font: Courier New;
+	--font: "Courier New", Courier, monospace, monospace;
 	--primary: #c00;
 	--foreground: #eee;
 	--background: #000;
@@ -16,6 +16,7 @@
 body {
 	background: var(--background);
 	color: var(--foreground);
+	font-family: var(--font);
 }
 
 * {
