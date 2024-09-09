@@ -1,5 +1,4 @@
 :root {
-	--font: "Courier New", Courier, monospace, monospace;
 	--primary: #c00;
 	--foreground: #eee;
 	--background: #000;
@@ -16,7 +15,7 @@
 body {
 	background: var(--background);
 	color: var(--foreground);
-	font-family: var(--font);
+	font: normal 1.1em serif, monospace;
 }
 
 * {
@@ -28,10 +27,12 @@ body {
 }
 
 pre {
-	overflow: auto
+	overflow: auto;
+	font-weight: bold;
 }
 
 .row {
+	width: 100%;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
@@ -39,16 +40,6 @@ pre {
 	gap: 0.5em 1em;
 }
 
-.w-100,
-.row {
-	width: 100%;
-}
-
-.card:focus,
-hr {
-	outline: 0;
-	border: solid var(--primary);
-}
 
 .card {
 	padding: 1em;
@@ -62,63 +53,27 @@ a {
 
 .primary {
 	color: var(--primary);
+}
+
+a.primary {
 	text-decoration: none;
 }
 
-a:hover,
-.btn:hover {
+a:hover {
 	opacity: .6;
 }
 
-
-.btn.primary {
-	color: var(--foreground);
-	background: var(--primary);
-	border: solid var(--primary);
-}
-
-.btn {
-	padding: 1em;
-	text-transform: uppercase;
-	background: var(--foreground);
-	border: solid;
-	font: .7em var(--font);
-}
-
-.c {
+.container {
 	max-width: 60em;
 	padding: 1em;
 	margin: auto;
-	font: 1em/1.6 var(--font);
 }
 
-td,
-th {
-	padding: 1em;
-	text-align: left;
-	border-bottom: solid var(--foreground);
-}
-
+h1,
+h2,
+h3,
+h4,
+h5,
 h6 {
-	font: 100 1em var(--font);
-}
-
-h5 {
-	font: 100 1.2em var(--font);
-}
-
-h3 {
-	font: 100 2em var(--font);
-}
-
-h4 {
-	font: 100 1.5em var(--font);
-}
-
-h2 {
-	font: 100 2.2em var(--font);
-}
-
-h1 {
-	font: 100 2.5em var(--font);
+	font-weight: normal;
 }
