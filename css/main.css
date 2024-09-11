@@ -81,3 +81,14 @@ h5,
 h6 {
 	font-weight: normal;
 }
+
+.w100 {
+	width: 100%;
+}
+
+td,
+th {
+	padding: 1em;
+	text-align: center;
+	border-bottom: solid var(--foreground);
+}
