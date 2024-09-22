@@ -1,6 +1,8 @@
 #personal websites
 https://libre.town/
 https://melonland.net/
+https://neocities.org/browse
+https://usenothing.com/
 
 #music
 https://musicmap.info/
@@ -9,3 +11,4 @@ https://musicmap.info/
 https://ohshitgit.com/
 https://www.debuggex.com/
 https://learngitbranching.js.org/
+https://wttr.in/
