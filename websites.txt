@@ -13,3 +13,5 @@ https://ohshitgit.com/
 https://www.debuggex.com/
 https://learngitbranching.js.org/
 https://wttr.in/
+https://www.marginalia.nu/
+https://curlie.org/
