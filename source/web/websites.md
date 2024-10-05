@@ -10,6 +10,7 @@ layout: base.html
 - <https://sabrinas.space/>
 - <https://john-doe.neocities.org/>
 - <https://mbrizic.com/>
+- <http://motherfuckingwebsite.com/>
 
 # music
 - <https://musicmap.info/>
