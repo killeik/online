@@ -4,21 +4,17 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="color-scheme" content="dark light">
-  <title>Game over</title>
+  <meta name="color-scheme" content="dark light" />
+  <title>{{title}}</title>
   <link rel="stylesheet" href="/css/main.css" />
   <style></style>
 </head>
 
 <body>
-  <main class="row">
-    <pre class="primary">
-      {{include "/art/403.txt"}}
-    </pre>
+  <main class="container">
+    {{ content }}
   </main>
-
-  {{include "/menu.part.html"}}
-
+  {% include "./menu.part.html" %}
 </body>
 
 </html>
