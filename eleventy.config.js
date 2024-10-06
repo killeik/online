@@ -1,9 +1,12 @@
+import markdownIt from "markdown-it";
+
 export const config = {
   dir: {
     input: "source",
     output: "public",
   },
 };
+
 export default async function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "source/_static/": "/" });
  
@@ -12,4 +15,12 @@ export default async function (eleventyConfig) {
 			return false;
 		}
 	});
+
+  let markdownOptions = {
+    html: true,
+    breaks: true,
+    linkify: true,
+  };
+
+	eleventyConfig.setLibrary("md", markdownIt(markdownOptions ));
 }
