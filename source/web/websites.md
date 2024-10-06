@@ -27,3 +27,4 @@ layout: base.html
 - <https://curlie.org/>
 - <https://urlme.me/>
 - <https://kagi.com/>
+- <https://distrowatch.com/>
