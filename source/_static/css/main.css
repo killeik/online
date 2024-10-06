@@ -92,5 +92,5 @@ td,
 th {
   padding: 1em;
   text-align: center;
-  border-bottom: solid var(--foreground);
+  border-bottom: solid var(--primary);
 }
