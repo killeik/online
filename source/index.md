@@ -3,10 +3,10 @@ title: Some wierd website
 layout: base.html
 ---
 
-<p style="color:black; margin:auto;"> My website respects
-	<a style="color:black; text-decoration-color: black;"
-		href="https://www.w3.org/TR/css-color-adjust-1/#preferred-color-scheme">prefers-color-scheme</a>, but it looks
-	cooler in a dark theme!
+<p style="color:black; margin:auto;"> 
+My website respects 
+<a style="color:black; text-decoration-color: black;" href="https://www.w3.org/TR/css-color-adjust-1/#preferred-color-scheme">
+preferred-color-scheme</a>, but it looks cooler in a dark theme!
 </p>
 
 # Hello, friend!
