@@ -68,7 +68,9 @@ a:hover {
 li::marker {
   color: var(--primary);
 }
-
+ul, ol {
+  margin: auto;
+}
 .container {
   max-width: 60em;
   padding: 1em;
