@@ -22,5 +22,5 @@ export default async function (eleventyConfig) {
     linkify: true,
   };
 
-	eleventyConfig.setLibrary("md", markdownIt(markdownOptions ));
+ eleventyConfig.setLibrary("md", markdownIt(markdownOptions ));
 }
