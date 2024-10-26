@@ -1,6 +1,5 @@
 ---
 title: Wisely wierd web
-layout: base.html
 ---
 
 # What is web about?

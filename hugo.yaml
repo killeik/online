@@ -1,0 +1,9 @@
+baseURL: https://killeik.online/
+disableKinds:
+- taxonomy
+- term
+markup:
+  goldmark:
+    extensions:
+    renderer:
+      unsafe: true

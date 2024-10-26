@@ -1,6 +1,5 @@
 ---
 title: Some wierd website
-layout: base.html
 ---
 
 <p style="color:black; margin:auto;"> 

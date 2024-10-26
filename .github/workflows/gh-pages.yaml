@@ -1,45 +1,66 @@
-name: Deploy to GitHub Pages
+# Sample workflow for building and deploying a Hugo site to GitHub Pages
+name: Deploy Hugo site to Pages
 
 on:
+  # Runs on pushes targeting the default branch
   push:
     branches:
-      - eleventy
-  pull_request:
+      - hugo
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+# Default to bash
+defaults:
+  run:
+    shell: bash
 
 jobs:
-  deploy:
-    runs-on: ubuntu-24.04
-    permissions:
-      contents: write
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
+  # Build job
+  build:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_CACHEDIR: /tmp/hugo_cache 
+      HUGO_ENVIRONMENT: production
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
         with:
-          node-version: '22'
+          hugo-version: 'latest'
+          #extended: true
 
-      - name: Cache npm
-        uses: actions/cache@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package.json') }}
+          fetch-depth: 0
 
-      - name: Cache Eleventy .cache
-        uses: actions/cache@v4
+      - uses: actions/cache@v4
         with:
-          path: ./.cache
-          key: ${{ runner.os }}-eleventy-fetch-cache
+          path: ${{ env.HUGO_CACHEDIR }} 
+          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-hugomod-
 
-
-      - run: npm install
-      - run: npm run build
+      - name: Build with Hugo
+        run: |
+          hugo \
+            --gc 
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
-        if: github.ref == 'refs/heads/eleventy'
+        if: github.ref == 'refs/heads/hugo'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public

@@ -1,6 +1,8 @@
-# Dependencies
-/node_modules
+# Generated files by hugo
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
 
-#Builded files
-/public
-
+# Temporary lock file while building
+/.hugo_build.lock

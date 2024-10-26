@@ -1,6 +1,5 @@
 ---
 title: TINK TINK TINK
-layout: base.html
 ---
 
 # Tinkering

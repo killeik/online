@@ -1,6 +1,5 @@
 ---
 title: websites
-layout: base.html
 ---
 # personal websites
 - https://libre.town/
