@@ -2,7 +2,7 @@
 title: so CALL ME maybe
 date: '2024-10-27T17:14:39+03:00'
 ---
-<main class="row">
+<div class="row">
 
 <div class ="conatiner primary">
 
@@ -46,5 +46,5 @@ date: '2024-10-27T17:14:39+03:00'
                              -                              
 </pre>
 
-</main>
+</div>
 

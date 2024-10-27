@@ -48,8 +48,8 @@ This approach seems to be the essence of the \[[small](https://benhoyt.com/writi
 
 And it is these feelings that I want to share with the world.
 
-<section class=card>
+<div class=card>
 	So far, I haven't figured out exactly how I'm going to display a list of all the sites I've found. <br>
 	This is a bit of a challenge, because I plan to have 200+ entities there. <br>
 	Therefore, at the moment, I will save all links in a <a class="primary" href="websites/"> simple document</a>, and then use the links from it.
-</section>
+</div>

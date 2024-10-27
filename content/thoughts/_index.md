@@ -1,7 +1,7 @@
 ---
 title: Some wierd thoughts
 ---
-<section class="row">
+<div class="row">
 
  <pre class="container primary">
                       ####    ###
@@ -47,4 +47,4 @@ title: Some wierd thoughts
 	</ul>
 </nav>
 
-</section>
+</div>
