@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://killeik.online/contact/</loc>
+    <lastmod>2024-10-27T17:14:39+03:00</lastmod>
+  </url><url>
+    <loc>https://killeik.online/</loc>
+    <lastmod>2024-10-27T17:14:39+03:00</lastmod>
+  </url><url>
     <loc>https://killeik.online/404.html</loc>
   </url><url>
     <loc>https://killeik.online/thoughts/identity/</loc>
@@ -9,8 +15,6 @@
     <loc>https://killeik.online/thoughts/social_networks/</loc>
   </url><url>
     <loc>https://killeik.online/thoughts/</loc>
-  </url><url>
-    <loc>https://killeik.online/</loc>
   </url><url>
     <loc>https://killeik.online/403.html</loc>
   </url><url>
