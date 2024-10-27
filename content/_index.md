@@ -34,7 +34,5 @@ Pure, straight-forward HTML, basic CSS, and no JS.
 
 -  Editing in [helix](https://helix-editor.com)
 -  Code repository on [GitHub](https://github.com/killeik/online)
--  Rendering to HTML from templates/markdown with [11ty](https://www.11ty.dev/)
--  Web-server - [Caddy](https://caddyserver.com/) with Docker Compose
--  Configuration in Ansible
--  Self-hosting on VPS.
+-  Rendering to HTML from templates/markdown with [Hugo](https://gohugo.io/)
+-  Hosting on Github Pages
