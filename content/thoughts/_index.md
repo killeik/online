@@ -40,11 +40,11 @@ title: Some wierd thoughts
  </pre>
 
 <nav class="container">
-	<h1> Thoughts metapage</h1>
-	<ul>
-		<li><a href="identity/">Identity (?)</a> </li>
-		<li> <a href="social_networks/">On social netoworks services</a> </li>
-	</ul>
+
+# Thoughts metapage
+
+- [Identity](identity/)
+- [Social networks](social_networks/)
 </nav>
 
 </div>
