@@ -31,3 +31,4 @@ title: websites
 - https://64.surf/
 - https://msg-viewer.pages.dev/
 - https://alternativeto.net/
+- https://validator.w3.org/
