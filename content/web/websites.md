@@ -11,12 +11,22 @@ title: websites
 - https://mbrizic.com/
 - http://motherfuckingwebsite.com/
 - https://benhoyt.com/
+- https://so1o.xyz/@gar0u
+- https://johnnydecimal.com/
+- http://tilde.club/
+- https://soham-saha.github.io/
+- https://priyavkaneria.com/#dock
+
+
 
 # music
 - https://musicmap.info/
 
 # funny
 - https://wtfjs.com/
+- https://animalbodyfatmatch.netlify.app/
+
+
 
 # tools
 - https://ohshitgit.com/
@@ -32,3 +42,10 @@ title: websites
 - https://msg-viewer.pages.dev/
 - https://alternativeto.net/
 - https://validator.w3.org/
+- https://www.11ty.dev/
+- https://sobrief.com/
+- https://awexplor.github.io/
+
+# articles
+- https://www.w3.org/Provider/Style/URI
+- http://ankarstrom.se/~john/articles/html/
