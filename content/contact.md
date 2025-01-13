@@ -9,7 +9,7 @@ date: '2024-10-27T17:14:39+03:00'
 # SUMMON ME 
 
 - [TELEGRAM](http://t.me/killeik)
-- [EMAIL](mailto:contact@killeik.online)
+- [EMAIL](mailto:qadol4zpb@mozmail.com)
 - [GITHUB](https://github.com/killeik)
 
 </div>
