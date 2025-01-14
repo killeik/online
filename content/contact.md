@@ -2,20 +2,19 @@
 title: so CALL ME maybe
 date: '2024-10-27T17:14:39+03:00'
 ---
-<div class="row">
+{{<sidebyside>}}
 
-<div class ="conatiner primary">
-
+{{<widthtocontent>}}
 # SUMMON ME 
 
 - [TELEGRAM](http://t.me/killeik)
 - [EMAIL](mailto:qadol4zpb@mozmail.com)
 - [GITHUB](https://github.com/killeik)
 
-</div>
+{{</widthtocontent>}}
 
-<pre class="primary">
-              -                               -                
+{{<ascii>}}
+              -                               -
               +++                           -++             
                ++++.                      ++++              
                -++++++                 ++++++-              
@@ -44,7 +43,5 @@ date: '2024-10-27T17:14:39+03:00'
                             +++                             
                              +-                             
                              -                              
-</pre>
-
-</div>
-
+{{</ascii>}}
+{{</sidebyside>}}

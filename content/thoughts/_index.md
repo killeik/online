@@ -1,9 +1,7 @@
 ---
 title: Some wierd thoughts
 ---
-<div class="row">
-
- <pre class="container primary">
+{{<ascii>}}
                       ####    ###
                       ##### #####
                       ##+-###+-##
@@ -37,14 +35,11 @@ title: Some wierd thoughts
         ###++++##--######+++++++++++++++++++++#####--##
         ###++++##-----###+++++++++++++++++++++##-----##
          ##############################################
- </pre>
+{{</ascii>}}
 
-<nav class="container">
-
+{{% comment %}}
 # Thoughts metapage
 
 - [Identity](identity/)
 - [Social networks](social_networks/)
-</nav>
-
-</div>
+{{% /comment %}}
