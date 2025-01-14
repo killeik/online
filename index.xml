@@ -1,61 +1,514 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Some wierd website on </title>
-    <link>https://killeik.online/</link>
-    <description>Recent content in Some wierd website on </description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Sun, 27 Oct 2024 17:14:39 +0300</lastBuildDate>
-    <atom:link href="https://killeik.online/index.xml" rel="self" type="application/rss+xml" />
+    <title>Some wierd website on weird website</title>
+    <link>https://killeik.net/</link>
+    <description>Recent content in Some wierd website on weird website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://killeik.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>so CALL ME maybe</title>
-      <link>https://killeik.online/contact/</link>
+      <link>https://killeik.net/contact/</link>
       <pubDate>Sun, 27 Oct 2024 17:14:39 +0300</pubDate>
-      <guid>https://killeik.online/contact/</guid>
-      <description>&lt;div class=&#34;row&#34;&gt;&#xA;&lt;div class =&#34;conatiner primary&#34;&gt;&#xA;&lt;h1 id=&#34;summon-me&#34;&gt;SUMMON ME&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://t.me/killeik&#34;&gt;TELEGRAM&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;mailto:qadol4zpb@mozmail.com&#34;&gt;EMAIL&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/killeik&#34;&gt;GITHUB&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;pre class=&#34;primary&#34;&gt;&#xA;              -                               -                &#xA;              +++                           -++             &#xA;               ++++.                      ++++              &#xA;               -++++++                 ++++++-              &#xA;                +++-++++  +######+. .++++++++               &#xA;                .+++  ###########.+++++. +++                &#xA;                 +++ #### -++  .+++++.###.++                &#xA;                 .+++#    .++++--+    -###+                 &#xA;                ##+++     -+ +++++     -####                &#xA;               -## +++  +++++  -++++.  ++-###               &#xA;               ### +.++#+#.       +++-+++ ###-              &#xA;              ###..+++++            +-++-. ###              &#xA;              ###.+++ +-             +++-++--#              &#xA;             .###.-  +++            +++  +++++              &#xA;           +++###    .+++          .+++    .++++-           &#xA;        -++++- ###    +++          +++    -## +++++         &#xA;      ++++++++++++++++ +++-+++++###++++++.###.--+++++.      &#xA;   +++++++++++++++++++++++.++++++++#+++++###.+++++++++++    &#xA;                 -###-  +++      +++. .####                 &#xA;                   #####..+-    -++-#####                   &#xA;                     -######### +++-###                     &#xA;                         -#####+++.                         &#xA;                          +++ .+++                          &#xA;                          .++++++                           &#xA;                           +++++.                           &#xA;                            ++++                            &#xA;                            +++                             &#xA;                             +-                             &#xA;                             -                              &#xA;&lt;/pre&gt;&#xA;&lt;/div&gt;</description>
+      
+      <guid>https://killeik.net/contact/</guid>
+      <description>&lt;div class=&#34;sidebyside&#34;&gt; &lt;div class=&#34;widthtocontent&#34;&gt; &lt;h1 id=&#34;summon-me&#34;&gt;SUMMON ME&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://t.me/killeik&#34;&gt;TELEGRAM&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;mailto:qadol4zpb@mozmail.com&#34;&gt;EMAIL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/killeik&#34;&gt;GITHUB&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+ &lt;/div&gt;
+&lt;pre class=&#39;ascii&#39;&gt;
+              -                               -
+              +++                           -++             
+               ++++.                      ++++              
+               -++++++                 ++++++-              
+                +++-++++  +######+. .++++++++               
+                .+++  ###########.+++++. +++                
+                 +++ #### -++  .+++++.###.++                
+                 .+++#    .++++--+    -###+                 
+                ##+++     -+ +++++     -####                
+               -## +++  +++++  -++++.  ++-###               
+               ### +.++#+#.       +++-+++ ###-              
+              ###..+++++            +-++-. ###              
+              ###.+++ +-             +++-++--#              
+             .###.-  +++            +++  +++++              
+           +++###    .+++          .+++    .++++-           
+        -++++- ###    +++          +++    -## +++++         
+      ++++++++++++++++ +++-+++++###++++++.###.--+++++.      
+   +++++++++++++++++++++++.++++++++#+++++###.+++++++++++    
+                 -###-  +++      +++. .####                 
+                   #####..+-    -++-#####                   
+                     -######### +++-###                     
+                         -#####+++.                         
+                          +++ .+++                          
+                          .++++++                           
+                           +++++.                           
+                            ++++                            
+                            +++                             
+                             +-                             
+                             -                              
+&lt;/pre&gt; &lt;/div&gt;</description>
+      <content>&lt;div class=&#34;sidebyside&#34;&gt; &lt;div class=&#34;widthtocontent&#34;&gt; &lt;h1 id=&#34;summon-me&#34;&gt;SUMMON ME&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://t.me/killeik&#34;&gt;TELEGRAM&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;mailto:qadol4zpb@mozmail.com&#34;&gt;EMAIL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/killeik&#34;&gt;GITHUB&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+ &lt;/div&gt;
+&lt;pre class=&#39;ascii&#39;&gt;
+              -                               -
+              +++                           -++             
+               ++++.                      ++++              
+               -++++++                 ++++++-              
+                +++-++++  +######+. .++++++++               
+                .+++  ###########.+++++. +++                
+                 +++ #### -++  .+++++.###.++                
+                 .+++#    .++++--+    -###+                 
+                ##+++     -+ +++++     -####                
+               -## +++  +++++  -++++.  ++-###               
+               ### +.++#+#.       +++-+++ ###-              
+              ###..+++++            +-++-. ###              
+              ###.+++ +-             +++-++--#              
+             .###.-  +++            +++  +++++              
+           +++###    .+++          .+++    .++++-           
+        -++++- ###    +++          +++    -## +++++         
+      ++++++++++++++++ +++-+++++###++++++.###.--+++++.      
+   +++++++++++++++++++++++.++++++++#+++++###.+++++++++++    
+                 -###-  +++      +++. .####                 
+                   #####..+-    -++-#####                   
+                     -######### +++-###                     
+                         -#####+++.                         
+                          +++ .+++                          
+                          .++++++                           
+                           +++++.                           
+                            ++++                            
+                            +++                             
+                             +-                             
+                             -                              
+&lt;/pre&gt; &lt;/div&gt;
+
+</content>
     </item>
+    
     <item>
       <title>Game over</title>
-      <link>https://killeik.online/404.html</link>
+      <link>https://killeik.net/404.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://killeik.online/404.html</guid>
-      <description>&lt;main class=&#34;row&#34;&gt;&#xA;  &lt;pre class=&#34;primary&#34;&gt;&#xA;                        :::!~!!!!!:.&#xA;                     .xUHWH!! !!?M88WHX:.&#xA;                   .X*#M@$!!  !X!M$$$$$$WWx:.&#xA;                  :!!!!!!?H! :!$!$$$$$$$$$$8X:&#xA;                 !!~  ~:~!! :~!$!#$$$$$$$$$$8X:&#xA;                :!~::!H!&lt;   ~.U$X!?R$$$$$$$$MM!&#xA;                ~!~!!!!~~ .:XW$$$U!!?$$$$$$RMM!&#xA;                  !:~~~ .:!M&#34;T#$$$$WX??#MRRMMM!&#xA;                  ~?WuxiW*`   `&#34;#$$$$8!!!!??!!!&#xA;                :X- M$$$$       `&#34;T#$T~!8$WUXU~&#xA;               :%`  ~#$$$m:        ~!~ ?$$$$$$&#xA;             :!`.-   ~T$$$$8xx.  .xWW- ~&#34;&#34;##*&#34;     ,AM   ,pP&#34;&#34;Yq.       ,AM&#xA;           -~~:&lt;` !    ~?T#$$@@W@*?$$      /`     AVMM  6W&#39;    `Wb     AVMM&#xA;        !!! .!~~ !!     .:XUW$W!~ `&#34;~:    :     ,W&#39; MM  8M      M8   ,W&#39; MM&#xA;     ~~`.:x%`!!  !H:   !WM$$$$Ti.: .!WUn+!`   ,W&#39;   MM  YA.    ,A9 ,W&#39;   MM&#xA;   :::~:!!`:X~ .: ?H.!u &#34;$$$B$$$!W:U!T$$M~    AmmmmmMMmm `Ybmmd9&#39;  AmmmmmMMmm&#xA;   .~~   :X@!.-~   ?@WTWo(&#34;*$$$W$TH$! `             MM                   MM&#xA;   Wi.~!X$?!-~    : ?$$$B$Wu(&#34;**$RM!                MM                   MM&#xA;   $R@i.~~ !     :   ~$$$$$B$$en:``&#xA;   ?MXT@Wx.~    :     ~&#34;##*$$$$M~&#xA;`YMM&#39;   `MM&#39; .g8&#34;&#34;8q. `7MMF&#39;   `7MF&#39;    `7MM&#34;&#34;&#34;Yb. `7MMF&#39;`7MM&#34;&#34;&#34;YMM  `7MM&#34;&#34;&#34;Yb.&#xA;  VMA   ,V .dP&#39;    `YM. MM       M        MM    `Yb. MM    MM    `7    MM    `Yb.&#xA;   VMA ,V  dM&#39;      `MM MM       M        MM     `Mb MM    MM   d      MM     `Mb&#xA;    VMMP   MM        MM MM       M        MM      MM MM    MMmmMM      MM      MM&#xA;     MM    MM.      ,MP MM       M        MM     ,MP MM    MM   Y  ,   MM     ,MP&#xA;     MM    `Mb.    ,dP&#39; YM.     ,M        MM    ,dP&#39; MM    MM     ,M   MM    ,dP&#39;&#xA;   .JMML.    `&#34;bmmd&#34;&#39;    `bmmmmd&#34;&#39;      .JMMmmmdP&#39; .JMML..JMMmmmmMMM .JMMmmmdP&#39;&#xA;  &lt;/pre&gt;&#xA;&lt;/main&gt;</description>
+      
+      <guid>https://killeik.net/404.html</guid>
+      <description>&lt;pre class=&#39;ascii&#39;&gt;
+                        :::!~!!!!!:.
+                     .xUHWH!! !!?M88WHX:.
+                   .X*#M@$!!  !X!M$$$$$$WWx:.
+                  :!!!!!!?H! :!$!$$$$$$$$$$8X:
+                 !!~  ~:~!! :~!$!#$$$$$$$$$$8X:
+                :!~::!H!&lt;   ~.U$X!?R$$$$$$$$MM!
+                ~!~!!!!~~ .:XW$$$U!!?$$$$$$RMM!
+                  !:~~~ .:!M&#34;T#$$$$WX??#MRRMMM!
+                  ~?WuxiW*`   `&#34;#$$$$8!!!!??!!!
+                :X- M$$$$       `&#34;T#$T~!8$WUXU~
+               :%`  ~#$$$m:        ~!~ ?$$$$$$
+             :!`.-   ~T$$$$8xx.  .xWW- ~&#34;&#34;##*&#34;     ,AM   ,pP&#34;&#34;Yq.       ,AM
+           -~~:&lt;` !    ~?T#$$@@W@*?$$      /`     AVMM  6W&#39;    `Wb     AVMM
+        !!! .!~~ !!     .:XUW$W!~ `&#34;~:    :     ,W&#39; MM  8M      M8   ,W&#39; MM
+     ~~`.:x%`!!  !H:   !WM$$$$Ti.: .!WUn+!`   ,W&#39;   MM  YA.    ,A9 ,W&#39;   MM
+   :::~:!!`:X~ .: ?H.!u &#34;$$$B$$$!W:U!T$$M~    AmmmmmMMmm `Ybmmd9&#39;  AmmmmmMMmm
+   .~~   :X@!.-~   ?@WTWo(&#34;*$$$W$TH$! `             MM                   MM
+   Wi.~!X$?!-~    : ?$$$B$Wu(&#34;**$RM!                MM                   MM
+   $R@i.~~ !     :   ~$$$$$B$$en:``
+   ?MXT@Wx.~    :     ~&#34;##*$$$$M~
+`YMM&#39;   `MM&#39; .g8&#34;&#34;8q. `7MMF&#39;   `7MF&#39;    `7MM&#34;&#34;&#34;Yb. `7MMF&#39;`7MM&#34;&#34;&#34;YMM  `7MM&#34;&#34;&#34;Yb.
+  VMA   ,V .dP&#39;    `YM. MM       M        MM    `Yb. MM    MM    `7    MM    `Yb.
+   VMA ,V  dM&#39;      `MM MM       M        MM     `Mb MM    MM   d      MM     `Mb
+    VMMP   MM        MM MM       M        MM      MM MM    MMmmMM      MM      MM
+     MM    MM.      ,MP MM       M        MM     ,MP MM    MM   Y  ,   MM     ,MP
+     MM    `Mb.    ,dP&#39; YM.     ,M        MM    ,dP&#39; MM    MM     ,M   MM    ,dP&#39;
+   .JMML.    `&#34;bmmd&#34;&#39;    `bmmmmd&#34;&#39;      .JMMmmmdP&#39; .JMML..JMMmmmmMMM .JMMmmmdP&#39;
+&lt;/pre&gt;</description>
+      <content>&lt;pre class=&#39;ascii&#39;&gt;
+                        :::!~!!!!!:.
+                     .xUHWH!! !!?M88WHX:.
+                   .X*#M@$!!  !X!M$$$$$$WWx:.
+                  :!!!!!!?H! :!$!$$$$$$$$$$8X:
+                 !!~  ~:~!! :~!$!#$$$$$$$$$$8X:
+                :!~::!H!&lt;   ~.U$X!?R$$$$$$$$MM!
+                ~!~!!!!~~ .:XW$$$U!!?$$$$$$RMM!
+                  !:~~~ .:!M&#34;T#$$$$WX??#MRRMMM!
+                  ~?WuxiW*`   `&#34;#$$$$8!!!!??!!!
+                :X- M$$$$       `&#34;T#$T~!8$WUXU~
+               :%`  ~#$$$m:        ~!~ ?$$$$$$
+             :!`.-   ~T$$$$8xx.  .xWW- ~&#34;&#34;##*&#34;     ,AM   ,pP&#34;&#34;Yq.       ,AM
+           -~~:&lt;` !    ~?T#$$@@W@*?$$      /`     AVMM  6W&#39;    `Wb     AVMM
+        !!! .!~~ !!     .:XUW$W!~ `&#34;~:    :     ,W&#39; MM  8M      M8   ,W&#39; MM
+     ~~`.:x%`!!  !H:   !WM$$$$Ti.: .!WUn+!`   ,W&#39;   MM  YA.    ,A9 ,W&#39;   MM
+   :::~:!!`:X~ .: ?H.!u &#34;$$$B$$$!W:U!T$$M~    AmmmmmMMmm `Ybmmd9&#39;  AmmmmmMMmm
+   .~~   :X@!.-~   ?@WTWo(&#34;*$$$W$TH$! `             MM                   MM
+   Wi.~!X$?!-~    : ?$$$B$Wu(&#34;**$RM!                MM                   MM
+   $R@i.~~ !     :   ~$$$$$B$$en:``
+   ?MXT@Wx.~    :     ~&#34;##*$$$$M~
+`YMM&#39;   `MM&#39; .g8&#34;&#34;8q. `7MMF&#39;   `7MF&#39;    `7MM&#34;&#34;&#34;Yb. `7MMF&#39;`7MM&#34;&#34;&#34;YMM  `7MM&#34;&#34;&#34;Yb.
+  VMA   ,V .dP&#39;    `YM. MM       M        MM    `Yb. MM    MM    `7    MM    `Yb.
+   VMA ,V  dM&#39;      `MM MM       M        MM     `Mb MM    MM   d      MM     `Mb
+    VMMP   MM        MM MM       M        MM      MM MM    MMmmMM      MM      MM
+     MM    MM.      ,MP MM       M        MM     ,MP MM    MM   Y  ,   MM     ,MP
+     MM    `Mb.    ,dP&#39; YM.     ,M        MM    ,dP&#39; MM    MM     ,M   MM    ,dP&#39;
+   .JMML.    `&#34;bmmd&#34;&#39;    `bmmmmd&#34;&#39;      .JMMmmmdP&#39; .JMML..JMMmmmmMMM .JMMmmmdP&#39;
+&lt;/pre&gt;
+
+</content>
     </item>
+    
     <item>
-      <title>Identitiy (?)</title>
-      <link>https://killeik.online/thoughts/identity/</link>
+      <title>Identity (?)</title>
+      <link>https://killeik.net/thoughts/identity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://killeik.online/thoughts/identity/</guid>
-      <description>&lt;header class=&#34;container&#34;&gt;&#xA;&#x9;&lt;h1&gt; Identity(?)&lt;/h1&gt;&#xA;&#x9;&lt;p&gt;&#xA;&#x9;&#x9;Well, it feels like I&#39;m not hungry anymore. And that turns out to be a problem.&#xA;&#x9;&lt;/p&gt;&#xA;&lt;/header&gt;&#xA;&lt;p&gt;&#xA;&#x9;When I was a teenager, adults told me what I should do.&#xA;&#x9;I resisted, wrinkled my face, and got distracted by all sorts of little things, but I did what they told me to do.&#xA;&#x9;&lt;br&gt;&#xA;&#x9;I had classes and exams, had a chance to go to a good university, had something to do, and knew what would happen.&#xA;&lt;/p&gt;</description>
+      
+      <guid>https://killeik.net/thoughts/identity/</guid>
+      <description>&lt;p&gt;Well, it feels like I&amp;rsquo;m not hungry anymore. And that turns out to be a problem.&lt;/p&gt;
+&lt;p&gt;When I was a teenager, adults told me what I should do. I resisted, wrinkled my face, and got distracted by all sorts of little things, but I did what they told me to do.&lt;br&gt;
+I had classes and exams, had a chance to go to a good university, had something to do, and knew what would happen.&lt;/p&gt;</description>
+      <content>&lt;p&gt;Well, it feels like I&amp;rsquo;m not hungry anymore. And that turns out to be a problem.&lt;/p&gt;
+&lt;p&gt;When I was a teenager, adults told me what I should do. I resisted, wrinkled my face, and got distracted by all sorts of little things, but I did what they told me to do.&lt;br&gt;
+I had classes and exams, had a chance to go to a good university, had something to do, and knew what would happen.&lt;/p&gt;
+&lt;p&gt;When I moved away from my parents, I was trying to figure out how to live. How to get my first job, what I should cook, and how to rent apartments.&lt;/p&gt;
+&lt;p&gt;Then, when I got used to living by myself, I realized that I clearly didn&amp;rsquo;t have enough money to live the full life I wanted to live. That became my goal for a few years - to become a professional in a job to afford a comfortable life.&lt;/p&gt;
+&lt;p&gt;And now I seem to be working at a good enough job and getting paid a good enough salary by the standards of the poor family I grew up in. I moved to the capital and can afford a good enough apartment, food, and health care.&lt;/p&gt;
+&lt;p&gt;I will definitely continue to raise my salary, just like I didn&amp;rsquo;t stop to think about better apartments, food, etc. But now it seems that lack of money no longer prevents me from doing other things. I can make time for something truly worthwhile, but I don&amp;rsquo;t even know what.&lt;/p&gt;
+&lt;h2 id=&#34;now-i-seem-to-have-solved-my-problems-and-thats-a-problem&#34;&gt;Now I seem to have solved my problems, and that&amp;rsquo;s a problem&lt;/h2&gt;
+&lt;p&gt;Somehow, I need to now decide what kind of person I am in general and what personally worthwhile things I can do. To understand who I am and what I like, I&amp;rsquo;m creating this website.&lt;br&gt;
+I will try to share all my hobbies, interests and all that I like in some form on this website, to be aware of that.&lt;br&gt;
+And to support the weird, but beautiful Small Web.&lt;/p&gt;
+</content>
     </item>
+    
     <item>
       <title>on social networks</title>
-      <link>https://killeik.online/thoughts/social_networks/</link>
+      <link>https://killeik.net/thoughts/social_networks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://killeik.online/thoughts/social_networks/</guid>
-      <description>&lt;header class=&#34;container&#34;&gt;&#xA;&#x9;&lt;h1&gt; On social networks services&lt;/h1&gt;&#xA;&lt;/header&gt;&#xA;&lt;p&gt;&#xA;&#x9;To build a website, you need to think about what the design will be, you need to think about how and what you&#39;ll&#xA;&#x9;write about, you need to care about the project. Even though HTML/CSS is not that complicated after all, it&#xA;&#x9;requires some thinking.&lt;br&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&#x9;With so much choice and additional training required, social networks create a much easier alternative —&#xA;&#x9;ready-made design, obvious posting options, promotion mechanisms and most importantly — all your friends are&#xA;&#x9;already on the platform! &lt;br&gt;&#xA;&lt;/p&gt;</description>
+      
+      <guid>https://killeik.net/thoughts/social_networks/</guid>
+      <description>&lt;p&gt;To build a website, you need to think about what the design will be, you need to think about how and what you&amp;rsquo;ll write about, you need to care about the project. Even though HTML/CSS is not that complicated after all, it requires some thinking.&lt;/p&gt;
+&lt;p&gt;With so much choice and additional training required, social networks create a much easier alternative — ready-made design, obvious posting options, promotion mechanisms and most importantly — all your friends are already on the platform!&lt;/p&gt;</description>
+      <content>&lt;p&gt;To build a website, you need to think about what the design will be, you need to think about how and what you&amp;rsquo;ll write about, you need to care about the project. Even though HTML/CSS is not that complicated after all, it requires some thinking.&lt;/p&gt;
+&lt;p&gt;With so much choice and additional training required, social networks create a much easier alternative — ready-made design, obvious posting options, promotion mechanisms and most importantly — all your friends are already on the platform!&lt;/p&gt;
+&lt;p&gt;But in the context of social networks, people eventually start to limit their creativity to the platform, and start to evaluate everything in likes, comments or other reactions to the post.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How can you even recognize a person from a single tweet? The entire tweet is literally a phrase taken out of context, a literal rage-fuel created to trigger a reaction and desire to respond. Who would have thought there would be shitstorms on Twitter all the time?&lt;/li&gt;
+&lt;li&gt;How likely would you be to read this post if it had 0 likes, if there was a post with 1000 likes next to it? Does the number of likes make something unworthy of reading? The social network probably wouldn&amp;rsquo;t even show it to you.&lt;/li&gt;
+&lt;li&gt;Even the simplest of things - why do we have a higher level of trust in people who have more followers?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All of this turns social media into games of gaining social attention/approval. It shifts the focus of attention of both the people who create content and the people who consume it, to the game around social media, rather than the people themselves and their thoughts.&lt;/p&gt;
+&lt;p&gt;Is that creepy? Convenient? Unnatural? Familiar?&lt;br&gt;
+I don&amp;rsquo;t know. But there&amp;rsquo;s definitely a lot of money in it.&lt;/p&gt;
+&lt;h3 id=&#34;and-i-just-dont-want-to-be-part-of-that-system&#34;&gt;And I just don&amp;rsquo;t want to be part of that system.&lt;/h3&gt;
+</content>
     </item>
+    
     <item>
       <title>STOP RIGHT THERE!</title>
-      <link>https://killeik.online/403.html</link>
+      <link>https://killeik.net/403.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://killeik.online/403.html</guid>
-      <description>&lt;pre class=&#34;row primary&#34;&gt;&#xA;&#xA;                                                                                         ....                            &#xA;                                                                                       .&#39;&#39; .&#39;&#39;&#39;                          &#xA;                                                       .                             .&#39;   :                              &#xA;                                                       \\                          .:    :                               &#xA;                                                        \\                        _:    :       ..----.._                &#xA;                  xeee        .n~~%x.       .x~~&#34;*Weu.   \\                    .:::.....:::.. .&#39;         &#39;&#39;.             &#xA;                 d888R      x88X   888.    d8Nu.  9888c   \\                 .&#39;  #-. .-######&#39;     #        &#39;.           &#xA;                d8888R     X888X   8888L   88888  98888    \\                 &#39;.##&#39;/ &#39; ################       :          &#xA;               @ 8888R    X8888X   88888   &#34;***&#34;  9888%     \\                  #####################         :          &#xA;             .P  8888R    88888X   88888X       ..@8*&#34;       \\               ..##.-.#### .&#39;&#39;&#39;&#39;###&#39;.._        :          &#xA;            :F   8888R    88888X   88888X    ````&#34;8Weu        \\             :--:########:            &#39;.    .&#39; :         &#xA;           x&#34;    8888R    88888X   88888f   ..    ?8888L       \\..__...--.. :--:#######.&#39;   &#39;.         &#39;.     :         &#xA;          d8eeeee88888eer 48888X   88888  :@88N   &#39;8888N       :     :  : : &#39;&#39;:&#39;-:&#39;&#39;:&#39;::        .         &#39;.  .&#39;         &#xA;                 8888R     ?888X   8888&#34;  *8888~  &#39;8888F       &#39;---&#39;&#39;&#39;..: :    &#39;:    &#39;..&#39;&#39;&#39;.      &#39;.        :&#39;           &#xA;                 8888R      &#34;88X   88*`d8b&#39;*8&#34;`   9888%    d8b  d8\\  :: : :     &#39;      &#39;&#39;&#39;&#39;&#39;&#39;.     &#39;.      .:           &#xA;              &#34;*%%%%%%**~     ^&#34;===&#34;`  ?88  `~===*%&#34;`      88P  88P\\ ::  : :     &#39;            &#39;.      &#39;      :          &#xA;                                        88b               d88  d88  \\::   : :           ....&#39; ..:       &#39;     &#39;.        &#xA;?88   d8P  d8888b ?88   d8P     .d888b, 888888b  d888b8b  888  888   \\::  : :    .....####\\ .~~.:.             :       &#xA;d88   88  d8P&#39; ?88d88   88      ?8b,    88P `?8bd8P&#39; ?88  ?88  ?88    \\&#39;:.:.:.:&#39;#########.===. ~ |.&#39;-.   . &#39;&#39;&#39;.. :      &#xA;?8(  d88  88b  d88?8(  d88        `?8b d88   88P88b  ,88b  88b  88b    \\    .&#39;  ########## \ \ _.&#39; &#39;. &#39;-.       &#39;&#39;&#39;.    &#xA;`?88P&#39;?8b `?8888P&#39;`?88P&#39;?8b    `?888P&#39;d88&#39;   88b`?88P&#39;`88b  88b  88b   :\\  :     ########   \ \      &#39;.  &#39;-.        :   &#xA;       )8)                  d8P                                       :  \\&#39;    &#39;   #### :    \ \      :.    &#39;-.      :  &#xA;     ,d8P                d888888P                                    :  .&#39;\\   :&#39;  :     :     \ \       :      &#39;-.    : &#xA;  `?888P&#39; 88bd88b  d8888b  ?88&#39;    ?88,.d88b, d888b8b   .d888b, .d88:b.&#39;  .\\  &#39;  :      :     :\ \       :        &#39;.   :&#xA;          88P&#39; ?8bd8P&#39; ?88 88P     `?88&#39;  ?88d8P&#39; ?88   ?8b,    ?8b,::   :  \\&#39;  :.      :     : \ \      :          &#39;. :&#xA;         d88   88P88b  d88 88b       88b  d8P88b  ,88b    `?8b    `?::. :    \\  : :      :    ;  \ \     :           &#39;.:&#xA;        d88&#39;   88b`?8888P&#39; `?8b      888888P&#39;`?88P&#39;`88b`?888P&#39; `?888P: &#39;:    &#39;\\ :  :     :     :  \:\     :        ..&#39;  &#xA;                                     88P&#39;                               :    &#39; \\ :        :     ;  \|      :   .&#39;&#39;&#39;     &#xA;                                    d88                                 &#39;.   &#39;  \\:                         :.&#39;&#39;         &#xA;                                    ?8P                                  .:..... \\:       :            ..&#39;&#39;             &#xA;                                                                        &#39;._____|&#39;.\\......&#39;&#39;&#39;&#39;&#39;&#39;&#39;.:..&#39;&#39;&#39;                 &#xA;&#xA;&lt;/pre&gt;</description>
+      
+      <guid>https://killeik.net/403.html</guid>
+      <description>&lt;pre class=&#39;ascii&#39;&gt;
+                                                                                          ....                            
+                                                                                       .&#39;&#39; .&#39;&#39;&#39;                          
+                                                       .                             .&#39;   :                              
+                                                       \\                          .:    :                               
+                                                        \\                        _:    :       ..----.._                
+                  xeee        .n~~%x.       .x~~&#34;*Weu.   \\                    .:::.....:::.. .&#39;         &#39;&#39;.             
+                 d888R      x88X   888.    d8Nu.  9888c   \\                 .&#39;  #-. .-######&#39;     #        &#39;.           
+                d8888R     X888X   8888L   88888  98888    \\                 &#39;.##&#39;/ &#39; ################       :          
+               @ 8888R    X8888X   88888   &#34;***&#34;  9888%     \\                  #####################         :          
+             .P  8888R    88888X   88888X       ..@8*&#34;       \\               ..##.-.#### .&#39;&#39;&#39;&#39;###&#39;.._        :          
+            :F   8888R    88888X   88888X    ````&#34;8Weu        \\             :--:########:            &#39;.    .&#39; :         
+           x&#34;    8888R    88888X   88888f   ..    ?8888L       \\..__...--.. :--:#######.&#39;   &#39;.         &#39;.     :         
+          d8eeeee88888eer 48888X   88888  :@88N   &#39;8888N       :     :  : : &#39;&#39;:&#39;-:&#39;&#39;:&#39;::        .         &#39;.  .&#39;         
+                 8888R     ?888X   8888&#34;  *8888~  &#39;8888F       &#39;---&#39;&#39;&#39;..: :    &#39;:    &#39;..&#39;&#39;&#39;.      &#39;.        :&#39;           
+                 8888R      &#34;88X   88*`d8b&#39;*8&#34;`   9888%    d8b  d8\\  :: : :     &#39;      &#39;&#39;&#39;&#39;&#39;&#39;.     &#39;.      .:           
+              &#34;*%%%%%%**~     ^&#34;===&#34;`  ?88  `~===*%&#34;`      88P  88P\\ ::  : :     &#39;            &#39;.      &#39;      :          
+                                        88b               d88  d88  \\::   : :           ....&#39; ..:       &#39;     &#39;.        
+?88   d8P  d8888b ?88   d8P     .d888b, 888888b  d888b8b  888  888   \\::  : :    .....####\\ .~~.:.             :       
+d88   88  d8P&#39; ?88d88   88      ?8b,    88P `?8bd8P&#39; ?88  ?88  ?88    \\&#39;:.:.:.:&#39;#########.===. ~ |.&#39;-.   . &#39;&#39;&#39;.. :      
+?8(  d88  88b  d88?8(  d88        `?8b d88   88P88b  ,88b  88b  88b    \\    .&#39;  ########## \ \ _.&#39; &#39;. &#39;-.       &#39;&#39;&#39;.    
+`?88P&#39;?8b `?8888P&#39;`?88P&#39;?8b    `?888P&#39;d88&#39;   88b`?88P&#39;`88b  88b  88b   :\\  :     ########   \ \      &#39;.  &#39;-.        :   
+       )8)                  d8P                                       :  \\&#39;    &#39;   #### :    \ \      :.    &#39;-.      :  
+     ,d8P                d888888P                                    :  .&#39;\\   :&#39;  :     :     \ \       :      &#39;-.    : 
+  `?888P&#39; 88bd88b  d8888b  ?88&#39;    ?88,.d88b, d888b8b   .d888b, .d88:b.&#39;  .\\  &#39;  :      :     :\ \       :        &#39;.   :
+          88P&#39; ?8bd8P&#39; ?88 88P     `?88&#39;  ?88d8P&#39; ?88   ?8b,    ?8b,::   :  \\&#39;  :.      :     : \ \      :          &#39;. :
+         d88   88P88b  d88 88b       88b  d8P88b  ,88b    `?8b    `?::. :    \\  : :      :    ;  \ \     :           &#39;.:
+        d88&#39;   88b`?8888P&#39; `?8b      888888P&#39;`?88P&#39;`88b`?888P&#39; `?888P: &#39;:    &#39;\\ :  :     :     :  \:\     :        ..&#39;  
+                                     88P&#39;                               :    &#39; \\ :        :     ;  \|      :   .&#39;&#39;&#39;     
+                                    d88                                 &#39;.   &#39;  \\:                         :.&#39;&#39;         
+                                    ?8P                                  .:..... \\:       :            ..&#39;&#39;             
+                                                                        &#39;._____|&#39;.\\......&#39;&#39;&#39;&#39;&#39;&#39;&#39;.:..&#39;&#39;&#39;                 
+&lt;/pre&gt;</description>
+      <content>&lt;pre class=&#39;ascii&#39;&gt;
+                                                                                          ....                            
+                                                                                       .&#39;&#39; .&#39;&#39;&#39;                          
+                                                       .                             .&#39;   :                              
+                                                       \\                          .:    :                               
+                                                        \\                        _:    :       ..----.._                
+                  xeee        .n~~%x.       .x~~&#34;*Weu.   \\                    .:::.....:::.. .&#39;         &#39;&#39;.             
+                 d888R      x88X   888.    d8Nu.  9888c   \\                 .&#39;  #-. .-######&#39;     #        &#39;.           
+                d8888R     X888X   8888L   88888  98888    \\                 &#39;.##&#39;/ &#39; ################       :          
+               @ 8888R    X8888X   88888   &#34;***&#34;  9888%     \\                  #####################         :          
+             .P  8888R    88888X   88888X       ..@8*&#34;       \\               ..##.-.#### .&#39;&#39;&#39;&#39;###&#39;.._        :          
+            :F   8888R    88888X   88888X    ````&#34;8Weu        \\             :--:########:            &#39;.    .&#39; :         
+           x&#34;    8888R    88888X   88888f   ..    ?8888L       \\..__...--.. :--:#######.&#39;   &#39;.         &#39;.     :         
+          d8eeeee88888eer 48888X   88888  :@88N   &#39;8888N       :     :  : : &#39;&#39;:&#39;-:&#39;&#39;:&#39;::        .         &#39;.  .&#39;         
+                 8888R     ?888X   8888&#34;  *8888~  &#39;8888F       &#39;---&#39;&#39;&#39;..: :    &#39;:    &#39;..&#39;&#39;&#39;.      &#39;.        :&#39;           
+                 8888R      &#34;88X   88*`d8b&#39;*8&#34;`   9888%    d8b  d8\\  :: : :     &#39;      &#39;&#39;&#39;&#39;&#39;&#39;.     &#39;.      .:           
+              &#34;*%%%%%%**~     ^&#34;===&#34;`  ?88  `~===*%&#34;`      88P  88P\\ ::  : :     &#39;            &#39;.      &#39;      :          
+                                        88b               d88  d88  \\::   : :           ....&#39; ..:       &#39;     &#39;.        
+?88   d8P  d8888b ?88   d8P     .d888b, 888888b  d888b8b  888  888   \\::  : :    .....####\\ .~~.:.             :       
+d88   88  d8P&#39; ?88d88   88      ?8b,    88P `?8bd8P&#39; ?88  ?88  ?88    \\&#39;:.:.:.:&#39;#########.===. ~ |.&#39;-.   . &#39;&#39;&#39;.. :      
+?8(  d88  88b  d88?8(  d88        `?8b d88   88P88b  ,88b  88b  88b    \\    .&#39;  ########## \ \ _.&#39; &#39;. &#39;-.       &#39;&#39;&#39;.    
+`?88P&#39;?8b `?8888P&#39;`?88P&#39;?8b    `?888P&#39;d88&#39;   88b`?88P&#39;`88b  88b  88b   :\\  :     ########   \ \      &#39;.  &#39;-.        :   
+       )8)                  d8P                                       :  \\&#39;    &#39;   #### :    \ \      :.    &#39;-.      :  
+     ,d8P                d888888P                                    :  .&#39;\\   :&#39;  :     :     \ \       :      &#39;-.    : 
+  `?888P&#39; 88bd88b  d8888b  ?88&#39;    ?88,.d88b, d888b8b   .d888b, .d88:b.&#39;  .\\  &#39;  :      :     :\ \       :        &#39;.   :
+          88P&#39; ?8bd8P&#39; ?88 88P     `?88&#39;  ?88d8P&#39; ?88   ?8b,    ?8b,::   :  \\&#39;  :.      :     : \ \      :          &#39;. :
+         d88   88P88b  d88 88b       88b  d8P88b  ,88b    `?8b    `?::. :    \\  : :      :    ;  \ \     :           &#39;.:
+        d88&#39;   88b`?8888P&#39; `?8b      888888P&#39;`?88P&#39;`88b`?888P&#39; `?888P: &#39;:    &#39;\\ :  :     :     :  \:\     :        ..&#39;  
+                                     88P&#39;                               :    &#39; \\ :        :     ;  \|      :   .&#39;&#39;&#39;     
+                                    d88                                 &#39;.   &#39;  \\:                         :.&#39;&#39;         
+                                    ?8P                                  .:..... \\:       :            ..&#39;&#39;             
+                                                                        &#39;._____|&#39;.\\......&#39;&#39;&#39;&#39;&#39;&#39;&#39;.:..&#39;&#39;&#39;                 
+&lt;/pre&gt;
+
+</content>
     </item>
+    
     <item>
       <title>TINK TINK TINK</title>
-      <link>https://killeik.online/tinkering/</link>
+      <link>https://killeik.net/tinkering/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://killeik.online/tinkering/</guid>
-      <description>&lt;h1 id=&#34;tinkering&#34;&gt;Tinkering&lt;/h1&gt;&#xA;&lt;p&gt;I&amp;rsquo;m constantly trying to improve the environment.&#xA;Whatever I do, if I know I&amp;rsquo;m going to be doing it for a long time, I try to make the processes more comfortable. Even before cooking I need to clean the kitchen, before sporoting I need to put on comfortable clothes and take drinking water.&lt;/p&gt;&#xA;&lt;p&gt;When it comes to working with computers, I know that I will be doing it for more than just the next day. I want to spend my whole life with computers.&lt;/p&gt;</description>
+      
+      <guid>https://killeik.net/tinkering/</guid>
+      <description>&lt;h1 id=&#34;tinkering&#34;&gt;Tinkering&lt;/h1&gt;
+&lt;p&gt;I&amp;rsquo;m constantly trying to improve the environment.
+Whatever I do, if I know I&amp;rsquo;m going to be doing it for a long time, I try to make the processes more comfortable. Even before cooking I need to clean the kitchen, before sporoting I need to put on comfortable clothes and take drinking water.&lt;/p&gt;
+&lt;p&gt;When it comes to working with computers, I know that I will be doing it for more than just the next day. I want to spend my whole life with computers.&lt;/p&gt;</description>
+      <content>&lt;h1 id=&#34;tinkering&#34;&gt;Tinkering&lt;/h1&gt;
+&lt;p&gt;I&amp;rsquo;m constantly trying to improve the environment.
+Whatever I do, if I know I&amp;rsquo;m going to be doing it for a long time, I try to make the processes more comfortable. Even before cooking I need to clean the kitchen, before sporoting I need to put on comfortable clothes and take drinking water.&lt;/p&gt;
+&lt;p&gt;When it comes to working with computers, I know that I will be doing it for more than just the next day. I want to spend my whole life with computers.&lt;/p&gt;
+&lt;p&gt;So trying to find even a 5% improvement in workflow doesn&amp;rsquo;t seem so useless to me.
+And to be honest, I find it very interesting and fun!
+I change &lt;a href=&#34;https://eylenburg.github.io/os_comparison.htm&#34;&gt;distributions&lt;/a&gt;, terminals, environments, and on and on.&lt;/p&gt;
+&lt;h2 id=&#34;tools-that-i-use-and-have-used-for-some-time-now&#34;&gt;Tools that I use and have used for some time now&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Category&lt;/th&gt;
+          &lt;th&gt;Tool&lt;/th&gt;
+          &lt;th&gt;Notes&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Distribution&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://archlinux.org/&#34;&gt;Arch&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;Great in every aspect, but require some love and patience. Using for personal.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://fedoraproject.org/workstation/&#34;&gt;Fedora&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;Latest software without rolling. Pretty stable. Using for work.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;DE/WM&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.gnome.org/&#34;&gt;Gnome&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;It works. Great libadwaita theme, and &lt;a href=&#34;https://circle.gnome.org/&#34;&gt;apps&lt;/a&gt;.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://swaywm.org/&#34;&gt;Sway&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;Simplest tiling WM i know. Tried many of them, always felt like it took too much effort to feel ok.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Terminal&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://codeberg.org/dnkl/foot&#34;&gt;Foot&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;It just works. Current.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://alacritty.org&#34;&gt;Alacritty&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;Used previously. Switched for no reason.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Shell&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.zsh.org/&#34;&gt;Zsh&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;Changed from bash mostly for &lt;a href=&#34;https://github.com/zsh-users/zsh-autosuggestions&#34;&gt;autosuggestions&lt;/a&gt;.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Shell config&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/romkatv/zsh4humans&#34;&gt;zsh4humans&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;Pretty simple, fast and easy.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;.config manager&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.chezmoi.io/&#34;&gt;Chezmoi&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;Not really tried alternatives. It just works.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Browser&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://zen-browser.app/&#34;&gt;Zen&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;Early alpha, but already fast, private and with great abilities like mods store. Firefox-based. For personal.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.mozilla.org/en-US/firefox/&#34;&gt;Firefox&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;OG. Using for work and on phone (fennec from fdroid).&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Notes&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://obsidian.md/&#34;&gt;Obsidian&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;Not opensource, but great community support. More stable and polished expirience than Logseq. Currently using.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://logseq.com/&#34;&gt;Logseq&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;Used previously.  Opensource. Really well-designed. My note-taking habits developed from using it - bullets, journals, all note in one place. Personally dislike the Org-mode date format and lack of simple checkboxes. No extensions on mobile.  Definitely not so polished and community-supported as Obsidian. &lt;br&gt;Probably will return to it when they will relise database version.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Editor&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://helix-editor.com/&#34;&gt;Helix&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;Great terminal text editor with all needed features, themes backed in. Static config in toml and that&amp;rsquo;s enough. Feels great, current editor.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://neovim.io/&#34;&gt;Neovim&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;Previously used. Customizible af. Config in some script language. Good for pro, but coding is not my job.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Passwords&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://keepassxc.org/&#34;&gt;KeepassXC&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://www.keepassdx.com/&#34;&gt;KeepassDX&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;Local, easy, simple, with ssh-agent and browser integration, and android app. Best of the best.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Syncing Notes, Passwords&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://syncthing.net/&#34;&gt;Syncthing&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;Sync between devices without leaving local network. I just disabled public discovery. Works really well.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;selfhosting&#34;&gt;Selfhosting&lt;/h1&gt;
+&lt;h3 id=&#34;work-in-progress&#34;&gt;Work in progress&lt;/h3&gt;
+</content>
     </item>
+    
     <item>
       <title>websites</title>
-      <link>https://killeik.online/web/websites/</link>
+      <link>https://killeik.net/web/websites/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://killeik.online/web/websites/</guid>
-      <description>&lt;h1 id=&#34;personal-websites&#34;&gt;personal websites&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://libre.town/&#34;&gt;https://libre.town/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://melonland.net/&#34;&gt;https://melonland.net/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://neocities.org/browse&#34;&gt;https://neocities.org/browse&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://usenothing.com/&#34;&gt;https://usenothing.com/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://sabrinas.space/&#34;&gt;https://sabrinas.space/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://john-doe.neocities.org/&#34;&gt;https://john-doe.neocities.org/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://mbrizic.com/&#34;&gt;https://mbrizic.com/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://motherfuckingwebsite.com/&#34;&gt;http://motherfuckingwebsite.com/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://benhoyt.com/&#34;&gt;https://benhoyt.com/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://so1o.xyz/@gar0u&#34;&gt;https://so1o.xyz/@gar0u&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://johnnydecimal.com/&#34;&gt;https://johnnydecimal.com/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://tilde.club/&#34;&gt;http://tilde.club/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://soham-saha.github.io/&#34;&gt;https://soham-saha.github.io/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://priyavkaneria.com/#dock&#34;&gt;https://priyavkaneria.com/#dock&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;music&#34;&gt;music&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://musicmap.info/&#34;&gt;https://musicmap.info/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;funny&#34;&gt;funny&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://wtfjs.com/&#34;&gt;https://wtfjs.com/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://animalbodyfatmatch.netlify.app/&#34;&gt;https://animalbodyfatmatch.netlify.app/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;tools&#34;&gt;tools&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://ohshitgit.com/&#34;&gt;https://ohshitgit.com/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.debuggex.com/&#34;&gt;https://www.debuggex.com/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://learngitbranching.js.org/&#34;&gt;https://learngitbranching.js.org/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://wttr.in/&#34;&gt;https://wttr.in/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.marginalia.nu/&#34;&gt;https://www.marginalia.nu/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://curlie.org/&#34;&gt;https://curlie.org/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://urlme.me/&#34;&gt;https://urlme.me/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kagi.com/&#34;&gt;https://kagi.com/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://distrowatch.com/&#34;&gt;https://distrowatch.com/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://64.surf/&#34;&gt;https://64.surf/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://msg-viewer.pages.dev/&#34;&gt;https://msg-viewer.pages.dev/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://alternativeto.net/&#34;&gt;https://alternativeto.net/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://validator.w3.org/&#34;&gt;https://validator.w3.org/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.11ty.dev/&#34;&gt;https://www.11ty.dev/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://sobrief.com/&#34;&gt;https://sobrief.com/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://awexplor.github.io/&#34;&gt;https://awexplor.github.io/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;articles&#34;&gt;articles&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.w3.org/Provider/Style/URI&#34;&gt;https://www.w3.org/Provider/Style/URI&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://ankarstrom.se/~john/articles/html/&#34;&gt;http://ankarstrom.se/~john/articles/html/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      
+      <guid>https://killeik.net/web/websites/</guid>
+      <description>&lt;h1 id=&#34;personal-websites&#34;&gt;personal websites&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://libre.town/&#34;&gt;https://libre.town/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://melonland.net/&#34;&gt;https://melonland.net/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://neocities.org/browse&#34;&gt;https://neocities.org/browse&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://usenothing.com/&#34;&gt;https://usenothing.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sabrinas.space/&#34;&gt;https://sabrinas.space/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://john-doe.neocities.org/&#34;&gt;https://john-doe.neocities.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mbrizic.com/&#34;&gt;https://mbrizic.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://motherfuckingwebsite.com/&#34;&gt;http://motherfuckingwebsite.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://benhoyt.com/&#34;&gt;https://benhoyt.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://so1o.xyz/@gar0u&#34;&gt;https://so1o.xyz/@gar0u&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://johnnydecimal.com/&#34;&gt;https://johnnydecimal.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tilde.club/&#34;&gt;http://tilde.club/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://soham-saha.github.io/&#34;&gt;https://soham-saha.github.io/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://priyavkaneria.com/#dock&#34;&gt;https://priyavkaneria.com/#dock&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;music&#34;&gt;music&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://musicmap.info/&#34;&gt;https://musicmap.info/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;funny&#34;&gt;funny&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://wtfjs.com/&#34;&gt;https://wtfjs.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://animalbodyfatmatch.netlify.app/&#34;&gt;https://animalbodyfatmatch.netlify.app/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;tools&#34;&gt;tools&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ohshitgit.com/&#34;&gt;https://ohshitgit.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.debuggex.com/&#34;&gt;https://www.debuggex.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://learngitbranching.js.org/&#34;&gt;https://learngitbranching.js.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wttr.in/&#34;&gt;https://wttr.in/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.marginalia.nu/&#34;&gt;https://www.marginalia.nu/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://curlie.org/&#34;&gt;https://curlie.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://urlme.me/&#34;&gt;https://urlme.me/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kagi.com/&#34;&gt;https://kagi.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://distrowatch.com/&#34;&gt;https://distrowatch.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://64.surf/&#34;&gt;https://64.surf/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://msg-viewer.pages.dev/&#34;&gt;https://msg-viewer.pages.dev/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://alternativeto.net/&#34;&gt;https://alternativeto.net/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://validator.w3.org/&#34;&gt;https://validator.w3.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.11ty.dev/&#34;&gt;https://www.11ty.dev/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sobrief.com/&#34;&gt;https://sobrief.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://awexplor.github.io/&#34;&gt;https://awexplor.github.io/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;articles&#34;&gt;articles&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.w3.org/Provider/Style/URI&#34;&gt;https://www.w3.org/Provider/Style/URI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ankarstrom.se/~john/articles/html/&#34;&gt;http://ankarstrom.se/~john/articles/html/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <content>&lt;h1 id=&#34;personal-websites&#34;&gt;personal websites&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://libre.town/&#34;&gt;https://libre.town/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://melonland.net/&#34;&gt;https://melonland.net/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://neocities.org/browse&#34;&gt;https://neocities.org/browse&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://usenothing.com/&#34;&gt;https://usenothing.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sabrinas.space/&#34;&gt;https://sabrinas.space/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://john-doe.neocities.org/&#34;&gt;https://john-doe.neocities.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mbrizic.com/&#34;&gt;https://mbrizic.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://motherfuckingwebsite.com/&#34;&gt;http://motherfuckingwebsite.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://benhoyt.com/&#34;&gt;https://benhoyt.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://so1o.xyz/@gar0u&#34;&gt;https://so1o.xyz/@gar0u&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://johnnydecimal.com/&#34;&gt;https://johnnydecimal.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tilde.club/&#34;&gt;http://tilde.club/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://soham-saha.github.io/&#34;&gt;https://soham-saha.github.io/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://priyavkaneria.com/#dock&#34;&gt;https://priyavkaneria.com/#dock&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;music&#34;&gt;music&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://musicmap.info/&#34;&gt;https://musicmap.info/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;funny&#34;&gt;funny&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://wtfjs.com/&#34;&gt;https://wtfjs.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://animalbodyfatmatch.netlify.app/&#34;&gt;https://animalbodyfatmatch.netlify.app/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;tools&#34;&gt;tools&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ohshitgit.com/&#34;&gt;https://ohshitgit.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.debuggex.com/&#34;&gt;https://www.debuggex.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://learngitbranching.js.org/&#34;&gt;https://learngitbranching.js.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wttr.in/&#34;&gt;https://wttr.in/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.marginalia.nu/&#34;&gt;https://www.marginalia.nu/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://curlie.org/&#34;&gt;https://curlie.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://urlme.me/&#34;&gt;https://urlme.me/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kagi.com/&#34;&gt;https://kagi.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://distrowatch.com/&#34;&gt;https://distrowatch.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://64.surf/&#34;&gt;https://64.surf/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://msg-viewer.pages.dev/&#34;&gt;https://msg-viewer.pages.dev/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://alternativeto.net/&#34;&gt;https://alternativeto.net/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://validator.w3.org/&#34;&gt;https://validator.w3.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.11ty.dev/&#34;&gt;https://www.11ty.dev/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sobrief.com/&#34;&gt;https://sobrief.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://awexplor.github.io/&#34;&gt;https://awexplor.github.io/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;articles&#34;&gt;articles&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.w3.org/Provider/Style/URI&#34;&gt;https://www.w3.org/Provider/Style/URI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ankarstrom.se/~john/articles/html/&#34;&gt;http://ankarstrom.se/~john/articles/html/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
     </item>
+    
   </channel>
 </rss>
