@@ -1,6 +1,5 @@
 baseURL: https://killeik.net/
 enableGitInfo: true
-date: 2024-09-07
 markup:
   goldmark:
     extensions:

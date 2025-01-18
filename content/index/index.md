@@ -1,5 +1,6 @@
 ---
 title: WHAT ARE YE DOIN?
+layout: single
 ---
 {{<ascii>}}
                                  &&    &&&XX&&         &

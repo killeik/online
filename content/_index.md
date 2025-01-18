@@ -1,7 +1,7 @@
 ---
 title: Some wierd website
 date: 2024-08-28
-kind: page
+layout: single
 ---
 # Hello, friend!
 

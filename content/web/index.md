@@ -1,7 +1,7 @@
 ---
 title: Wisely wierd web
 date: 2024-09-07
-kind: page
+layout: single
 ---
 
 # What is web about?
@@ -53,4 +53,4 @@ And it is these feelings that I want to share with the world.
 
 So far, I haven't figured out exactly how I'm going to display a list of all the sites I've found. 
 This is a bit of a challenge, because I plan to have 200+ entities there. 
-Therefore, at the moment, I will save all links in a  simple document below, and then use the links from it.
+Therefore, at the moment, I will save all links in a  [simple document](/web/websites/), and then use the links from it.
