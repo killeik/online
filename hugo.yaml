@@ -1,5 +1,6 @@
 baseURL: https://killeik.net/
 enableGitInfo: true
+date: 2024-09-07
 markup:
   goldmark:
     extensions:
@@ -64,7 +65,7 @@ params:
 languages:
   en:
     languageName: English
-    title: weird website
+    title: magic circuit
     params:
       subtitle: Some random wierd website on the net
       owner: ""
@@ -80,7 +81,7 @@ languages:
       minuteReadingTime: spell cast
       words: words
       logo:
-        logoText: WEIRD WEBSITE
+        logoText: WHOOOSH! It's magic
         logoHomeLink: /
     menu:
       main:

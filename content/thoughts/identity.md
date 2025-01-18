@@ -1,5 +1,6 @@
 ---
 title: Identity (?)
+date: 2024-08-28
 ---
 Well, it feels like I'm not hungry anymore. And that turns out to be a problem.
 

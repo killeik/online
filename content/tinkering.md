@@ -1,5 +1,6 @@
 ---
 title: TINK TINK TINK
+date: 2024-10-07
 ---
 
 # Tinkering

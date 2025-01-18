@@ -1,5 +1,7 @@
 ---
 title: Wisely wierd web
+date: 2024-09-07
+kind: page
 ---
 
 # What is web about?

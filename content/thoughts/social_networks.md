@@ -1,5 +1,6 @@
 ---
 title: on social networks
+date: 2024-09-07
 ---
 
 To build a website, you need to think about what the design will be, you need to think about how and what you'll write about, you need to care about the project. Even though HTML/CSS is not that complicated after all, it requires some thinking.  
