@@ -58,3 +58,4 @@ date: 2024-09-12
 - https://html.spec.whatwg.org/multipage/introduction.html#is-this-html5
 - https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/
 - https://12factor.net/
+- https://mnmlist.com/w/
