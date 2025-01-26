@@ -1,5 +1,7 @@
 ---
 title: Wisely wierd web
+date:  git Last Modified
+created: 2024-09-07
 layout: base.html
 ---
 
@@ -8,7 +10,7 @@ layout: base.html
 It's hard to describe the WWW by its content.  
 We know the web in various guises:
 
-<div style="columns: 9em 4;">
+<ul style="columns:3;">
 
 -   social networks
 -   search engines
@@ -23,7 +25,8 @@ We know the web in various guises:
 -   18+
 -   blogs
 
-</div>
+
+</ul>
 
 Whichever option you choose, for the web it will be only a partial description, not really describing it in its entirety.
 
@@ -49,8 +52,6 @@ This approach seems to be the essence of the \[[small](https://benhoyt.com/writi
 
 And it is these feelings that I want to share with the world.
 
-<section class=card>
-	So far, I haven't figured out exactly how I'm going to display a list of all the sites I've found. <br>
-	This is a bit of a challenge, because I plan to have 200+ entities there. <br>
-	Therefore, at the moment, I will save all links in a <a class="primary" href="websites/"> simple document</a>, and then use the links from it.
-</section>
+So far, I haven't figured out exactly how I'm going to display a list of all the sites I've found. 
+This is a bit of a challenge, because I plan to have 200+ entities there. 
+Therefore, at the moment, I will save all links in a  [simple document](/web/websites/), and then use the links from it.
