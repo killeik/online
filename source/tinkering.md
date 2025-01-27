@@ -1,5 +1,5 @@
 ---
-title: TINK TINK TINK
+title: tink-tink-tink
 date:  git Last Modified
 created: 2024-10-07
 layout: base.html

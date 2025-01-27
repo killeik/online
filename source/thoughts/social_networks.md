@@ -1,5 +1,5 @@
 ---
-title: on social networks
+title: social-networks
 date:  git Last Modified
 created: 2024-09-07
 layout: base.html

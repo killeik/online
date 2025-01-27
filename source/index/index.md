@@ -1,5 +1,5 @@
 ---
-title: WHAT ARE YE DOIN?
+title: WHAT-ARE-YE-DOIN?
 layout: base.html
 ---
 {% ascii %}

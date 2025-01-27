@@ -1,7 +1,7 @@
 ---
 date: '2024-10-27T17:14:39+03:00'
 draft: true
-title: 'Wizard'
+title: 'wizard'
 layout: base.html
 ---
 {% ascii %}

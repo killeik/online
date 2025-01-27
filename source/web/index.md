@@ -1,5 +1,5 @@
 ---
-title: Wisely wierd web
+title: wisely-wierd-web
 date:  git Last Modified
 created: 2024-09-07
 layout: base.html

@@ -1,5 +1,5 @@
 ---
-title: so CALL ME maybe
+title: so-CALL-ME-maybe
 date: git Last modified
 created: 2024-10-27
 layout: base.html

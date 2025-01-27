@@ -1,5 +1,5 @@
 ---
-title: Some wierd thoughts
+title: thoughts
 layout: base.html
 ---
 {% sidebyside %}
