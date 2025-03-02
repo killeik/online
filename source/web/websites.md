@@ -20,6 +20,7 @@ layout: base.html
 - https://soham-saha.github.io/
 - https://priyavkaneria.com/#dock
 - https://os.phil-opp.com/
+- https://old-hard.ru/
 
 # music
 - https://musicmap.info/
@@ -27,7 +28,8 @@ layout: base.html
 # funny
 - https://wtfjs.com/
 - https://animalbodyfatmatch.netlify.app/
-
+- https://signupp.fun/
+- https://impersona.chat/
 
 
 # tools
@@ -50,6 +52,9 @@ layout: base.html
 - https://thepiratebay.org/
 - https://sigmaos.com/
 - https://aurelius.ink/about
+- https://relevant.watch/
+- https://www.explainshell.com/
+- https://int10h.org/oldschool-pc-fonts/showcase/
 
 # articles
 - https://www.w3.org/Provider/Style/URI

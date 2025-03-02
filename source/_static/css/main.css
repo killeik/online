@@ -2,6 +2,7 @@
   --primary: #e01b24;
   --foreground: #eee;
   --background: #000;
+  --gray: #333
 }
 @font-face {
   font-family: 'IBM VGA 8x16';
@@ -31,6 +32,9 @@ a {
 }
 a.primary {
   text-decoration: none;
+}
+.gray{
+  color: var(--gray)
 }
 a:hover {
   opacity: 0.6;
@@ -74,7 +78,4 @@ pre.ascii {
   overflow-x: auto;
   color: var(--primary); 
   margin: 0;
-}
-footer{
-  opacity: 0.2;
 }
