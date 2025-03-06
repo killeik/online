@@ -71,6 +71,9 @@ th {
 .widthtocontent{
 width: max-content;
 }
+details{
+  text-align: center
+}
 pre.ascii {
   font-size: 16px;
   line-height: 16px;
