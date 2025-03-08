@@ -82,3 +82,7 @@ pre.ascii {
   color: var(--primary); 
   margin: 0;
 }
+hr {
+  border-top: 5px dotted;
+  border-bottom: none;
+}
