@@ -95,21 +95,17 @@ main {
   --color-social-reaction-bg-hover: var(--color-scale-gray-7);
   --color-social-reaction-bg-reacted-hover: var(--color-scale-blue-8);
 }
-
 main .pagination-loader-container {
   background-image: url("https://github.com/images/modules/pulls/progressive-disclosure-line-dark.svg");
 }
-
 .gsc-pagination-button {
   background-color: var(--color-btn-bg);
 }
-
 .gsc-homepage-bg {
   background: linear-gradient(135deg, #05485c, #032e58, #2f0154);
   background-size: 600% 600%;
   animation: gradient 21s ease infinite;
 }
-
 @keyframes gradient {
   0% {
     background-position: 2% 0%;
@@ -125,7 +121,7 @@ main .pagination-loader-container {
 }
 
 main .gsc-loading-image {
-  background-image: url("https://github.githubassets.com/images/mona-loading-dark.gif");
+  background-image: url("https://killeik.net/burning-book.gif");
 }
 
 /*! Custom CSS */
