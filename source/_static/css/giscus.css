@@ -56,7 +56,7 @@ main {
   --color-btn-primary-inset-shadow: 0 0 transparent;
   --color-btn-primary-hover-bg: #e01b24;
   --color-btn-primary-hover-border: rgb(240 246 252 / 10%);
-  --color-btn-primary-selected-bg: #238636;
+  --color-btn-primary-selected-bg: #e01b24;
   --color-btn-primary-selected-shadow: 0 0 transparent;
   --color-btn-primary-disabled-text: rgb(240 246 252 / 50%);
   --color-btn-primary-disabled-bg: #e01b2440;
