@@ -10,7 +10,7 @@ layout: base.html
 It's hard to describe the WWW by its content.  
 We know the web in various guises:
 
-<ul style="columns:3;">
+<ul style="columns-count:auto; column-width: 300px;">
 
 -   social networks
 -   search engines

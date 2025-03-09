@@ -75,8 +75,10 @@ details{
   text-align: center
 }
 pre.ascii {
-  font-size: 16px;
-  line-height: 16px;
+  --scale:calc( (1vw + 8px) /2);
+  --round: round(var(--scale), 8px);
+  font-size: var(--round);
+  line-height: var(--round);
   font-family: 'IBM VGA 8x16', monospace;
   overflow-x: auto;
   color: var(--primary); 
