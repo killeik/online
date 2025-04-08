@@ -67,6 +67,7 @@ th {
   align-items: center;
   flex-wrap: wrap;
   gap: 0.5em 1em;
+  margin: 0 auto;
 }
 .widthtocontent{
 width: max-content;
