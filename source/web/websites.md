@@ -25,12 +25,14 @@ layout: base.html
 # music
 - https://musicmap.info/
 
-# funny
+# joy
 - https://wtfjs.com/
 - https://animalbodyfatmatch.netlify.app/
 - https://signupp.fun/
 - https://impersona.chat/
-
+- https://blackscreen.in/windows-fake-update-screen
+- https://http.cat/
+- https://vincentwoo.com/3d/sutro_tower/
 
 # tools
 - https://ohshitgit.com/
@@ -55,6 +57,10 @@ layout: base.html
 - https://relevant.watch/
 - https://www.explainshell.com/
 - https://int10h.org/oldschool-pc-fonts/showcase/
+- https://rootloops.sh/
+- https://booksearch.party/
+- https://meet.hn/
+- https://www.sqlnoir.com/
 
 # articles
 - https://www.w3.org/Provider/Style/URI
