@@ -9,14 +9,12 @@ layout: base.html
 - [Libre.Town - Home](https://libre.town/)
 - [MelonLand Project](https://melonland.net/)
 - [Neocities - Browse](https://neocities.org/browse)
-- [Nothing: Simply Do Nothing](https://usenothing.com/)
 - [sabrinas.space -](https://sabrinas.space/)
 - [John Doe’s page](https://john-doe.neocities.org/)
 - [mbrizic](https://mbrizic.com/)
 - [Motherfucking Website](http://motherfuckingwebsite.com/)
 - [Ben Hoyt](https://benhoyt.com/)
 - [JW @gar0u \| so1o.xyz](https://so1o.xyz/@gar0u)
-- [A system to organise your life • Johnny.Decimal](https://johnnydecimal.com/)
 - [Welcome to \~tilde.club\~](http://tilde.club/)
 - [Projects](https://soham-saha.github.io/)
 - [NeuralCalculus](https://priyavkaneria.com/#dock)
@@ -34,6 +32,7 @@ layout: base.html
 - [Sutro Tower in 3D](https://vincentwoo.com/3d/sutro_tower/)
 - [Musicmap \| The Genealogy and History of Popular Music Genres](https://musicmap.info/)
 - [Life in Weeks \| Create a map of your life with each week as a little box.](https://lifeweeks.app/)
+- [Nothing: Simply Do Nothing](https://usenothing.com/)
 
 # tools
 - [Oh Shit, Git!?!](https://ohshitgit.com/)
@@ -75,3 +74,4 @@ layout: base.html
 - [The Twelve-Factor App](https://12factor.net/)
 - [» minimal web  mnmlist](https://mnmlist.com/w/)
 - [Self Hosting Like Its 2025 ::](https://kiranet.org/posts/self-hosting-like-its-2025/)
+- [A system to organise your life • Johnny.Decimal](https://johnnydecimal.com/)
