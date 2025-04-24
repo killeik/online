@@ -63,6 +63,7 @@ layout: base.html
 - [SQL Noir - A Detective SQL Game](https://www.sqlnoir.com/)
 - [Font Generator - 𝓒𝓸𝓹𝔂 𝖆𝖓𝖉 𝓟𝓪𝓼𝓽𝓮 Fancy Cool Text](https://fontgenerator.cool/)
 - [CASCII](https://cascii.app/)
+- [Anna’s Archive](https://annas-archive.org/)
 
 # articles
 - [Hypertext Style: Cool URIs don't change.](https://www.w3.org/Provider/Style/URI)
@@ -75,3 +76,4 @@ layout: base.html
 - [» minimal web  mnmlist](https://mnmlist.com/w/)
 - [Self Hosting Like Its 2025 ::](https://kiranet.org/posts/self-hosting-like-its-2025/)
 - [A system to organise your life • Johnny.Decimal](https://johnnydecimal.com/)
+- ["Simple Made Easy" - Rich Hickey (2011) - YouTube](https://www.youtube.com/watch?v=SxdOUGdseq4)
