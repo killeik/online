@@ -64,10 +64,12 @@ layout: base.html
 - [Font Generator - 𝓒𝓸𝓹𝔂 𝖆𝖓𝖉 𝓟𝓪𝓼𝓽𝓮 Fancy Cool Text](https://fontgenerator.cool/)
 - [CASCII](https://cascii.app/)
 - [Anna’s Archive](https://annas-archive.org/)
+- [https://0x0.st/](https://0x0.st/)
 
 # articles
 - [Hypertext Style: Cool URIs don't change.](https://www.w3.org/Provider/Style/URI)
-- [Title Unavailable \| Site Unreachable](http://ankarstrom.se/~john/articles/html/)
+- [Just fucking use HTML](https://justfuckingusehtml.com/)
+- [Writing HTML in HTML](http://ankarstrom.se/~john/articles/html/)
 - [nometa](https://nometa.xyz/) /  [No Hello](http://www.nohello.com/) / [Не привет](https://neprivet.com/)
 - [Viewable with Any Browser: Campaign](https://anybrowser.org/campaign/)
 - [HTML Standard](https://html.spec.whatwg.org/multipage/introduction.html#is-this-html5)
