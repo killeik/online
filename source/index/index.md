@@ -1,6 +1,7 @@
 ---
 title: WHAT-ARE-YE-DOIN?
 layout: base.html
+eleventyExcludeFromCollections: true
 ---
 {% sidebyside %}
 {% ascii %}

@@ -1,6 +1,7 @@
 ---
 title: thoughts
 layout: base.html
+eleventyExcludeFromCollections: true
 ---
 {% sidebyside %}
 
