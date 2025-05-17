@@ -30,7 +30,7 @@ Mixed Markdown and [semantic HTML](https://www.w3.org/WAI/WCAG21/Techniques/html
 -  Editing in [helix](https://helix-editor.com)
 -  Code repository on [GitHub](https://github.com/killeik/online)
 -  Rendering from templates/markdown with [Eleventy](https://www.11ty.dev/)
--  Hosting on Github Pages
+-  Hosting on Cloudflare Pages
 
 {% sidebyside %}
 {% ascii %}
