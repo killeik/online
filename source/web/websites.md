@@ -33,6 +33,7 @@ layout: base.html
 - [Life in Weeks \| Create a map of your life with each week as a little box.](https://lifeweeks.app/)
 - [Nothing: Simply Do Nothing](https://usenothing.com/)
 - [IMG\_0001](https://walzr.com/IMG_0001)
+- [DOS Zone \| DOS games in browser](https://dos.zone/)
 
 # tools
 - [Oh Shit, Git!?!](https://ohshitgit.com/)
@@ -65,8 +66,7 @@ layout: base.html
 - [CASCII](https://cascii.app/)
 - [Anna’s Archive](https://annas-archive.org/)
 - [https://0x0.st/](https://0x0.st/)
-- [Build Your Perfect Workout \| Workout Cool](https://workout.cool/en)
-- 
+- [Build Your Perfect Workout \| Workout Cool](https://workout.cool/en) | [Snouzy/workout-cool: 🏋 Modern open-source fitness coaching platform](https://github.com/Snouzy/workout-cool)
 
 # articles
 - [Hypertext Style: Cool URIs don't change.](https://www.w3.org/Provider/Style/URI)
@@ -80,4 +80,4 @@ layout: base.html
 - [» minimal web  mnmlist](https://mnmlist.com/w/)
 - [Self Hosting Like Its 2025 ::](https://kiranet.org/posts/self-hosting-like-its-2025/)
 - [A system to organise your life • Johnny.Decimal](https://johnnydecimal.com/)
-- ["Simple Made Easy" - Rich Hickey (2011) - YouTube](https://www.youtube.com/watch?v=SxdOUGdseq4https://github.com/Snouzy/workout-coohttps://github.com/Snouzy/workout-cooll)
+- ["Simple Made Easy" - Rich Hickey (2011) - YouTube](https://www.youtube.com/watch?v=SxdOUGdseq4)
