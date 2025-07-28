@@ -20,6 +20,13 @@ layout: base.html
 - [NeuralCalculus](https://priyavkaneria.com/#dock)
 - [Writing an OS in Rust](https://os.phil-opp.com/)
 - [OLD-HARD.RU](https://old-hard.ru/)
+- [▁▂▃▄▅▆▇ \`^^^^^\~ ░ ui▀┳╲ ☺ .info ▓](https://www.yyyyyyy.info/)
+- [Sounds of System Breakdown - Afloat](https://sosbmusic.com/afloat)
+- [daedalOS](https://dustinbrett.com/)
+- [Lars Petrus Portal](https://lar5.com/)
+- [Orteil's homepage](https://orteil.dashnet.org/)
+- [A website you can only visit once](https://onlyvisitonce.com/)
+- [Cyberia Computer Club](https://cyberia.club/)
 
 # toys
 - [wtfjs - a little code blog about that language we love despite giving us so much to hate](https://wtfjs.com/)
@@ -34,6 +41,19 @@ layout: base.html
 - [Nothing: Simply Do Nothing](https://usenothing.com/)
 - [IMG\_0001](https://walzr.com/IMG_0001)
 - [DOS Zone \| DOS games in browser](https://dos.zone/)
+- [Sexy Girls Moaning Your IP Address! | MoanMyIP](https://www.moanmyip.com/)
+- [Fortune](https://packardbell95.com/fortune/)
+- [Time Travel Television](https://timetraveltelevision.com/)
+- [TULP interactive](https://tulpinteractive.com/) | [Parallel Lives](https://janwillemtulp.github.io/parallel-lives/)| [Flavor Network ](https://tulpinteractive.com/flavor-network/) | [Spirograph](https://tulpinteractive.com/spirograph/)
+- [Floor796](https://floor796.com/)
+- [Home \| MSCHF](https://mschf.com/)
+- [Clippy Desktop Assistant](https://felixrieseberg.github.io/clippy/)
+- [Playables](https://playables.net/)
+- [CSS Minecraft](https://benjaminaster.com/css-minecraft/)
+- [smallest website in the world! guimp.com](https://zodogo.com/guimp.com/)
+- [$ ping samwho](https://samwho.dev/ping/)
+- [There Is No Website](https://www.thereisnoweb.site/)
+- [WINDOWS93](https://www.windows93.net/)
 
 # tools
 - [Oh Shit, Git!?!](https://ohshitgit.com/)
@@ -67,6 +87,8 @@ layout: base.html
 - [Anna’s Archive](https://annas-archive.org/)
 - [https://0x0.st/](https://0x0.st/)
 - [Build Your Perfect Workout \| Workout Cool](https://workout.cool/en) | [Snouzy/workout-cool: 🏋 Modern open-source fitness coaching platform](https://github.com/Snouzy/workout-cool)
+- [16colo.rs - ANSI/ASCII art archive](https://16colo.rs/)
+- [Reddit's Best - Random Top Posts](https://bestofreddit.net/)
 
 # articles
 - [Hypertext Style: Cool URIs don't change.](https://www.w3.org/Provider/Style/URI)
@@ -81,3 +103,4 @@ layout: base.html
 - [Self Hosting Like Its 2025 ::](https://kiranet.org/posts/self-hosting-like-its-2025/)
 - [A system to organise your life • Johnny.Decimal](https://johnnydecimal.com/)
 - ["Simple Made Easy" - Rich Hickey (2011) - YouTube](https://www.youtube.com/watch?v=SxdOUGdseq4)
+- [samwho](https://samwho.dev/)
