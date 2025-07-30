@@ -104,3 +104,4 @@ layout: base.html
 - [A system to organise your life • Johnny.Decimal](https://johnnydecimal.com/)
 - ["Simple Made Easy" - Rich Hickey (2011) - YouTube](https://www.youtube.com/watch?v=SxdOUGdseq4)
 - [samwho](https://samwho.dev/)
+- [Tyblog | systemd has been a complete, utter, unmitigated success](https://blog.tjll.net/the-systemd-revolution-has-been-a-success/)
