@@ -106,7 +106,7 @@ pre.ascii {
 	font-size: var(--round);
 	line-height: calc(var(--round) - 1px);
 	font-family: 'IBM VGA 8x16', monospace;
-	overflow-x: auto;
+	overflow: visible;
 	color: var(--primary);
 	margin: 0;
 }
