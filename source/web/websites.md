@@ -105,4 +105,4 @@ layout: base.html
 - ["Simple Made Easy" - Rich Hickey (2011) - YouTube](https://www.youtube.com/watch?v=SxdOUGdseq4)
 - [samwho](https://samwho.dev/)
 - [Tyblog | systemd has been a complete, utter, unmitigated success](https://blog.tjll.net/the-systemd-revolution-has-been-a-success/)
-- [The Physics Of Dissonance - YouTube](https://www.youtube.com/watch?v=tCsl6ZcY9ag&t=1s)
+- [aatishb.com/dissonance/](https://aatishb.com/dissonance/) | [The Physics Of Dissonance - YouTube](https://www.youtube.com/watch?v=tCsl6ZcY9ag&t=1s)
