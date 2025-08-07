@@ -2,7 +2,7 @@
 	--primary: #e01b24;
 	--foreground: #eee;
 	--background: #000;
-	--gray: #333
+	--gray: #333;
 }
 
 @font-face {
@@ -15,8 +15,8 @@
 body {
 	background: var(--background);
 	color: var(--foreground);
-	line-height: 24px;
-	font-size: 24px;
+	line-height: 1.3em;
+	font-size: 1.3em;
 	font-family: 'IBM VGA 8x16', serif;
 }
 
@@ -42,7 +42,7 @@ a.primary {
 }
 
 .gray {
-	color: var(--gray)
+	color: var(--gray);
 }
 
 a:hover {
@@ -100,11 +100,10 @@ details {
 }
 
 pre.ascii {
-	--scale: 1em;
-	--round: round(var(--scale), 8px);
+	--scale: min(2.5vw, 1em);
 	letter-spacing: -1px;
-	font-size: var(--round);
-	line-height: calc(var(--round) - 1px);
+	font-size: var(--scale);
+	line-height: calc(var(--scale) - 1px);
 	font-family: 'IBM VGA 8x16', monospace;
 	overflow: visible;
 	color: var(--primary);
@@ -112,6 +111,6 @@ pre.ascii {
 }
 
 hr {
-	border-top: 5px dotted;
+	border-top: 0.5em dotted;
 	border-bottom: none;
 }
