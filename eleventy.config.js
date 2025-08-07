@@ -3,35 +3,36 @@ import { DateTime } from "luxon";
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 
 export const config = {
-  dir: {
-    input: "source",
-    output: "public",
-  },
+	dir: {
+		input: "source",
+		output: "public",
+	},
 };
 
-export default async function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy({ "source/_static/": "/" });
- 
-  eleventyConfig.addPreprocessor("drafts", "*", (data, content) => {
-		if(data.draft && process.env.ELEVENTY_RUN_MODE === "build") {
+export default async function(eleventyConfig) {
+
+	eleventyConfig.addPassthroughCopy({ "source/_static/": "/" });
+
+	eleventyConfig.addPreprocessor("drafts", "*", (data, content) => {
+		if (data.draft && process.env.ELEVENTY_RUN_MODE === "build") {
 			return false;
 		}
 	});
-	eleventyConfig.addPairedShortcode("ascii", function(content){
-	 return `<pre class='ascii'>${content}</pre>` 
+	eleventyConfig.addPairedShortcode("ascii", function(content) {
+		return `<pre class='ascii'>${content}</pre>`
 	})
-	eleventyConfig.addPairedShortcode("widthtocontent", function(content){
-	 return `<div class='widthtocontent'>${content}</div>` 
+	eleventyConfig.addPairedShortcode("widthtocontent", function(content) {
+		return `<div class='widthtocontent'>${content}</div>`
 	})
-	eleventyConfig.addPairedShortcode("sidebyside", function(content){
-	 return `<div class='sidebyside'>${content}</div>` 
+	eleventyConfig.addPairedShortcode("sidebyside", function(content) {
+		return `<div class='sidebyside'>${content}</div>`
 	})
 
-  eleventyConfig.addFilter("humandate", function (dateObj){
-    return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
-  });
+	eleventyConfig.addFilter("humandate", function(dateObj) {
+		return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
+	});
 
-  eleventyConfig.addPlugin(feedPlugin, {
+	eleventyConfig.addPlugin(feedPlugin, {
 		type: "atom", // or "rss", "json"
 		outputPath: "/feed.xml",
 		collection: {
@@ -50,11 +51,11 @@ export default async function (eleventyConfig) {
 		}
 	});
 
-  let markdownOptions = {
-    html: true,
-    breaks: true,
-    linkify: true,
-  };
+	let markdownOptions = {
+		html: true,
+		breaks: true,
+		linkify: true,
+	};
 
- eleventyConfig.setLibrary("md", markdownIt(markdownOptions ));
+	eleventyConfig.setLibrary("md", markdownIt(markdownOptions));
 }
