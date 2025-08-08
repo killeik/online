@@ -1,5 +1,5 @@
 ---
-title: thoughts
+title: whispers
 layout: base.html
 eleventyExcludeFromCollections: true
 ---
@@ -7,9 +7,8 @@ eleventyExcludeFromCollections: true
 
 {% widthtocontent %}
 
-# Thoughts metapage
+###### susurri ... index
 
-- [Identity](identity/)
 - [Social networks](social_networks/)
 
 {% endwidthtocontent %}

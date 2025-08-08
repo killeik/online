@@ -14,7 +14,7 @@ export default async function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy({ "source/_static/": "/" });
 
 	eleventyConfig.addPreprocessor("drafts", "*", (data, content) => {
-		if (data.draft && process.env.ELEVENTY_RUN_MODE === "build") {
+		if (data.draft) {
 			return false;
 		}
 	});
