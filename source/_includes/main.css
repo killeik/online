@@ -35,6 +35,8 @@ a {
 
 .primary {
 	color: var(--primary);
+	text-shadow: var(--primary) 0.05em 0 0.01em;
+
 }
 
 a.primary {
@@ -107,6 +109,7 @@ pre.ascii {
 	font-family: 'IBM VGA 8x16', monospace;
 	overflow: visible;
 	color: var(--primary);
+	text-shadow: var(--primary) 0.05em 0 0.5em;
 	margin: 0;
 }
 
