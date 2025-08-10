@@ -5,7 +5,9 @@ created: 2024-09-07
 layout: base.html
 ---
 
-# On social networks
+
+
+# Unsocial networks
 
 To build a website, you need to think about what the design will be, you need to think about how and what you'll write about, you need to care about the project. Even though HTML/CSS is not that complicated after all, it requires some thinking.  
 
@@ -23,3 +25,24 @@ Is that creepy? Convenient? Unnatural? Familiar?
 I don't know. But there's definitely a lot of money in it.
 
 ### And I just don't want to be part of that system.
+
+{% sidebyside %}
+
+## LIKE, SUBSCRIBE, SHARE
+
+{% ascii %}
+     ███████       ███████         ████    ████    ████             ██████████████████     
+  █████████████  ████████████     ████   ████████   ████              █████████████████    
+ █████████████████████████████   ███   ████████████   ███         ██              █████    
+ █████████████████████████████  ███   ██████████████   ███      ██████            █████    
+ █████████████████████████████  ███  ████████████████  ███    ██████████          █████    
+ █████████████████████████████       ████████████████      ███████████████        █████    
+  ███████████████████████████        ████████████████           █████             █████    
+   █████████████████████████         ████████████████           █████         █████████████
+     █████████████████████           ████████████████           █████          ██████████  
+       █████████████████            ██████████████████          █████            ██████    
+         █████████████            ██████████████████████        █████              ██      
+           █████████                                            █████████████████          
+              ███                          ████                  ██████████████████        
+{% endascii %}
+{% endsidebyside %}
