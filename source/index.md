@@ -22,7 +22,7 @@ For example, adding links to beautiful websites, useful tools, etc.
 - And the boring part is to break free of mental barriers:
 This website is my subjective position and does not claim to be the objective truth.
 I will try to express my position honestly and without a huge disclaimer before each article.
-My position changes. The expression of my position on the site is probably outdated by now.
+My position changes. The expression of my position on the site is p''robably outdated by now.
 
 ## Technologies
 
@@ -34,7 +34,8 @@ Mixed Markdown and [semantic HTML](https://www.w3.org/WAI/WCAG21/Techniques/html
 - Hosting on Cloudflare Pages
 
 {% sidebyside %}
-{% ascii %}
+
+```ascii
                                            ,--,  ,.-.
                ,                   \,       '-,-`,'-.' | ._
               /|           \    ,   |\         }  )/  / `-,',
@@ -58,5 +59,6 @@ Mixed Markdown and [semantic HTML](https://www.w3.org/WAI/WCAG21/Techniques/html
  ,>,_ )_,..(    )\          -,,_-`  _--`
 (_ \|`   _,/_  /  \_            ,--`
  \( `   <.,../`     `-.._   _,-`
-{% endascii %}
+```
+
 {% endsidebyside %}

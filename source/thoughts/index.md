@@ -12,7 +12,8 @@ eleventyExcludeFromCollections: true
 - [Social networks](social_networks/)
 
 {% endwidthtocontent %}
-{% ascii %}
+
+```ascii
                       ####    ###
                       ##### #####
                       ##+-###+-##
@@ -46,6 +47,6 @@ eleventyExcludeFromCollections: true
         ###++++##--######+++++++++++++++++++++#####--##
         ###++++##-----###+++++++++++++++++++++##-----##
          ##############################################
-{% endascii %}
+```
 
 {% endsidebyside %}

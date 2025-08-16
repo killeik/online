@@ -30,7 +30,7 @@ I don't know. But there's definitely a lot of money in it.
 
 ## LIKE, SUBSCRIBE, SHARE
 
-{% ascii %}
+```ascii
      ███████       ███████         ████    ████    ████             ██████████████████     
   █████████████  ████████████     ████   ████████   ████              █████████████████    
  █████████████████████████████   ███   ████████████   ███         ██              █████    
@@ -44,5 +44,6 @@ I don't know. But there's definitely a lot of money in it.
          █████████████            ██████████████████████        █████              ██      
            █████████                                            █████████████████          
               ███                          ████                  ██████████████████        
-{% endascii %}
+```
+
 {% endsidebyside %}

@@ -25,7 +25,6 @@ We know the web in various guises:
 -   18+
 -   blogs
 
-
 </ul>
 
 Whichever option you choose, for the web it will be only a partial description, not really describing it in its entirety.
@@ -58,7 +57,8 @@ Therefore, at the moment, I will save all links in a  [simple document](/web/web
 
 
 {% sidebyside %}
-{% ascii %}
+
+```ascii
                      .,,uod8B8bou,,.
               ..,uod8BBBBBBBBBBBBBBBBRPFT?l!i:.
          ,=m8BBBBBBBBBBBBBBBRPFT?!||||||||||||||
@@ -89,5 +89,6 @@ Therefore, at the moment, I will save all links in a  [simple document](/web/web
                   `!988888888899fT|!^"'
                     `!9899fT|!^"'
                       `!^"'
-{% endascii %}
+```
+
 {% endsidebyside %}

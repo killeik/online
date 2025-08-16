@@ -16,7 +16,7 @@ layout: base.html
 
 {% endwidthtocontent %}
 
-{% ascii %}
+```ascii
               -                               -
               +++                           -++             
                ++++.                      ++++              
@@ -46,5 +46,6 @@ layout: base.html
                             +++                             
                              +-                             
                              -                              
-{% endascii %}
+```
+
 {% endsidebyside %}

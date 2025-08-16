@@ -18,9 +18,6 @@ export default async function(eleventyConfig) {
 			return false;
 		}
 	});
-	eleventyConfig.addPairedShortcode("ascii", function(content) {
-		return `<pre class='ascii'>${content}</pre>`
-	})
 	eleventyConfig.addPairedShortcode("widthtocontent", function(content) {
 		return `<div class='widthtocontent'>${content}</div>`
 	})

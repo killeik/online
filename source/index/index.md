@@ -4,7 +4,8 @@ layout: base.html
 eleventyExcludeFromCollections: true
 ---
 {% sidebyside %}
-{% ascii %}
+
+```ascii
                                  &&    &&&XX&&         &
                       &      &::&  $&&&&X.:..$&&&       &
                      &       $x;:&&      :; +:  ;&&&&&   &
@@ -55,5 +56,6 @@ eleventyExcludeFromCollections: true
      | | | . ` | |  | |  __|   > <   | | | . ` | | |_ | | |\/| |  __|   / /| |
     _| |_| |\  | |__| | |____ / . \ _| |_| |\  | |__| | | |  | | |____ |_| |_|
    |_____|_| \_|_____/|______/_/ \_\_____|_| \_|\_____| |_|  |_|______|(_) (_)
-{% endascii %}
+```
+
 {% endsidebyside %}

@@ -101,7 +101,8 @@ details {
 	text-align: center
 }
 
-pre.ascii {
+
+code.language-ascii {
 	--scale: min(2.5vw, 1em);
 	letter-spacing: -1px;
 	font-size: var(--scale);
@@ -110,7 +111,8 @@ pre.ascii {
 	overflow: visible;
 	color: var(--primary);
 	text-shadow: var(--primary) 0.05em 0 0.5em;
-	margin: 0;
+	/* margin: 0; */
+	display: block;
 }
 
 hr {

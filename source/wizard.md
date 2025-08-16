@@ -1,10 +1,10 @@
 ---
-date: '2024-10-27T17:14:39+03:00'
+date: 2024-10-27T17:14:39+03:00
 draft: true
-title: 'wizard'
+title: wizard
 layout: base.html
 ---
-{% ascii %}
+```ascii
         '             .           .      
         o       '   o  .     '   . O        
      '   .   ' .   _____  '    .      .     
@@ -36,4 +36,4 @@ layout: base.html
                   \_________.-'             
                                             
                                             
-{% endascii %}
+```
