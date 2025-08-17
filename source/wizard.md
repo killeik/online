@@ -1,5 +1,5 @@
 ---
-date: 2024-10-27T17:14:39+03:00
+date: git Last Modified
 draft: true
 title: wizard
 layout: base.html

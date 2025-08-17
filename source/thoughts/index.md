@@ -7,11 +7,11 @@ eleventyExcludeFromCollections: true
 
 {% widthtocontent %}
 
-###### susurri ... index
-
+### *it whispers to you*
 - [Social networks](social_networks/)
 
 {% endwidthtocontent %}
+
 
 ```ascii
                       ####    ###

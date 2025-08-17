@@ -7,17 +7,17 @@
 
 @font-face {
 	font-family: 'IBM VGA 8x16';
-	src: url(/Web437_IBM_VGA_8x16.woff) format('woff');
+	src: url(/Px437_IBM_VGA_8x16.woff2) format('woff2');
 	font-weight: normal;
 	font-style: normal;
+	font-display: swap;
 }
 
 body {
 	background: var(--background);
 	color: var(--foreground);
-	line-height: 1.3em;
-	font-size: 1.3em;
-	font-family: 'IBM VGA 8x16', serif;
+	font-family: 'IBM VGA 8x16', monospace;
+	font-size: 1.3rem;
 }
 
 * {
@@ -36,7 +36,6 @@ a {
 .primary {
 	color: var(--primary);
 	text-shadow: var(--primary) 0.05em 0 0.01em;
-
 }
 
 a.primary {
@@ -63,22 +62,20 @@ ol {
 
 .container {
 	max-width: 60em;
-	padding: 1em;
+	padding: 0 1em;
 	margin: auto;
 }
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
 	font-weight: normal;
+	text-align: center;
 }
 
 td,
 th {
-	padding: 1em;
+	padding: 1em 0.1em;
 	text-align: center;
 	border-bottom: solid var(--primary);
 }
@@ -89,8 +86,9 @@ th {
 	justify-content: space-evenly;
 	align-items: center;
 	flex-wrap: wrap;
-	gap: 0.5em 1em;
+	gap: 0 0.5em;
 	margin: 0 auto;
+	padding: 0 0.5em;
 }
 
 .widthtocontent {
@@ -101,21 +99,24 @@ details {
 	text-align: center
 }
 
+pre,
+code {
+	margin: 0;
+	font-family: inherit;
+}
 
 code.language-ascii {
-	--scale: min(2.5vw, 1em);
-	letter-spacing: -1px;
+	--scale: min(2.3vw, 1.5rem);
 	font-size: var(--scale);
-	line-height: calc(var(--scale) - 1px);
-	font-family: 'IBM VGA 8x16', monospace;
+	line-height: calc(var(--scale) * 0.95);
+	letter-spacing: calc(var(--scale) * -0.05);
 	overflow: visible;
 	color: var(--primary);
 	text-shadow: var(--primary) 0.05em 0 0.5em;
-	/* margin: 0; */
 	display: block;
 }
 
 hr {
-	border-top: 0.5em dotted;
-	border-bottom: none;
+	border: none;
+	border-top: 0.3em dotted;
 }
