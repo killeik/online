@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark" />
+  {% if description %}
+  <meta name="description" content="{{description}}" />
+  {% endif %}
+  <title>grimoire://{{title}}/</title>
+  <link rel="stylesheet" href="/css/main.css" rel="preload" as="style" >
+  <link rel="preload" href="/Px437_IBM_VGA_8x16.woff2" as="font">
+  <link rel="icon" href="/favicon.png">
+</head>
+<body>
+{{ content }}
+</body>
+</html>
