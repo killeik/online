@@ -35,7 +35,6 @@ a {
 
 .primary {
 	color: var(--primary);
-	text-shadow: var(--primary) 0.05em 0 0.01em;
 }
 
 a.primary {
@@ -112,9 +111,14 @@ code.language-ascii {
 	letter-spacing: calc(var(--scale) * -0.05);
 	overflow: visible;
 	color: var(--primary);
-	text-shadow: var(--primary) 0.05em 0 0.5em;
 	display: block;
+	text-shadow: var(--primary) 0.05em 0 0.5em;
 }
+
+code.language-ascii.noshadow {
+	text-shadow: unset;
+}
+
 
 hr {
 	border: none;
