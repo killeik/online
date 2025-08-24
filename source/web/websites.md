@@ -54,6 +54,8 @@ layout: base.html
 - [$ ping samwho](https://samwho.dev/ping/)
 - [There Is No Website](https://www.thereisnoweb.site/)
 - [WINDOWS93](https://www.windows93.net/)
+- [Retronator Daily](https://retronator.com/)
+- [Cry Once a Week](https://www.cryonceaweek.com/)
 
 # tools
 - [Oh Shit, Git!?!](https://ohshitgit.com/)
@@ -89,6 +91,8 @@ layout: base.html
 - [Build Your Perfect Workout \| Workout Cool](https://workout.cool/en) | [Snouzy/workout-cool: 🏋 Modern open-source fitness coaching platform](https://github.com/Snouzy/workout-cool)
 - [16colo.rs - ANSI/ASCII art archive](https://16colo.rs/)
 - [Reddit's Best - Random Top Posts](https://bestofreddit.net/)
+- [ANSI Escape Codes](https://ansi.tools/)
+- [The Scroll Art Museum](https://scrollart.org/)
 
 # articles
 - [Hypertext Style: Cool URIs don't change.](https://www.w3.org/Provider/Style/URI)
@@ -106,3 +110,4 @@ layout: base.html
 - [samwho](https://samwho.dev/)
 - [Tyblog | systemd has been a complete, utter, unmitigated success](https://blog.tjll.net/the-systemd-revolution-has-been-a-success/)
 - [aatishb.com/dissonance/](https://aatishb.com/dissonance/) | [The Physics Of Dissonance - YouTube](https://www.youtube.com/watch?v=tCsl6ZcY9ag&t=1s)
+- [Why your website should be under 14kB in size | endtimes.dev](https://endtimes.dev/why-your-website-should-be-under-14kb-in-size/)
