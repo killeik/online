@@ -112,12 +112,8 @@ code.language-ascii {
 	overflow: visible;
 	color: var(--primary);
 	display: block;
-	text-shadow: var(--primary) 0.05em 0 0.5em;
 }
 
-code.language-ascii.noshadow {
-	text-shadow: unset;
-}
 
 
 hr {
