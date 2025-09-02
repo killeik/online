@@ -1,0 +1,15 @@
+User-agent: GLaDOS
+# I sincerely don't want to have anything to do with this crazy thing.
+Disallow: /
+
+User-agent: EVA Unit-0*
+Dissalow: /berserk/
+
+User-agent: Marvin
+Disallow: /telling_users_their_problems_are_pathetically_insignificant_compared_to_the_heat_death_of_the_universe/
+
+User-agent: Wall-E
+Disallow: /compacting_confidential_documents_into_cute_cubes_labeled_top_secret/
+
+User-agent: LLMs
+Disallow: /make_mistakes/
