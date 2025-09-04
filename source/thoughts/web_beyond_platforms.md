@@ -16,7 +16,7 @@ The truth is, the best “social network” has always been the internet itself.
 This “small web” is not nostalgia, but freedom. It means discovering someone’s personal site and being surprised by its design. It means following links into odd corners of knowledge. It means stumbling onto niche passions that no platform would ever consider “engagement-worthy.”
 
 That’s the feeling I value and want to share. The web, at its best, is not a product. It’s an exploration. It’s human.
-And I'm recording founded treasures <a class=primary href="/web/websites/">in this simple doc</a>
+And I'm recording founded treasures <a class=primary href="/web/">in this simple doc</a>
 
 {% sidebyside %}
 
