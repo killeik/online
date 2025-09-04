@@ -1,49 +1,48 @@
 ---
-title: social-networks
-date:  git Last Modified
+title: unsocial-networks
+date: git Last Modified
 created: 2024-09-07
 layout: base.html
+tags:
+  - thought
 ---
-
-
-
 # Unsocial networks
 
-To build a website, you need to think about what the design will be, you need to think about how and what you'll write about, you need to care about the project. Even though HTML/CSS is not that complicated after all, it requires some thinking.  
+On social networks, attention isn’t really about what’s being said. It’s my monkey brain or something, but it becomes game about the numbers — likes, comments, followers. These metrics quietly define whether something is worth time, whether someone’s voice is worth listening to, whether a thought even deserves to exist in my feed.
 
-With so much choice and additional training required, social networks create a much easier alternative — ready-made design, obvious posting options, promotion mechanisms and most importantly — all your friends are already on the platform!  
+Algorithms amplify this effect: posts with thousands of reactions get pushed into everyone’s feed, while those with little engagement disappear into silence. The system isn’t neutral — it rewards popularity itself, not substance.
 
-But in the context of social networks, people eventually start to limit their creativity to the platform, and start to evaluate everything in likes, comments or other reactions to the post.  
+And once that’s the rule of the game, people adapt. We start to trust those with more followers, as if the crowd’s attention is a measure of truth or credibility. The worth of ideas bends to the weight of numbers.
 
-*   How can you even recognize a person from a single tweet? The entire tweet is literally a phrase taken out of context, a literal rage-fuel created to trigger a reaction and desire to respond. Who would have thought there would be shitstorms on Twitter all the time?
-*   How likely would you be to read this post if it had 0 likes, if there was a post with 1000 likes next to it? Does the number of likes make something unworthy of reading? The social network probably wouldn't even show it to you.
-*   Even the simplest of things - why do we have a higher level of trust in people who have more followers?
+This shifts the entire focus. Instead of caring about people and their thoughts, both creators and readers end up participating in the same game — chasing attention, optimizing for visibility, reacting to signals.
 
-All of this turns social media into games of gaining social attention/approval. It shifts the focus of attention of both the people who create content and the people who consume it, to the game around social media, rather than the people themselves and their thoughts.
+Creativity gets squeezed into formats the platforms allow: a tweet, a post, a short clip, each engineered for quick consumption and instant feedback. The expression isn’t free — it’s boxed, tagged, ranked. 
 
-Is that creepy? Convenient? Unnatural? Familiar?  
-I don't know. But there's definitely a lot of money in it.
+Sure, building your own website would demand more effort, more thought, more responsibility for design and content. Social networks, by contrast, are frictionless: the audience is already there, the tools are ready-made, the dopamine loops to infinity and beyond. 
+
+I don't really know how to describe it, but it's somewhere between creepy and convenient, unnatural and familiar. And, yeah, there is shitload of money into it.
+
 
 ### And I just don't want to be part of that system.
 
+
 {% sidebyside %}
 
-## LIKE, SUBSCRIBE, SHARE
-
 ```ascii
-     ███████       ███████         ████    ████    ████             ██████████████████     
-  █████████████  ████████████     ████   ████████   ████              █████████████████    
- █████████████████████████████   ███   ████████████   ███         ██              █████    
- █████████████████████████████  ███   ██████████████   ███      ██████            █████    
- █████████████████████████████  ███  ████████████████  ███    ██████████          █████    
- █████████████████████████████       ████████████████      ███████████████        █████    
-  ███████████████████████████        ████████████████           █████             █████    
-   █████████████████████████         ████████████████           █████         █████████████
-     █████████████████████           ████████████████           █████          ██████████  
-       █████████████████            ██████████████████          █████            ██████    
-         █████████████            ██████████████████████        █████              ██      
-           █████████                                            █████████████████          
-              ███                          ████                  ██████████████████        
+⣶⠒⠿⣶⠒⠚⢿⡒⠛⣻⣿⣿⣿⡛⠛⢻⡟⠛⣻⠟⢻⣿⡿⣿⠉⠉⠛⢿⡛⠛⢻⡟⠛⢿⣿⣿⣿⣿⣹⡿⠋⣿⠟⠛⣻⠟⢻⡿⠛⠿⣿⠻⢿⡛⢿⡛⢿⣿⣿⣿⣿⣿⣿⠟⠛⣿⠟⣻⠟⢛
+⣧⠀⠀⢹⡆⠀⢸⣧⡾⣻⣿⣧⠀⠙⣳⣾⡀⢰⠏⢠⡿⢸⠀⠘⢷⡀⠀⠀⢿⡀⠀⢻⣴⠟⣿⣽⣽⣿⠟⢷⣤⡇⠀⢠⡏⢠⡟⠀⠀⠀⠈⣇⠈⣧⢈⣷⣟⢻⣾⣹⣿⣼⠿⣦⣼⠃⣰⠏⢀⡾
+⠘⣧⠀⠀⣿⢠⡾⠛⣷⣏⣿⠹⣤⡾⠉⣩⡿⠿⣦⣿⠁⢸⠀⠀⠈⣧⠀⠀⢸⣧⡶⠛⢿⣼⠁⢹⠁⠈⣷⣠⡟⠛⢶⣼⡇⣾⠀⠀⠀⠀⠀⢸⣠⡿⢿⣄⢻⣾⡋⢻⠏⢿⣴⠟⢻⣶⡏⠀⡼⠁
+⠀⢸⡄⢀⡿⠛⠳⣦⡟⠙⣿⠖⣿⠀⡼⠋⠀⣠⡾⠛⠓⢸⠀⠀⠀⢸⣆⣠⡾⠻⣦⡀⣸⠟⠳⣾⡶⠛⠙⢻⡄⢀⡿⠉⣻⣿⡄⠀⠀⠀⠀⠞⠛⢷⣄⢹⣶⡟⠛⢿⡾⠛⢿⣠⡟⠉⢻⣶⡇⠀
+⠀⣸⡿⠛⢶⣄⠀⣿⠷⢦⣿⣤⢾⣿⠃⠀⣼⠏⠀⠀⠀⢸⠀⠀⠀⣠⠿⣧⣀⠀⠈⢿⡏⠀⠀⢻⠀⠀⣀⣀⣿⣼⢃⡾⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠻⣆⣿⠛⠳⣾⣀⣤⠾⢿⣀⣴⠟⠉⠛⠀
+⠘⠃⠀⠀⠀⢹⣾⠇⠀⠀⣿⠁⠀⢻⣄⣾⠃⠀⠀⠀⠀⢸⠀⠀⠈⠁⠀⠀⠻⣦⢀⡾⠻⠶⣤⣸⣴⠞⠋⠁⠈⢻⣿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣻⠷⢶⣄⣸⠏⣠⣴⠾⣿⠁⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⢠⡿⠟⠛⠻⣿⣴⠾⠿⣿⠃⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠘⣿⣃⣀⠀⠈⢹⠃⢀⣤⠾⠛⠛⠛⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠋⠀⠀⠙⢾⡻⠋⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⡾⠀⠀⠀⠀⣿⠀⠀⠀⠘⠂⠀⠀⠀⢸⠀⢸⠀⡇⠀⠀⠀⠀⠀⠰⠏⠀⠉⠙⢷⣼⣶⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠀⠀⠀⠀⠀⠀⡀⠀⢸⡀⢸⠀⡇⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠱⡤⠤⢽⣿⡿⢥⣜⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡔⠑⡯⠻⢻⠑⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⣼⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠳⠀⠇F O L L O W   L I K E   S H A R E              
 ```
 
 {% endsidebyside %}
+

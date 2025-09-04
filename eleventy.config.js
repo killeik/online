@@ -1,6 +1,8 @@
 import markdownIt from "markdown-it";
 import { DateTime } from "luxon";
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
+import { IdAttributePlugin } from "@11ty/eleventy";
+// import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 
 export const config = {
 	dir: {
@@ -10,6 +12,9 @@ export const config = {
 };
 
 export default async function(eleventyConfig) {
+
+	// eleventyConfig.addPlugin(eleventyNavigationPlugin);
+	eleventyConfig.addPlugin(IdAttributePlugin);
 
 	eleventyConfig.addPassthroughCopy({ "source/_static/": "/" });
 

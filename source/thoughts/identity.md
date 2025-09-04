@@ -1,9 +1,11 @@
 ---
 title: identity
-date:  git Last Modified
+date: git Last Modified
 created: 2024-08-28
 layout: base.html
 draft: true
+tags:
+  - thought
 ---
 
 # Identity (?)

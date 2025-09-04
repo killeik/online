@@ -1,94 +1,116 @@
 ---
 title: wisely-wierd-web
-date:  git Last Modified
-created: 2024-09-07
+date: git Last Modified
+created: 2024-09-12
 layout: base.html
 ---
 
-# What is web about?
-
-It's hard to describe the WWW by its content.  
-We know the web in various guises:
-
-<ul style="column-count:auto; column-width: 300px;">
-
--   social networks
--   search engines
--   streaming platforms
--   stores
--   messengers
--   online games
--   banks
--   pirate platforms
--   cloud services
--   news
--   18+
--   blogs
-
-</ul>
-
-Whichever option you choose, for the web it will be only a partial description, not really describing it in its entirety.
-
-Some might say that the web is about protocols. But how many people use the web THINKING about protocols? It's more about how the web is organized under the hood.  
-Similarly, a car is a four-wheeled, self-driving vehicle. You can make a car with an combustion engine and an electric motor, but it will still be a car.
-
-## The web is about people and connecting with them.
-
-We write to people in messengers, explore other people's thoughts on blogs and streaming services, indirectly interact with people's products in services like banks and cloud services.  
-And if in the case of services I understand robotization - so people need to do less work and it is easier for all of us to do our own things, in the case of communication, algorithms, likes and enforced formats seem harmful to me. I've already written about this in the [article](/thoughts/social_networks/).
-
-As a friend of mine said: the best social network is the already existing internet network.  
-This approach seems to be the essence of the \[[small](https://benhoyt.com/writings/the-small-web-is-beautiful/)/[indie](https://indieweb.org/)/[yester](https://yesterweb.org/)\]web.
-
-## I'm in love with the way the small web feels.
-
--   take long walks through links
--   saving endless pages to look at later
--   to read people's explicit positions
--   to explore personalities and their aesthetics
--   strange designs
--   big websites about small topics
-
-And it is these feelings that I want to share with the world.
-
-So far, I haven't figured out exactly how I'm going to display a list of all the sites I've found. 
-This is a bit of a challenge, because I plan to have 200+ entities there. 
-Therefore, at the moment, I will save all links in a  [simple document](/web/websites/), and then use the links from it.
+# [The Web Beyond Platforms](/thoughts/web_beyond_platforms)
 
 
-{% sidebyside %}
+# personal websites
+- [Libre.Town - Home](https://libre.town/)
+- [MelonLand Project](https://melonland.net/)
+- [Neocities - Browse](https://neocities.org/browse)
+- [sabrinas.space -](https://sabrinas.space/)
+- [John Doe’s page](https://john-doe.neocities.org/)
+- [mbrizic](https://mbrizic.com/)
+- [Motherfucking Website](http://motherfuckingwebsite.com/)
+- [Ben Hoyt](https://benhoyt.com/)
+- [JW @gar0u \| so1o.xyz](https://so1o.xyz/@gar0u)
+- [Welcome to \~tilde.club\~](http://tilde.club/)
+- [Projects](https://soham-saha.github.io/)
+- [NeuralCalculus](https://priyavkaneria.com/#dock)
+- [Writing an OS in Rust](https://os.phil-opp.com/)
+- [OLD-HARD.RU](https://old-hard.ru/)
+- [▁▂▃▄▅▆▇ \`^^^^^\~ ░ ui▀┳╲ ☺ .info ▓](https://www.yyyyyyy.info/)
+- [Sounds of System Breakdown - Afloat](https://sosbmusic.com/afloat)
+- [daedalOS](https://dustinbrett.com/)
+- [Lars Petrus Portal](https://lar5.com/)
+- [Orteil's homepage](https://orteil.dashnet.org/)
+- [A website you can only visit once](https://onlyvisitonce.com/)
+- [Cyberia Computer Club](https://cyberia.club/)
 
-```ascii
-                     .,,uod8B8bou,,.
-              ..,uod8BBBBBBBBBBBBBBBBRPFT?l!i:.
-         ,=m8BBBBBBBBBBBBBBBRPFT?!||||||||||||||
-         !...:!TVBBBRPFT||||||||||!!^^""'   ||||
-         !.......:!?|||||!!^^""'            ||||
-         !.........||||                     ||||
-         !.........||||  ~ $                ||||
-         !.........||||                     ||||
-         !.........||||                     ||||
-         !.........||||                     ||||
-         !.........||||                     ||||
-         `.........||||                    ,||||
-          .;.......||||               _.-!!|||||
-   .,uodWBBBBb.....||||       _.-!!|||||||||!:'
-!YBBBBBBBBBBBBBBb..!|||:..-!!|||||||!iof68BBBBBb....
-!..YBBBBBBBBBBBBBBb!!||||||||!iof68BBBBBBRPFT?!::   `.
-!....YBBBBBBBBBBBBBBbaaitf68BBBBBBRPFT?!:::::::::     `.
-!......YBBBBBBBBBBBBBBBBBBBRPFT?!::::::;:!^"`;:::       `.
-!........YBBBBBBBBBBRPFT?!::::::::::^''...::::::;         iBBbo.
-`..........YBRPFT?!::::::::::::::::::::::::;iof68bo.      WBBBBbo.
-  `..........:::::::::::::::::::::::;iof688888888888b.     `YBBBP^'
-    `........::::::::::::::::;iof688888888888888888888b.     `
-      `......:::::::::;iof688888888888888888888888888888b.
-        `....:::;iof688888888888888888888888888888888899fT!
-          `..::!8888888888888888888888888888888899fT|!^"'
-            `' !!988888888888888888888888899fT|!^"'
-                `!!8888888888888888899fT|!^"'
-                  `!988888888899fT|!^"'
-                    `!9899fT|!^"'
-                      `!^"'
-```
+# toys
+- [wtfjs - about that language we love despite giving us so much to hate](https://wtfjs.com/)
+- [Animal Body Fat Match](https://animalbodyfatmatch.netlify.app/)
+- [Sign Upp - World Worst Sign Up Process](https://signupp.fun/)
+- [Impersona](https://impersona.chat/)
+- [Fake Windows 10/11 Update Screen](https://blackscreen.in/windows-fake-update-screen)
+- [HTTP Cats](https://http.cat/)
+- [Sutro Tower in 3D](https://vincentwoo.com/3d/sutro_tower/)
+- [Musicmap \| The Genealogy and History of Popular Music Genres](https://musicmap.info/)
+- [Life in Weeks \| Create a map of your life with each week as a little box.](https://lifeweeks.app/)
+- [Nothing: Simply Do Nothing](https://usenothing.com/)
+- [IMG\_0001](https://walzr.com/IMG_0001)
+- [DOS Zone \| DOS games in browser](https://dos.zone/)
+- [Sexy Girls Moaning Your IP Address! | MoanMyIP](https://www.moanmyip.com/)
+- [Fortune](https://packardbell95.com/fortune/)
+- [Time Travel Television](https://timetraveltelevision.com/)
+- [TULP interactive](https://tulpinteractive.com/) | [Parallel Lives](https://janwillemtulp.github.io/parallel-lives/)| [Flavor Network ](https://tulpinteractive.com/flavor-network/) | [Spirograph](https://tulpinteractive.com/spirograph/)
+- [Floor796](https://floor796.com/)
+- [Home \| MSCHF](https://mschf.com/)
+- [Clippy Desktop Assistant](https://felixrieseberg.github.io/clippy/)
+- [Playables](https://playables.net/)
+- [CSS Minecraft](https://benjaminaster.com/css-minecraft/)
+- [smallest website in the world! guimp.com](https://zodogo.com/guimp.com/)
+- [$ ping samwho](https://samwho.dev/ping/)
+- [There Is No Website](https://www.thereisnoweb.site/)
+- [WINDOWS93](https://www.windows93.net/)
+- [Retronator Daily](https://retronator.com/)
+- [Cry Once a Week](https://www.cryonceaweek.com/)
 
-{% endsidebyside %}
+# tools
+- [Oh Shit, Git!?!](https://ohshitgit.com/)
+- [Debuggex: Online visual regex tester. JavaScript, Python, and PCRE.](https://www.debuggex.com/)
+- [Learn Git Branching](https://learngitbranching.js.org/)
+- [Weather report](https://wttr.in/)
+- [www.marginalia.nu @marginalia.nu](https://www.marginalia.nu/)
+- [Curlie - The Collector of URLs](https://curlie.org/)
+- [UrlMe.me - Make memes anywhere you can type a URL](https://urlme.me/)
+- [Kagi Search - A Premium Search Engine](https://kagi.com/)
+- [DistroWatch.com: Put the fun back into computing. Use Linux, BSD.](https://distrowatch.com/)
+- [sixtyfour - URL Based File Sharing](https://64.surf/)
+- [Free in-browser .msg viewer](https://msg-viewer.pages.dev/)
+- [AlternativeTo - Crowdsourced software recommendations \| AlternativeTo](https://alternativeto.net/)
+- [The W3C Markup Validation Service](https://validator.w3.org/)
+- [Eleventy is a simpler static site generator](https://www.11ty.dev/)
+- [SoBrief: 73,530 Free Book Summaries \| Audio, PDF & EPUB](https://sobrief.com)/
+- [https://awexplor.github.io/](https://awexplor.github.io/)
+- [Download music, movies, games, software! The Pirate Bay - The galaxy's most resilient BitTorrent site](https://thepiratebay.org/)
+- [SigmaOS](https://sigmaos.com/)
+- [Aurelius](https://aurelius.ink/about)
+- [Relevant](https://relevant.watch/)
+- [explainshell.com - match command-line arguments to their help text](https://www.explainshell.com/)
+- [The Ultimate Oldschool PC Font Pack: Samples & Showcase](https://int10h.org/oldschool-pc-fonts/showcase/)
+- [Root Loops](https://rootloops.sh/)
+- [Free Audiobook Search](https://booksearch.party/)
+- [meet.hn](https://meet.hn/)
+- [SQL Noir - A Detective SQL Game](https://www.sqlnoir.com/)
+- [Font Generator - 𝓒𝓸𝓹𝔂 𝖆𝖓𝖉 𝓟𝓪𝓼𝓽𝓮 Fancy Cool Text](https://fontgenerator.cool/)
+- [CASCII](https://cascii.app/)
+- [Anna’s Archive](https://annas-archive.org/)
+- [https://0x0.st/](https://0x0.st/)
+- [Build Your Perfect Workout \| Workout Cool](https://workout.cool/en) | [Snouzy/workout-cool: 🏋 Modern open-source fitness coaching platform](https://github.com/Snouzy/workout-cool)
+- [16colo.rs - ANSI/ASCII art archive](https://16colo.rs/)
+- [Reddit's Best - Random Top Posts](https://bestofreddit.net/)
+- [ANSI Escape Codes](https://ansi.tools/)
+- [The Scroll Art Museum](https://scrollart.org/)
+
+# articles
+- [Hypertext Style: Cool URIs don't change.](https://www.w3.org/Provider/Style/URI)
+- [Just fucking use HTML](https://justfuckingusehtml.com/)
+- [Writing HTML in HTML](http://ankarstrom.se/~john/articles/html/)
+- [nometa](https://nometa.xyz/) /  [No Hello](http://www.nohello.com/) / [Не привет](https://neprivet.com/)
+- [Viewable with Any Browser: Campaign](https://anybrowser.org/campaign/)
+- [HTML Standard](https://html.spec.whatwg.org/multipage/introduction.html#is-this-html5)
+- [An Interactive Guide to Flexbox in CSS • Josh W. Comeau](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/)
+- [The Twelve-Factor App](https://12factor.net/)
+- [» minimal web  mnmlist](https://mnmlist.com/w/)
+- [Self Hosting Like Its 2025 ::](https://kiranet.org/posts/self-hosting-like-its-2025/)
+- [A system to organise your life • Johnny.Decimal](https://johnnydecimal.com/)
+- ["Simple Made Easy" - Rich Hickey (2011) - YouTube](https://www.youtube.com/watch?v=SxdOUGdseq4)
+- [samwho](https://samwho.dev/)
+- [Tyblog | systemd has been a complete, utter, unmitigated success](https://blog.tjll.net/the-systemd-revolution-has-been-a-success/)
+- [aatishb.com/dissonance/](https://aatishb.com/dissonance/) | [The Physics Of Dissonance - YouTube](https://www.youtube.com/watch?v=tCsl6ZcY9ag&t=1s)
+- [Why your website should be under 14kB in size | endtimes.dev](https://endtimes.dev/why-your-website-should-be-under-14kb-in-size/)

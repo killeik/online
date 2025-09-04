@@ -1,6 +1,6 @@
 :root {
 	--primary: #e01b24;
-	--foreground: #eee;
+	--foreground: #eeeee9;
 	--background: #000;
 	--gray: #333;
 }
@@ -60,7 +60,7 @@ ol {
 }
 
 .container {
-	max-width: 60em;
+	max-width: 50em;
 	padding: 0 1em;
 	margin: auto;
 }
