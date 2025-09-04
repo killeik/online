@@ -1,6 +1,6 @@
 ---
 date: git Last modified
-draft: false
+draft: true
 title: font-symbols
 layout: base.html
 created: 2025-08-17

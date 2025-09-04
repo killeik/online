@@ -1,7 +1,7 @@
 ---
 title: whispers
 layout: base.html
-eleventyExcludeFromCollections: true
+eleventyExcludeFromCollections: false
 ---
 {% sidebyside %}
 

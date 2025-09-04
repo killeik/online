@@ -10,8 +10,7 @@ export const config = {
 		output: "public",
 	},
 };
-
-export default async function(eleventyConfig) {
+ export default async function(eleventyConfig) {
 
 	// eleventyConfig.addPlugin(eleventyNavigationPlugin);
 	eleventyConfig.addPlugin(IdAttributePlugin);
@@ -33,7 +32,9 @@ export default async function(eleventyConfig) {
 	eleventyConfig.addFilter("humandate", function(dateObj) {
 		return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
 	});
-
+	eleventyConfig.addFilter("htmlDateString", (dateObj) => {
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");
+  });
 	eleventyConfig.addPlugin(feedPlugin, {
 		type: "atom", // or "rss", "json"
 		outputPath: "/feed.xml",
