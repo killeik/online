@@ -33,7 +33,7 @@ body {
 
 ::selection {
 	background: var(--primary);
-	sh color: var(--foreground)
+	color: var(--foreground)
 }
 
 a {
