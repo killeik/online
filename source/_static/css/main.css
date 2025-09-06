@@ -18,6 +18,9 @@ body {
 	color: var(--foreground);
 	font-family: 'IBM VGA 8x16', monospace;
 	font-size: 1.3rem;
+	max-width: 50em;
+	padding: 0 1em;
+	margin: auto;
 }
 
 * {
@@ -28,9 +31,18 @@ body {
 	margin: 0.5em 0;
 }
 
+::selection {
+	background: var(--primary);
+	sh color: var(--foreground)
+}
+
 a {
 	color: var(--foreground);
 	text-decoration: underline dotted;
+}
+
+a:hover {
+	opacity: 0.6;
 }
 
 .primary {
@@ -41,13 +53,16 @@ a.primary {
 	text-decoration: none;
 }
 
+mark,
+mark a {
+	color: var(--primary);
+	background: none;
+}
+
 .gray {
 	color: var(--gray);
 }
 
-a:hover {
-	opacity: 0.6;
-}
 
 li::marker {
 	content: '• ';
@@ -56,12 +71,6 @@ li::marker {
 
 ul,
 ol {
-	margin: auto;
-}
-
-.container {
-	max-width: 50em;
-	padding: 0 1em;
 	margin: auto;
 }
 

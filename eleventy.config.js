@@ -1,8 +1,11 @@
-import markdownIt from "markdown-it";
-import { DateTime } from "luxon";
-import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import { IdAttributePlugin } from "@11ty/eleventy";
+import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 // import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
+// 
+import markdownIt from "markdown-it";
+import MarkdownItMark from "markdown-it-mark";
+//
+import { DateTime } from "luxon";
 
 export const config = {
 	dir: {
@@ -11,10 +14,6 @@ export const config = {
 	},
 };
  export default async function(eleventyConfig) {
-
-	// eleventyConfig.addPlugin(eleventyNavigationPlugin);
-	eleventyConfig.addPlugin(IdAttributePlugin);
-
 	eleventyConfig.addPassthroughCopy({ "source/_static/": "/" });
 
 	eleventyConfig.addPreprocessor("drafts", "*", (data, content) => {
@@ -22,12 +21,13 @@ export const config = {
 			return false;
 		}
 	});
+
 	eleventyConfig.addPairedShortcode("widthtocontent", function(content) {
 		return `<div class='widthtocontent'>${content}</div>`
-	})
+	});
 	eleventyConfig.addPairedShortcode("sidebyside", function(content) {
 		return `<div class='sidebyside'>${content}</div>`
-	})
+	});
 
 	eleventyConfig.addFilter("humandate", function(dateObj) {
 		return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
@@ -35,6 +35,10 @@ export const config = {
 	eleventyConfig.addFilter("htmlDateString", (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");
   });
+
+	// eleventyConfig.addPlugin(eleventyNavigationPlugin);
+	eleventyConfig.addPlugin(IdAttributePlugin);
+
 	eleventyConfig.addPlugin(feedPlugin, {
 		type: "atom", // or "rss", "json"
 		outputPath: "/feed.xml",
@@ -59,6 +63,6 @@ export const config = {
 		breaks: true,
 		linkify: true,
 	};
-
+	eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(MarkdownItMark));
 	eleventyConfig.setLibrary("md", markdownIt(markdownOptions));
 }

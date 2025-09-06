@@ -5,7 +5,7 @@ created: 2024-09-12
 layout: base.html
 ---
 
-# [The Web Beyond Platforms](/thoughts/web_beyond_platforms)
+# ==[The Web Beyond Platforms](/thoughts/web_beyond_platforms)==
 
 
 # personal websites
