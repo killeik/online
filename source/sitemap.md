@@ -1,8 +1,6 @@
 ---
 permalink: sitemap.xml
-eleventyImport:
-  collections:
-    - all
+eleventyImport.collections: all
 baseurl: https://killeik.net
 eleventyExcludeFromCollections: true
 ---

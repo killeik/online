@@ -1,0 +1,11 @@
+---
+title: "Self Hosting Like Its 2025 ::"
+link: "https://kiranet.org/posts/self-hosting-like-its-2025/"
+date: git Last Modified
+created: 2025-09-10
+tags:
+  - webindex
+  - scrolls 
+layout: webindex.html
+draft: true 
+---
