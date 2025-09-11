@@ -18,7 +18,7 @@ eleventyExcludeFromCollections: false
 
 {% endwidthtocontent %}
 
-```ascii
+```braile
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡄⠀⠀⣀⣀⣀⣒⡂⠀⠁⠈⠁⠦⠒⠖⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⣀⣀⠄⠀⡠⠐⠀⠀⠉⠁⠀⠀⠀⠬⢻⡦⢶⡤⡀⠈⠆⢐⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠰⡰⠈⡠⠀⠁⠀⠀⡀⠀⠀⠀⢀⡀⠀⢆⢰⠀⠁⢌⠛⢦⣀⠀⠀⠆⠀⠀⠀⠀

@@ -3,6 +3,7 @@
 	--foreground: #eeeee9;
 	--background: #000;
 	--gray: #333;
+	--scale: min(2.3vw, 1.5rem);
 }
 
 @font-face {
@@ -13,10 +14,18 @@
 	font-display: swap;
 }
 
+@font-face {
+	font-family: 'Braile';
+	src: url(/braille.woff2) format('woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
 body {
 	background: var(--background);
 	color: var(--foreground);
-	font-family: 'IBM VGA 8x16', monospace;
+	font-family: 'IBM VGA 8x16', 'Braile', monospace;
 	font-size: 1.3rem;
 	max-width: 50em;
 	padding: 0 1em;
@@ -111,19 +120,22 @@ pre,
 code {
 	margin: 0;
 	font-family: inherit;
-}
-
-code.language-ascii {
-	--scale: min(2.3vw, 1.5rem);
-	font-size: var(--scale);
-	line-height: calc(var(--scale) * 0.95);
-	letter-spacing: calc(var(--scale) * -0.05);
 	overflow: visible;
 	color: var(--primary);
 	display: block;
 }
 
+code.language-ascii {
+	font-size: var(--scale);
+	line-height: calc(var(--scale) * 0.95);
+	letter-spacing: calc(var(--scale) * -0.05);
+}
 
+code.language-braile {
+	font-size: var(--scale);
+	line-height: calc(var(--scale) * 0.80);
+	letter-spacing: calc(var(--scale) * -0.1);
+}
 
 hr {
 	border: none;

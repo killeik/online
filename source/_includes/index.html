@@ -9,11 +9,14 @@
   <meta name="description" content="{{description}}" />
   {% endif %}
   <title>grimoire://{{title}}/</title>
-  <link rel="stylesheet" href="/css/main.css" rel="preload" as="style" >
+  <link rel="stylesheet" href="/css/main.css" rel="preload" as="style">
   <link rel="preload" href="/Px437_IBM_VGA_8x16.woff2" as="font" type="font/woff2">
+  <link rel="preload" href="/braille.woff2" as="font" type="font/woff2">
   <link rel="icon" href="/favicon.png">
 </head>
+
 <body>
-{{ content }}
+  {{ content }}
 </body>
+
 </html>
