@@ -1,14 +1,10 @@
 ---
 title: infinite-index
 layout: base.html
-eleventyImport.collections: webindex
-collection: webindex
+collection: gears
+eleventyImport.collections: gears
 ---
-
-# ==[The Web Beyond Platforms](/thoughts/web_beyond_platforms)==
-## INDEXING IN PROGRESS
-### Be careful, some fireballs may appear!
-
+# {{collection}} 
 {% sidebyside %}
 {%- for post in collections[collection] -%}
 <article class=card> 

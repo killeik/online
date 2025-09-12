@@ -112,6 +112,17 @@ th {
 	width: max-content;
 }
 
+.card {
+	max-width: 15em;
+	border: 0.1em outset var(--primary);
+	border-radius: 0.4em;
+	padding: 0.1em 0.5em;
+}
+
+article a {
+	text-decoration: none;
+}
+
 details {
 	text-align: center
 }
