@@ -9,4 +9,4 @@ tags:
 layout: webindex.html
 draft: false
 ---
-Crazy concept - store entire file up to 350KB straight in URL. Yes, it works.
+1Crazy concept - store entire file up to 350KB straight in URL. Yes, it works.

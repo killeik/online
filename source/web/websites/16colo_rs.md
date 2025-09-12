@@ -1,5 +1,5 @@
 ---
-title: 16colo.rs - ANSI/ASCII art archive
+title: 16colo.rs
 link: https://16colo.rs/
 date: git Last Modified
 created: 2025-09-12
@@ -9,4 +9,4 @@ tags:
 layout: webindex.html
 draft: false
 ---
-Beautiful retro computer graphics gallery.
+Beautiful ANSI/ASCII graphics gallery.

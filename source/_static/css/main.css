@@ -34,11 +34,9 @@ body {
 
 * {
 	box-sizing: border-box;
-}
-
-*+* {
 	margin: 0.5em 0;
 }
+
 
 ::selection {
 	background: var(--primary);
@@ -106,6 +104,10 @@ th {
 	gap: 0 0.5em;
 	margin: 0 auto;
 	padding: 0 0.5em;
+}
+
+.webindex {
+	align-items: baseline;
 }
 
 .widthtocontent {

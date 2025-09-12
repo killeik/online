@@ -3,7 +3,7 @@ layout: base.html
 ---
 {{content}}
 
-{% sidebyside %}
+<div class="sidebyside webindex">
 {%- for post in collections[collection] -%}
 <article class=card> 
 	<a class=primary href="{{ post.data.link }}"> <h3>{{ post.data.title }}</h3></a>
@@ -17,5 +17,4 @@ layout: base.html
 	{% endsidebyside %}
 </article> 
 {%- endfor -%}
-{% endsidebyside %}
-
+</div>
