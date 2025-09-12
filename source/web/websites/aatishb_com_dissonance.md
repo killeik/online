@@ -1,5 +1,5 @@
 ---
-title: aatishb.com/dissonance/
+title: Dissonance - aatishb
 link: https://aatishb.com/dissonance/
 date: git Last Modified
 created: 2025-09-12
