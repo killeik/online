@@ -114,12 +114,11 @@ th {
 
 .card {
 	max-width: 15em;
-	border: 0.1em outset var(--primary);
-	border-radius: 0.4em;
+	border: 0.15em outset var(--primary);
 	padding: 0.1em 0.5em;
 }
 
-article a {
+.card a {
 	text-decoration: none;
 }
 

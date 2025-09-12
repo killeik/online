@@ -1,11 +1,12 @@
 ---
-title: "16colo.rs - ANSI/ASCII art archive"
-link: "https://16colo.rs/"
+title: 16colo.rs - ANSI/ASCII art archive
+link: https://16colo.rs/
 date: git Last Modified
-created: 2025-09-10
+created: 2025-09-12
 tags:
   - webindex
-  - gears 
+  - gears
 layout: webindex.html
-draft: true 
+draft: false
 ---
+Beautiful retro computer graphics gallery.

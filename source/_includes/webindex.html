@@ -1,5 +1,9 @@
 ---
 layout: base.html
 ---
-<h3>{{title}}</h3>
+<a class=primary href="{{link}}">
+  <h3>{{title}}</h3>
+</a>
+{% sidebyside %}
 {{ content }}
+{% endsidebyside %}

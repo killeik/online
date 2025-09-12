@@ -1,0 +1,21 @@
+---
+layout: base.html
+---
+{{content}}
+
+{% sidebyside %}
+{%- for post in collections[collection] -%}
+<article class=card> 
+	<a class=primary href="{{ post.data.link }}"> <h3>{{ post.data.title }}</h3></a>
+	<a href="{{ post.url }}"> <p>{{ post.rawInput | renderContent: "md" }}</p> </a>
+	{% sidebyside %}
+	{%- for tag in post.data.tags -%}
+		{% if tag != 'webindex' %}
+		<a class=gray href='/web/{{tag}}' > #{{tag}} </a> 
+		{% endif %} 
+	{%- endfor -%}
+	{% endsidebyside %}
+</article> 
+{%- endfor -%}
+{% endsidebyside %}
+

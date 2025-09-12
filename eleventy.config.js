@@ -1,4 +1,4 @@
-import { IdAttributePlugin } from "@11ty/eleventy";
+import { IdAttributePlugin, RenderPlugin } from "@11ty/eleventy";
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 // import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 // 
@@ -36,6 +36,7 @@ export const config = {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");
   });
 
+	eleventyConfig.addPlugin(RenderPlugin);
 	// eleventyConfig.addPlugin(eleventyNavigationPlugin);
 	eleventyConfig.addPlugin(IdAttributePlugin);
 

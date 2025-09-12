@@ -1,7 +1,7 @@
 ---
-title: mechanica-arcana
+title: box-of-wonders
 layout: collection.liquid
-collection: gears
-eleventyImport.collections: gears
+collection: oddities
+eleventyImport.collections: oddities
 ---
 # <a href="/web/" class=primary > &lt; </a> {{collection}} 
