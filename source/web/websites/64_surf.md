@@ -1,5 +1,5 @@
 ---
-title: sixtyfour - URL Based File Sharing
+title: 64.surf
 link: https://64.surf/
 date: git Last Modified
 created: 2025-09-12
@@ -9,4 +9,4 @@ tags:
 layout: webindex.html
 draft: false
 ---
-1Crazy concept - store entire file up to 350KB straight in URL. Yes, it works.
+Crazy concept - store entire file up to 350KB straight in URL. Yes, it works, and even has encryption.

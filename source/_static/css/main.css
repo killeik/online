@@ -34,7 +34,6 @@ body {
 
 * {
 	box-sizing: border-box;
-	margin: 0.5em 0;
 }
 
 
@@ -83,9 +82,13 @@ ol {
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6 {
 	font-weight: normal;
 	text-align: center;
+	margin: 0.3em auto;
 }
 
 td,
@@ -107,7 +110,7 @@ th {
 }
 
 .webindex {
-	align-items: baseline;
+	align-items: stretch;
 }
 
 .widthtocontent {
@@ -115,13 +118,22 @@ th {
 }
 
 .card {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
 	max-width: 15em;
 	border: 0.15em outset var(--primary);
-	padding: 0.1em 0.5em;
+	margin: 0.3em auto;
+	padding: 0.5em;
 }
 
 .card a {
 	text-decoration: none;
+}
+
+.card * {
+	margin: auto;
+	text-align: center;
 }
 
 details {
@@ -135,6 +147,7 @@ code {
 	overflow: visible;
 	color: var(--primary);
 	display: block;
+	margin: 0.5em 0;
 }
 
 code.language-ascii {
