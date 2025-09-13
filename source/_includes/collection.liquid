@@ -4,7 +4,7 @@ layout: base.html
 {{content}}
 
 <div class="sidebyside webindex">
-{%- for post in collections[collection] -%}
+{%- for post in collections[collection] reversed -%}
 <article class=card> 
 	<a class=primary href="{{ post.data.link }}"> <h3>{{ post.data.title }}</h3></a>
 	<a href="{{ post.url }}"><p>{{ post.rawInput | renderContent: "md" }}</p> </a>

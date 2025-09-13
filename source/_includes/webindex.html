@@ -1,9 +1,16 @@
 ---
 layout: base.html
 ---
-<a class=primary href="{{link}}">
-  <h3>{{title}}</h3>
-</a>
-{% sidebyside %}
-{{ content }}
-{% endsidebyside %}
+<article class=card>
+  <a class=primary href="{{link}}">
+    <h3>{{title}}</h3>
+  </a>
+  {{ content }}
+  {% sidebyside %}
+  {%- for tag in tags -%}
+  {% if tag != 'webindex' %}
+  <a class=gray href='/web/{{tag}}'> #{{tag}} </a>
+  {% endif %}
+  {%- endfor -%}
+  {% endsidebyside %}
+</article>
