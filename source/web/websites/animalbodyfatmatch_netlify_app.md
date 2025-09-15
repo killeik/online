@@ -1,11 +1,12 @@
 ---
-title: "Animal Body Fat Match"
-link: "https://animalbodyfatmatch.netlify.app/"
+title: Animal Body Fat Match
+link: https://animalbodyfatmatch.netlify.app/
 date: git Last Modified
-created: 2025-09-10
+created: 2025-09-15
 tags:
   - webindex
-  - oddities 
+  - oddities
 layout: webindex.html
-draft: true 
+draft: false
 ---
+Find Your Spirit Animal... In Body Fat!
