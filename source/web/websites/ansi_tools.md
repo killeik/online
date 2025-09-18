@@ -6,7 +6,7 @@ created: 2025-09-15
 tags:
   - webindex
   - gears
-layout: webindex.html
+layout: websitecard.liquid
 draft: false
 ---
 Find, inspect and visualize control codes for terminals.

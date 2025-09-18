@@ -2,7 +2,7 @@
 date: git Last modified
 draft: true
 title: font-symbols
-layout: base.html
+layout: base.liquid
 created: 2025-08-17
 ---
 {% sidebyside %}

@@ -2,7 +2,7 @@
 title: website
 date: git Last Modified
 created: 2025-08-23
-layout: title.html
+layout: title.liquid
 ---
 
 {% sidebyside %}

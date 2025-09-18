@@ -1,5 +1,6 @@
 import { IdAttributePlugin, RenderPlugin } from "@11ty/eleventy";
-import { feedPlugin } from "@11ty/eleventy-plugin-rss";
+import pluginRss from "@11ty/eleventy-plugin-rss";
+import { HtmlBasePlugin } from "@11ty/eleventy";
 // import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 // 
 import markdownIt from "markdown-it";
@@ -12,8 +13,13 @@ export const config = {
 		input: "source",
 		output: "public",
 	},
+	htmlTemplateEngine: "liquid",
+	markdownTemplateEngine: "liquid",
+	dataTemplateEngine: "liquid",
+	templateFormats: ["md", "html", "liquid"] 
 };
- export default async function(eleventyConfig) {
+
+export default async function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy({ "source/_static/": "/" });
 
 	eleventyConfig.addPreprocessor("drafts", "*", (data, content) => {
@@ -35,29 +41,33 @@ export const config = {
 	eleventyConfig.addFilter("htmlDateString", (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");
   });
-
+	eleventyConfig.addFilter("dateToRfc3339", pluginRss.dateToRfc3339);
+	eleventyConfig.addFilter("dateToRfc822", pluginRss.dateToRfc822);
+	eleventyConfig.addFilter("getNewestCollectionItemDate", pluginRss.getNewestCollectionItemDate)
 	eleventyConfig.addPlugin(RenderPlugin);
+	eleventyConfig.addPlugin(HtmlBasePlugin);
+	eleventyConfig.addPlugin(pluginRss);
 	// eleventyConfig.addPlugin(eleventyNavigationPlugin);
 	eleventyConfig.addPlugin(IdAttributePlugin);
 
-	eleventyConfig.addPlugin(feedPlugin, {
-		type: "atom", // or "rss", "json"
-		outputPath: "/feed.xml",
-		collection: {
-			name: "all", // iterate over `collections.all` - all the pages
-			limit: 0,     // 0 means no limit
-		},
-		metadata: {
-			language: "en",
-			title: "killeik grimoire",
-			subtitle: "personal magical book on the web",
-			base: "https://killeik.net/",
-			author: {
-				name: "killeik",
-				email: "qadol4zpb@mozmail.com", // Optional
-			}
-		}
-	});
+	// eleventyConfig.addPlugin(feedPlugin, {
+	// 	type: "atom", // or "rss", "json"
+	// 	outputPath: "/feed.xml",
+	// 	collection: {
+	// 		name: "all", // iterate over `collections.all` - all the pages
+	// 		limit: 0,     // 0 means no limit
+	// 	},
+	// 	metadata: {
+	// 		language: "en",
+	// 		title: "killeik grimoire",
+	// 		subtitle: "personal magical book on the web",
+	// 		base: "https://killeik.net/",
+	// 		author: {
+	// 			name: "killeik",
+	// 			email: "qadol4zpb@mozmail.com", // Optional
+	// 		}
+	// 	}
+	// });
 
 	let markdownOptions = {
 		html: true,

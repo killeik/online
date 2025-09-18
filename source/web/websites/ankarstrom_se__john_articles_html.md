@@ -6,7 +6,7 @@ created: 2025-09-15
 tags:
   - webindex
   - scrolls
-layout: webindex.html
+layout: websitecard.liquid
 draft: false
 ---
 This article inspired me to start this site in plain HTML. But "HTML is unpleasant to write" 

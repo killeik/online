@@ -6,7 +6,7 @@ created: 2025-09-15
 tags:
   - webindex
   - gears
-layout: webindex.html
+layout: websitecard.liquid
 draft: false
 ---
 Search engine for shadow libraries. Wanna find some knowledge? :)

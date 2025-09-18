@@ -1,6 +1,6 @@
 ---
 title: WHAT-ARE-YE-DOIN?
-layout: base.html
+layout: base.liquid
 eleventyExcludeFromCollections: true
 ---
 {% sidebyside %}

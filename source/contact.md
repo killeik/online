@@ -2,7 +2,7 @@
 title: so-CALL-ME-maybe
 date: git Last Modified
 created: 2024-10-27
-layout: base.html
+layout: base.liquid
 ---
 {% sidebyside %}
 

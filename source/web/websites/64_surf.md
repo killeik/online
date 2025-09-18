@@ -6,7 +6,7 @@ created: 2025-09-12
 tags:
   - webindex
   - gears
-layout: webindex.html
+layout: websitecard.liquid
 draft: false
 ---
 Crazy concept - store entire file up to 350KB straight in URL. Yes, it works, and even has encryption.

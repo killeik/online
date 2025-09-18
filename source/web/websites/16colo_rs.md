@@ -6,7 +6,7 @@ created: 2025-09-12
 tags:
   - webindex
   - gears
-layout: webindex.html
+layout: websitecard.liquid
 draft: false
 ---
 Beautiful ANSI/ASCII graphics gallery.

@@ -6,7 +6,7 @@ created: 2025-09-15
 tags:
   - webindex
   - oddities
-layout: webindex.html
+layout: websitecard.liquid
 draft: false
 ---
 Find Your Spirit Animal... In Body Fat!

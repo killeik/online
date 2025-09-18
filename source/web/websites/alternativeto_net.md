@@ -6,7 +6,7 @@ created: 2025-09-10
 tags:
   - webindex
   - gears
-layout: webindex.html
+layout: websitecard.liquid
 draft: false
 ---
  Tool for discovering software alternatives with people review.

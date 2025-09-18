@@ -1,6 +1,6 @@
 ---
 title: whispers
-layout: base.html
+layout: base.liquid
 eleventyExcludeFromCollections: false
 ---
 {% sidebyside %}

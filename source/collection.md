@@ -2,7 +2,7 @@
 date: git Last Modified
 draft: true
 title: wizard
-layout: base.html
+layout: base.liquid
 ---
 ```ascii
 

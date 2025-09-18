@@ -2,7 +2,7 @@
 title: website
 date:  git Last Modified
 created: 2024-08-28
-layout: base.html
+layout: base.liquid
 ---
 # Hello, friend!
 

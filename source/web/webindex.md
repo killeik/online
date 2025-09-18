@@ -2,7 +2,7 @@
 title: wisely-wierd-web
 date: git Last Modified
 created: 2024-09-12
-layout: base.html
+layout: base.liquid
 ---
 
 # ==[The Web Beyond Platforms](/thoughts/web_beyond_platforms)==

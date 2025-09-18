@@ -2,7 +2,7 @@
 title: web-beyond-platforms
 date: git Last Modified
 created: 2024-09-07
-layout: base.html
+layout: base.liquid
 tags:
   - thought
 ---
