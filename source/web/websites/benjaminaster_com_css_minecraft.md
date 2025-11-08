@@ -1,11 +1,12 @@
 ---
-title: "CSS Minecraft"
-link: "https://benjaminaster.com/css-minecraft/"
+title: CSS Minecraft
+link: https://benjaminaster.com/css-minecraft/
 date: git Last Modified
 created: 2025-09-10
 tags:
   - webindex
-  - oddities 
+  - oddities
 layout: websitecard.liquid
-draft: true 
+draft: false
 ---
+Modern web capabilities are 100% crazy

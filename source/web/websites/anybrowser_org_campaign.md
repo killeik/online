@@ -1,11 +1,12 @@
 ---
 title: "Viewable with Any Browser: Campaign"
-link: "https://anybrowser.org/campaign/"
+link: https://anybrowser.org/campaign/
 date: git Last Modified
 created: 2025-09-10
 tags:
   - webindex
-  - scrolls 
+  - scrolls
 layout: websitecard.liquid
-draft: true 
+draft: false
 ---
+A reminder about old days on the web - when browser compatibility was the hard feature to add.

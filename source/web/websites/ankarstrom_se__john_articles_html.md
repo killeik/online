@@ -9,5 +9,4 @@ tags:
 layout: websitecard.liquid
 draft: false
 ---
-This article inspired me to start this site in plain HTML. But "HTML is unpleasant to write" 
-WYSIWYG editors weren’t flexible enough, so I switched to Markdown.
+This article inspired me to start this site in plain HTML. But "HTML is unpleasant to write", so I switched to Markdown.
