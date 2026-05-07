@@ -5,7 +5,9 @@ date: git Last Modified
 created: 2025-09-10
 tags:
   - webindex
-  - oddities 
+  - oddities
 layout: websitecard.liquid
-draft: true 
+draft: false
 ---
+
+DOS games in the browser. No dusty beige box required.

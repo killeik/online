@@ -7,5 +7,6 @@ tags:
   - webindex
   - gears 
 layout: websitecard.liquid
-draft: true 
+draft: false 
 ---
+Draw diagrams like it is 1987, except your browser is doing the tedious box-drawing bits.

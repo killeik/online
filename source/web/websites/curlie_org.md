@@ -7,5 +7,6 @@ tags:
   - webindex
   - gears 
 layout: websitecard.liquid
-draft: true 
+draft: false 
 ---
+Extremely oldschool human-made web directory. Like Yahoo remembered to keep a candle lit.

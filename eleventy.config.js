@@ -16,7 +16,7 @@ export const config = {
 	htmlTemplateEngine: "liquid",
 	markdownTemplateEngine: "liquid",
 	dataTemplateEngine: "liquid",
-	templateFormats: ["md", "html", "liquid"] 
+	templateFormats: ["md", "liquid"] 
 };
 
 export default async function(eleventyConfig) {

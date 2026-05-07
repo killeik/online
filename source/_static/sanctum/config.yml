@@ -1,0 +1,117 @@
+backend:
+  name: github
+  repo: killeik/online
+  branch: eleventy
+  squash_merges: true
+  # GitHub Pages/Cloudflare Pages need an OAuth bridge for login.
+  # Add base_url here after choosing one, for example:
+  # base_url: https://your-decap-oauth.example.com
+
+local_backend: true
+publish_mode: editorial_workflow
+media_folder: "source/_static/uploads"
+public_folder: "/uploads"
+
+site_url: "https://killeik.net"
+display_url: "https://killeik.net"
+logo_url: "/favicon.png"
+
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "_"
+
+collections:
+  - name: "notes"
+    label: "Quick notes"
+    label_singular: "Quick note"
+    folder: "source/notes"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Created", name: "created", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: "Updated", name: "date", widget: "hidden", default: "git Last Modified" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "base.liquid" }
+      - { label: "Tags", name: "tags", widget: "hidden", default: ["note"] }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false, required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "thoughts"
+    label: "Whispers"
+    label_singular: "Whisper"
+    folder: "source/thoughts"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Created", name: "created", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: "Updated", name: "date", widget: "hidden", default: "git Last Modified" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "base.liquid" }
+      - { label: "Tags", name: "tags", widget: "hidden", default: ["thought"] }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false, required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "websites"
+    label: "Websites"
+    label_singular: "Website"
+    folder: "source/web/websites"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Link", name: "link", widget: "string", required: false }
+      - { label: "Created", name: "created", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: "Updated", name: "date", widget: "hidden", default: "git Last Modified" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "websitecard.liquid" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["webindex"] }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false, required: false }
+      - { label: "Description", name: "body", widget: "markdown", required: false }
+
+  - name: "pages"
+    label: "Main pages"
+    editor:
+      preview: false
+    files:
+      - label: "Home"
+        name: "home"
+        file: "source/index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Created", name: "created", widget: "string", required: false }
+          - { label: "Updated", name: "date", widget: "string", required: false }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "title.liquid" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "About"
+        name: "about"
+        file: "source/about.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Created", name: "created", widget: "string", required: false }
+          - { label: "Updated", name: "date", widget: "string", required: false }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "base.liquid" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Tinkering"
+        name: "tinkering"
+        file: "source/tinkering.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Created", name: "created", widget: "string", required: false }
+          - { label: "Updated", name: "date", widget: "string", required: false }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "base.liquid" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Contact"
+        name: "contact"
+        file: "source/contact.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Created", name: "created", widget: "string", required: false }
+          - { label: "Updated", name: "date", widget: "string", required: false }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "base.liquid" }
+          - { label: "Body", name: "body", widget: "markdown" }

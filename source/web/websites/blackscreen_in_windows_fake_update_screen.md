@@ -7,5 +7,6 @@ tags:
   - webindex
   - oddities 
 layout: websitecard.liquid
-draft: true 
+draft: false 
 ---
+Finally, a way to avoid work with a Windows update screen even when you are sitting on Linux.

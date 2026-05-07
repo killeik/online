@@ -7,5 +7,6 @@ tags:
   - webindex
   - scrolls 
 layout: websitecard.liquid
-draft: true 
+draft: false 
 ---
+systemd won. cope harder, init script enjoyers.

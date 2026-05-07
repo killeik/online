@@ -7,5 +7,6 @@ tags:
   - webindex
   - gears 
 layout: websitecard.liquid
-draft: true 
+draft: false 
 ---
+The Linux distro scoreboard does not really work, so naturally everyone treats it as the source of truth.
