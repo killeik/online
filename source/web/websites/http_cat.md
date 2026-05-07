@@ -7,5 +7,6 @@ tags:
   - webindex
   - oddities 
 layout: websitecard.liquid
-draft: true 
+draft: false
 ---
+The fun way to remember even the most obscure HTTP codes before they vanish back into server-room fog.

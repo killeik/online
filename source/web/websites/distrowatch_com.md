@@ -1,5 +1,5 @@
 ---
-title: "DistroWatch.com: Put the fun back into computing. Use Linux, BSD."
+title: "DistroWatch.com"
 link: "https://distrowatch.com/"
 date: git Last Modified
 created: 2025-09-10

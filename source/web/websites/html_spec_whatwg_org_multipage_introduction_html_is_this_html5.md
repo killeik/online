@@ -7,5 +7,6 @@ tags:
   - webindex
   - scrolls 
 layout: websitecard.liquid
-draft: true 
+draft: false
 ---
+The HTML Standard is surprisingly readable, not some forbidden tech scroll guarded by browser wizards.

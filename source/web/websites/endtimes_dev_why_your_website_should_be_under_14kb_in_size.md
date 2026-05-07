@@ -7,5 +7,6 @@ tags:
   - webindex
   - scrolls 
 layout: websitecard.liquid
-draft: true 
+draft: false
 ---
+The tiny-web speed sermon: squeeze the page under one TCP packet and watch the bloat monsters blink first.

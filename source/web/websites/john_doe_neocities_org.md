@@ -5,7 +5,8 @@ date: git Last Modified
 created: 2025-09-10
 tags:
   - webindex
-  - souls 
+  - gears
 layout: websitecard.liquid
-draft: true 
+draft: false
 ---
+A tiny technodemo that smartly uses CSS hiding to create a PWA-feeling app without a single drop of JavaScript.

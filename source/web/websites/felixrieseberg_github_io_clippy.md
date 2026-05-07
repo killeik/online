@@ -7,5 +7,6 @@ tags:
   - webindex
   - oddities 
 layout: websitecard.liquid
-draft: true 
+draft: false
 ---
+Clippy got dragged into Electron AI bullshit and somehow that is exactly the cursed future we deserved.

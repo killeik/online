@@ -7,5 +7,6 @@ tags:
   - webindex
   - gears 
 layout: websitecard.liquid
-draft: true 
+draft: false
 ---
+The oldschool font showcase whose beautiful glyphs and text art inspired the font choice on this site.

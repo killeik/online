@@ -7,5 +7,6 @@ tags:
   - webindex
   - gears 
 layout: websitecard.liquid
-draft: true 
+draft: false
 ---
+Plain text walks in, dramatic Unicode text walks out wearing twelve unnecessary hats.

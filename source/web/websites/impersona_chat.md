@@ -7,5 +7,6 @@ tags:
   - webindex
   - oddities 
 layout: websitecard.liquid
-draft: true 
+draft: false
 ---
+Autoformats your messages into chatroom-style roleplay by itself, which is very silly and weirdly funny.
