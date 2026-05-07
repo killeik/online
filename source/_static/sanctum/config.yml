@@ -3,9 +3,7 @@ backend:
   repo: killeik/online
   branch: eleventy
   squash_merges: true
-  # GitHub Pages/Cloudflare Pages need an OAuth bridge for login.
-  # Add base_url here after choosing one, for example:
-  # base_url: https://your-decap-oauth.example.com
+  site_domain: d09d1d54-27d1-4d2b-b7c4-67dc5509d2ab
 
 local_backend: true
 publish_mode: editorial_workflow
