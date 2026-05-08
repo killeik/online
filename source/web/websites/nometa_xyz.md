@@ -7,5 +7,6 @@ tags:
   - webindex
   - scrolls 
 layout: websitecard.liquid
-draft: true 
+draft: false
 ---
+Tiny etiquette with a hard stare: say the thing, skip the ceremony.

@@ -7,5 +7,6 @@ tags:
   - webindex
   - souls 
 layout: websitecard.liquid
-draft: true 
+draft: false
 ---
+A personal homepage from the Cookie Clicker dimension: experiments, toys, and odd little systems bubbling away.

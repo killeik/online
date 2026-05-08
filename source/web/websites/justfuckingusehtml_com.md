@@ -7,5 +7,6 @@ tags:
   - webindex
   - scrolls 
 layout: websitecard.liquid
-draft: true 
+draft: false
 ---
+Web advice delivered like a slap on the desk: stop summoning machinery and write the page.

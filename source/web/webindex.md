@@ -13,7 +13,6 @@ layout: base.liquid
 - [Neocities - Browse](https://neocities.org/browse)
 - [sabrinas.space -](https://sabrinas.space/)
 - [John Doe’s page](https://john-doe.neocities.org/)
-- [mbrizic](https://mbrizic.com/)
 - [Motherfucking Website](https://motherfuckingwebsite.com/)
 - [Ben Hoyt](https://benhoyt.com/)
 - [JW @gar0u \| so1o.xyz](https://so1o.xyz/@gar0u)
@@ -95,10 +94,12 @@ layout: base.liquid
 - [Reddit's Best - Random Top Posts](https://bestofreddit.net/)
 - [ANSI Escape Codes](https://ansi.tools/)
 - [The Scroll Art Museum](https://scrollart.org/)
+- [Stuff that rocks](https://suckless.org/rocks/)
 
 # articles
 - [Hypertext Style: Cool URIs don't change.](https://www.w3.org/Provider/Style/URI)
 - [Just fucking use HTML](https://justfuckingusehtml.com/)
+- [All software sucks](http://harmful.cat-v.org/software/)
 - [Writing HTML in HTML](https://ankarstrom.se/~john/articles/html/)
 - [nometa](https://nometa.xyz/) /  [No Hello](https://www.nohello.com/) / [Не привет](https://neprivet.com/)
 - [Viewable with Any Browser: Campaign](https://anybrowser.org/campaign/)

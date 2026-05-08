@@ -7,5 +7,6 @@ tags:
   - webindex
   - souls 
 layout: websitecard.liquid
-draft: true 
+draft: false
 ---
+Retro-computing basement energy: old hardware, old games, and the glow of machines that refuse to leave.

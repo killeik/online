@@ -7,5 +7,6 @@ tags:
   - webindex
   - gears 
 layout: websitecard.liquid
-draft: true 
+draft: false
 ---
+Git explained as a little puzzle box instead of a haunted command line you only touch during emergencies.

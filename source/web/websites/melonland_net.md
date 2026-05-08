@@ -7,5 +7,6 @@ tags:
   - webindex
   - souls 
 layout: websitecard.liquid
-draft: true 
+draft: false
 ---
+Glittery handmade-web maximalism, like a forum, a garden, and a tiny internet town sharing one bedroom.

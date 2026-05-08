@@ -7,5 +7,6 @@ tags:
   - webindex
   - oddities 
 layout: websitecard.liquid
-draft: true 
+draft: false
 ---
+Whole life made into little squares, which is sad, useful, and weirdly soothing.

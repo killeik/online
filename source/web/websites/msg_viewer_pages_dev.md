@@ -7,5 +7,6 @@ tags:
   - webindex
   - gears 
 layout: websitecard.liquid
-draft: true 
+draft: false
 ---
+View .msg in browser. Thank you.

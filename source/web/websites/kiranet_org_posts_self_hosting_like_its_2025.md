@@ -7,5 +7,6 @@ tags:
   - webindex
   - scrolls 
 layout: websitecard.liquid
-draft: true 
+draft: true
 ---
+A modern self-hosting sermon with dirt under its nails: practical, stubborn, and quietly anti-platform.

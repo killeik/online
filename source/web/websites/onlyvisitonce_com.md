@@ -7,5 +7,6 @@ tags:
   - webindex
   - souls 
 layout: websitecard.liquid
-draft: true 
+draft: false
 ---
+A tiny website with a single-use curse, making one click feel weirdly ceremonial.

@@ -7,5 +7,6 @@ tags:
   - webindex
   - scrolls 
 layout: websitecard.liquid
-draft: true 
+draft: false
 ---
+The web reduced until only the bones remain, then reduced a little more for moral reasons.

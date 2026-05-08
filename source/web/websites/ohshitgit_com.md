@@ -7,5 +7,6 @@ tags:
   - webindex
   - gears 
 layout: websitecard.liquid
-draft: true 
+draft: false
 ---
+Git first aid written for the exact moment your stomach drops and the terminal looks personally disappointed.

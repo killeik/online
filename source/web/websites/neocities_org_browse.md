@@ -7,5 +7,6 @@ tags:
   - webindex
   - souls 
 layout: websitecard.liquid
-draft: true 
+draft: false
 ---
+A flea market of personal websites: messy rooms, bright buttons, strange shrines, and real people everywhere.

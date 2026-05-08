@@ -7,5 +7,6 @@ tags:
   - webindex
   - souls 
 layout: websitecard.liquid
-draft: true 
+draft: false
 ---
+A tiny old personal portal that feels like it has been patiently waiting since 1996 for the web to come back around.

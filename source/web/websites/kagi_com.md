@@ -7,5 +7,6 @@ tags:
   - webindex
   - gears 
 layout: websitecard.liquid
-draft: true 
+draft: false
 ---
+Search with the suspicious luxury of not feeling like the product being minced behind the curtain.

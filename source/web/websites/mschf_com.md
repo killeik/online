@@ -7,5 +7,6 @@ tags:
   - webindex
   - oddities 
 layout: websitecard.liquid
-draft: true 
+draft: false
 ---
+A R T
