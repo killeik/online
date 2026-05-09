@@ -5,16 +5,21 @@ layout: base.liquid
 
 <div class="sidebyside webindex">
 {%- for post in collections[collection] reversed -%}
-<article class=card> 
+<article class=card>
 	<a class=primary href="{{ post.data.link }}"> <h3>{{ post.data.title }}</h3></a>
-	<a href="{{ post.url }}"><p>{{ post.content }}</p> </a>
+	<a href="{{ post.data.link }}"><p>{{ post.content }}</p> </a>
 	{% sidebyside %}
 	{%- for tag in post.data.tags -%}
 		{% if tag != 'webindex' %}
-		<a class=gray href='/web/{{tag}}' > #{{tag}} </a> 
-		{% endif %} 
+		<mark>
+		<a href='/web/{{tag}}' > #{{tag}} </a>
+		</mark>
+		{% endif %}
 	{%- endfor -%}
+	<mark>
+		<a href="{{ post.url }}"> -+-> </a>
+	</mark>
 	{% endsidebyside %}
-</article> 
+</article>
 {%- endfor -%}
 </div>

@@ -9,8 +9,13 @@ layout: base.liquid
   {% sidebyside %}
   {%- for tag in tags -%}
   {% if tag != 'webindex' %}
-  <a class=gray href='/web/{{tag}}'> #{{tag}} </a>
+  <mark>
+    <a href='/web/{{tag}}'> #{{tag}} </a>
+  </mark>
   {% endif %}
   {%- endfor -%}
+  <mark>
+    <a href="/web/"> &lt;-+- </a>
+  </mark>
   {% endsidebyside %}
 </article>

@@ -1,11 +1,13 @@
 ---
-title: "Simple Made Easy - Rich Hickey (2011) - YouTube"
+title: "Simple Made Easy - Rich Hickey"
 link: "https://www.youtube.com/watch?v=SxdOUGdseq4"
 date: git Last Modified
 created: 2025-09-10
 tags:
   - webindex
   - scrolls 
+redirectFrom:
+  - /web/websites/www_youtube_com_watch_v_SxdOUGdseq4/
 layout: websitecard.liquid
 draft: false
 ---

@@ -1,11 +1,13 @@
 ---
-title: "Life in Weeks | Create a map of your life with each week as a little box."
+title: "Life in Weeks"
 link: "https://lifeweeks.app/"
 date: git Last Modified
 created: 2025-09-10
 tags:
   - webindex
   - oddities 
+redirectFrom:
+  - /web/websites/lifeweeks_app/
 layout: websitecard.liquid
 draft: false
 ---

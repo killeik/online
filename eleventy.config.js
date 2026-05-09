@@ -35,6 +35,19 @@ export default async function(eleventyConfig) {
 		return `<div class='sidebyside'>${content}</div>`
 	});
 
+	eleventyConfig.addCollection("redirects", function(collectionApi) {
+		return collectionApi.getAll().flatMap((page) => {
+			if (!page.data.redirectFrom) {
+				return [];
+			}
+
+			return page.data.redirectFrom.map((from) => ({
+				from,
+				to: page.url,
+			}));
+		});
+	});
+
 	eleventyConfig.addFilter("humandate", function(dateObj) {
 		return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
 	});

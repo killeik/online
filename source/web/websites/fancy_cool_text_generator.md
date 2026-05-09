@@ -1,11 +1,13 @@
 ---
-title: "Font Generator - 𝓒𝓸𝓹𝔂 𝖆𝖓𝖉 𝓟𝓪𝓼𝓽𝓮 Fancy Cool Text"
+title: "Fancy Cool Text Generator"
 link: "https://fontgenerator.cool/"
 date: git Last Modified
 created: 2025-09-10
 tags:
   - webindex
   - gears 
+redirectFrom:
+  - /web/websites/fontgenerator_cool/
 layout: websitecard.liquid
 draft: false
 ---
