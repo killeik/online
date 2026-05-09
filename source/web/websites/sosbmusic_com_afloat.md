@@ -7,5 +7,6 @@ tags:
   - webindex
   - souls 
 layout: websitecard.liquid
-draft: true 
+draft: false
 ---
+A 3D music clip in the browser. I have never seen a music video object quite like this before, and it rules.

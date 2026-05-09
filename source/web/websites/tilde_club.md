@@ -7,5 +7,6 @@ tags:
   - webindex
   - souls 
 layout: websitecard.liquid
-draft: true 
+draft: false
 ---
+A lovely communal web place where lots of people share tiny personal sites, gigs, notes, and small internet presence.

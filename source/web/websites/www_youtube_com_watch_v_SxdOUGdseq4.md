@@ -7,5 +7,6 @@ tags:
   - webindex
   - scrolls 
 layout: websitecard.liquid
-draft: true 
+draft: false
 ---
+Rich Hickey draws a clean line between simple and easy, then quietly ruins half your architectural opinions.

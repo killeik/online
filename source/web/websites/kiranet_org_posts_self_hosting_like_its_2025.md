@@ -9,4 +9,4 @@ tags:
 layout: websitecard.liquid
 draft: true
 ---
-A modern self-hosting sermon with dirt under its nails: practical, stubborn, and quietly anti-platform.
+Ignore this card for now; keep it only as future context for the self-hosting topic.

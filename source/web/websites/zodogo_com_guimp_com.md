@@ -7,5 +7,6 @@ tags:
   - webindex
   - oddities 
 layout: websitecard.liquid
-draft: true 
+draft: false
 ---
+A whole interactive website squeezed into 18 by 18 pixels. Absurd, tiny, and somehow usable.

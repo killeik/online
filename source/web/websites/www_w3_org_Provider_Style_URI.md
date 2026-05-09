@@ -7,5 +7,6 @@ tags:
   - webindex
   - scrolls 
 layout: websitecard.liquid
-draft: true 
+draft: false
 ---
+Tim Berners-Lee's reminder that URLs are infrastructure, not confetti. Every broken link is a tiny protocol betrayal.

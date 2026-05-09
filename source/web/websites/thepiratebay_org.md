@@ -7,5 +7,6 @@ tags:
   - webindex
   - gears 
 layout: websitecard.liquid
-draft: true 
+draft: false
 ---
+The old BitTorrent cockroach of the web: magnet links, rough edges, and a distributed systems lesson wearing an eyepatch.

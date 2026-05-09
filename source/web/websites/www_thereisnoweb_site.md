@@ -7,5 +7,6 @@ tags:
   - webindex
   - oddities 
 layout: websitecard.liquid
-draft: true 
+draft: false
 ---
+A weird little browser game about a website that insists there is no website. Very silly, very cool.

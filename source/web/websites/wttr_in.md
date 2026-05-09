@@ -7,5 +7,6 @@ tags:
   - webindex
   - gears 
 layout: websitecard.liquid
-draft: true 
+draft: false
 ---
+Weather as a terminal-native web service. Curl it, pipe it, script it, and never open a website forecast dashboard again.

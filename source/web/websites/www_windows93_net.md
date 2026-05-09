@@ -7,5 +7,6 @@ tags:
   - webindex
   - oddities 
 layout: websitecard.liquid
-draft: true 
+draft: false
 ---
+An alternate-universe operating system in the browser, full of fake apps, games, cursed nostalgia, and clickable chaos.
