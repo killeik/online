@@ -8,4 +8,4 @@ tags:
   - souls 
 layout: websitecard.liquid
 ---
-A gamey, alchemy-inspired profile whose little aesthetic systems actually inspired me to play with that vibe on my own website.
+A gamey, alchemy-inspired profile that pushed me to play with that vibe on my own website.

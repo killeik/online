@@ -10,4 +10,4 @@ tags:
 layout: websitecard.liquid
 draft: false
 ---
-A list with the energy of someone frowning at your entire computer setup and silently replacing half of it with smaller, stranger things.
+A list with the energy of someone replacing half your computer setup with smaller, stranger things.

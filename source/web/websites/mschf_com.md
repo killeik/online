@@ -1,5 +1,5 @@
 ---
-title: "Home | MSCHF"
+title: "MSCHF"
 link: "https://mschf.com/"
 date: git Last Modified
 created: 2025-09-10
@@ -9,4 +9,4 @@ tags:
 layout: websitecard.liquid
 draft: false
 ---
-A R T
+Brooklyn art collective/product studio making cursed drops, games, fashion stunts, auctions, and lawsuit-ready jokes.

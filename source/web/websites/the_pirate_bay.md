@@ -11,4 +11,4 @@ redirectFrom:
 layout: websitecard.liquid
 draft: false
 ---
-The old BitTorrent cockroach of the web: magnet links, rough edges, and a distributed systems lesson wearing an eyepatch.
+The old BitTorrent cockroach of the web: magnet links, rough edges, and distributed-systems lore.
