@@ -7,5 +7,5 @@ tags:
   - webindex
   - souls 
 layout: websitecard.liquid
-draft: true 
 ---
+No idea who needs this, but here is the madman guide to writing a whole operating system in Rust.

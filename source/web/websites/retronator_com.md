@@ -7,5 +7,5 @@ tags:
   - webindex
   - oddities 
 layout: websitecard.liquid
-draft: true 
 ---
+A daily pixel art and gaming web magazine, wholly made out of pixel art, which makes it special.

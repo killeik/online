@@ -9,5 +9,5 @@ tags:
 redirectFrom:
   - /web/websites/www_moanmyip_com/
 layout: websitecard.liquid
-draft: true 
 ---
+It literally moans your IP address in a deeply objectified phone-sex voice. Internet as cursed performance art.

@@ -7,5 +7,5 @@ tags:
   - webindex
   - oddities 
 layout: websitecard.liquid
-draft: true 
 ---
+Strange, playful games and interactive projects from Mario von Rickenbach and Michael Frei.

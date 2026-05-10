@@ -7,5 +7,5 @@ tags:
   - webindex
   - souls 
 layout: websitecard.liquid
-draft: true 
 ---
+A visual essay on Japanese web design, with screenshots, clustering, and cultural context.

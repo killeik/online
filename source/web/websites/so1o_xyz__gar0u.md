@@ -1,11 +1,11 @@
 ---
-title: "JW @gar0u | so1o.xyz"
-link: "https://so1o.xyz/@gar0u"
+title: "so1o.xyz"
+link: "https://so1o.xyz/@thatso1oguy"
 date: git Last Modified
 created: 2025-09-10
 tags:
   - webindex
   - souls 
 layout: websitecard.liquid
-draft: true 
 ---
+A gamey, alchemy-inspired profile whose little aesthetic systems actually inspired me to play with that vibe on my own website.

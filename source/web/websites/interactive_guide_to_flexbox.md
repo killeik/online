@@ -9,5 +9,5 @@ tags:
 redirectFrom:
   - /web/websites/www_joshwcomeau_com_css_interactive_guide_to_flexbox/
 layout: websitecard.liquid
-draft: true 
 ---
+Josh Comeau explains Flexbox with interactive demos that make the weird parts finally click.

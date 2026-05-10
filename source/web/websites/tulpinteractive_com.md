@@ -7,5 +7,5 @@ tags:
   - webindex
   - oddities 
 layout: websitecard.liquid
-draft: true 
 ---
+Interactive data visualization work across maps, science, archives, and public datasets.

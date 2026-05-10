@@ -7,5 +7,5 @@ tags:
   - webindex
   - oddities 
 layout: websitecard.liquid
-draft: true 
 ---
+An explorable gaussian splat of San Francisco's Sutro Tower, complete with orbit controls and interest points.

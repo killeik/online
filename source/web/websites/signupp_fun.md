@@ -7,5 +7,5 @@ tags:
   - webindex
   - oddities 
 layout: websitecard.liquid
-draft: true 
 ---
+The world's worst sign-up process, carefully engineered to make account creation absurd.

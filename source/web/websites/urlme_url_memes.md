@@ -9,5 +9,5 @@ tags:
 redirectFrom:
   - /web/websites/urlme_me/
 layout: websitecard.liquid
-draft: true 
+draft: true
 ---

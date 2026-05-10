@@ -7,5 +7,5 @@ tags:
   - webindex
   - oddities 
 layout: websitecard.liquid
-draft: true 
 ---
+An artish, viby little fortune teller wrapped in vaporwave aesthetics and soft old-computer energy.

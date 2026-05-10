@@ -7,5 +7,5 @@ tags:
   - webindex
   - oddities 
 layout: websitecard.liquid
-draft: true 
 ---
+Random early iPhone YouTube uploads with default IMG_XXXX filenames, turned into an accidental video time capsule.

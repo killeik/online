@@ -7,5 +7,5 @@ tags:
   - webindex
   - gears 
 layout: websitecard.liquid
-draft: true 
 ---
+A detective SQL game where the clues are in the database and the case is solved with queries.

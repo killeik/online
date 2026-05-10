@@ -7,5 +7,5 @@ tags:
   - webindex
   - gears 
 layout: websitecard.liquid
-draft: true 
 ---
+Home of Marginalia Search, plus essays and experiments around independent web discovery.

@@ -9,5 +9,5 @@ tags:
 redirectFrom:
   - /web/websites/www_explainshell_com/
 layout: websitecard.liquid
-draft: true 
 ---
+Paste a shell command and get every flag explained from the relevant man pages.

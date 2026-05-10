@@ -7,5 +7,5 @@ tags:
   - webindex
   - gears 
 layout: websitecard.liquid
-draft: true 
 ---
+The classic W3C validator for checking whether your markup is actually valid.

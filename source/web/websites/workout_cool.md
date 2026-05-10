@@ -9,5 +9,5 @@ tags:
 redirectFrom:
   - /web/websites/workout_cool_en/
 layout: websitecard.liquid
-draft: true 
 ---
+A workout builder where you pick equipment, muscles, and exercises, then get a custom training session.

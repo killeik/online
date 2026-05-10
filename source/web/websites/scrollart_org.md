@@ -7,5 +7,5 @@ tags:
   - webindex
   - gears 
 layout: websitecard.liquid
-draft: true 
 ---
+Animated terminal scroll art, preserved as tiny loops of characters.
