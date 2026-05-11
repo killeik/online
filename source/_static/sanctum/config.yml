@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
+
 backend:
   name: github
   repo: killeik/online
@@ -5,14 +7,14 @@ backend:
   squash_merges: true
   site_domain: d09d1d54-27d1-4d2b-b7c4-67dc5509d2ab
 
-local_backend: true
 publish_mode: editorial_workflow
 media_folder: "source/_static/uploads"
 public_folder: "/uploads"
 
 site_url: "https://killeik.net"
 display_url: "https://killeik.net"
-logo_url: "/favicon.png"
+logo:
+  src: "/favicon.png"
 
 slug:
   encoding: "ascii"
@@ -20,23 +22,6 @@ slug:
   sanitize_replacement: "_"
 
 collections:
-  - name: "notes"
-    label: "Quick notes"
-    label_singular: "Quick note"
-    folder: "source/notes"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    editor:
-      preview: false
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Created", name: "created", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
-      - { label: "Updated", name: "date", widget: "hidden", default: "git Last Modified" }
-      - { label: "Layout", name: "layout", widget: "hidden", default: "base.liquid" }
-      - { label: "Tags", name: "tags", widget: "hidden", default: ["note"] }
-      - { label: "Draft", name: "draft", widget: "boolean", default: false, required: false }
-      - { label: "Body", name: "body", widget: "markdown" }
-
   - name: "thoughts"
     label: "Whispers"
     label_singular: "Whisper"
@@ -48,11 +33,11 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Created", name: "created", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
-      - { label: "Updated", name: "date", widget: "hidden", default: "git Last Modified" }
-      - { label: "Layout", name: "layout", widget: "hidden", default: "base.liquid" }
-      - { label: "Tags", name: "tags", widget: "hidden", default: ["thought"] }
+      - { name: "date", widget: "hidden", default: "git Last Modified" }
+      - { name: "layout", widget: "hidden", default: "base.liquid" }
+      - { name: "tags", widget: "hidden", default: ["thought"] }
       - { label: "Draft", name: "draft", widget: "boolean", default: false, required: false }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Body", name: "body", widget: "richtext" }
 
   - name: "websites"
     label: "Websites"
@@ -66,11 +51,11 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Link", name: "link", widget: "string", required: false }
       - { label: "Created", name: "created", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
-      - { label: "Updated", name: "date", widget: "hidden", default: "git Last Modified" }
-      - { label: "Layout", name: "layout", widget: "hidden", default: "websitecard.liquid" }
+      - { name: "date", widget: "hidden", default: "git Last Modified" }
+      - { name: "layout", widget: "hidden", default: "websitecard.liquid" }
       - { label: "Tags", name: "tags", widget: "list", default: ["webindex"] }
       - { label: "Draft", name: "draft", widget: "boolean", default: false, required: false }
-      - { label: "Description", name: "body", widget: "markdown", required: false }
+      - { label: "Description", name: "body", widget: "richtext", required: false }
 
   - name: "pages"
     label: "Main pages"
@@ -84,8 +69,8 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Created", name: "created", widget: "string", required: false }
           - { label: "Updated", name: "date", widget: "string", required: false }
-          - { label: "Layout", name: "layout", widget: "hidden", default: "title.liquid" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { name: "layout", widget: "hidden", default: "title.liquid" }
+          - { label: "Body", name: "body", widget: "richtext" }
       - label: "About"
         name: "about"
         file: "source/about.md"
@@ -93,8 +78,8 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Created", name: "created", widget: "string", required: false }
           - { label: "Updated", name: "date", widget: "string", required: false }
-          - { label: "Layout", name: "layout", widget: "hidden", default: "base.liquid" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { name: "layout", widget: "hidden", default: "base.liquid" }
+          - { label: "Body", name: "body", widget: "richtext" }
       - label: "Tinkering"
         name: "tinkering"
         file: "source/tinkering.md"
@@ -102,8 +87,8 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Created", name: "created", widget: "string", required: false }
           - { label: "Updated", name: "date", widget: "string", required: false }
-          - { label: "Layout", name: "layout", widget: "hidden", default: "base.liquid" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { name: "layout", widget: "hidden", default: "base.liquid" }
+          - { label: "Body", name: "body", widget: "richtext" }
       - label: "Contact"
         name: "contact"
         file: "source/contact.md"
@@ -111,5 +96,5 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Created", name: "created", widget: "string", required: false }
           - { label: "Updated", name: "date", widget: "string", required: false }
-          - { label: "Layout", name: "layout", widget: "hidden", default: "base.liquid" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { name: "layout", widget: "hidden", default: "base.liquid" }
+          - { label: "Body", name: "body", widget: "richtext" }
