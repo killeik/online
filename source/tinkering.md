@@ -7,52 +7,54 @@ layout: base.liquid
 
 # Tinkering
 
-I'm constantly trying to improve the environment. 
-Whatever I do, if I know I'm going to be doing it for a long time, I try to make the processes more comfortable. Even before cooking I need to clean the kitchen, before sporoting I need to put on comfortable clothes and take drinking water. 
+I'm constantly trying to improve the environment.
+Whatever I do, if I know I'm going to be doing it for a long time, I try to make the processes more comfortable. Even before cooking I need to clean the kitchen, before sporoting I need to put on comfortable clothes and take drinking water.
 
-When it comes to working with computers, I know that I will be doing it for more than just the next day. I want to spend my whole life with computers. 
+When it comes to working with computers, I know that I will be doing it for more than just the next day. I want to spend my whole life with computers.
 
-So trying to find even a 5% improvement in workflow doesn't seem so useless to me. 
+So trying to find even a 5% improvement in workflow doesn't seem so useless to me.
 And to be honest, I find it very interesting and fun!
-I change [distributions](https://eylenburg.github.io/os_comparison.htm), terminals, environments, and on and on. 
+I change [distributions](https://eylenburg.github.io/os_comparison.htm), terminals, environments, and on and on.
 
 ## Tools that I use and have used for some time now
 
-|  | **# Distributions** |
+| | |
+| - | - |
+| | **# Distributions** |
 | [Fedora](https://fedoraproject.org/workstation/) | Latest software without rolling. Pretty stable. Switched to arch fully |
 | [Arch](https://archlinux.org/) | Great in every aspect, but require some love and patience. |
-| [**Omarchy**](https://github.com/basecamp/omarchy) | it's arch, but with dots and their own mirror. Not realy a distro,nut not just config, idk. Current |
-|  | **# DE/WM** |
+| [Omarchy](https://github.com/basecamp/omarchy) | it's arch, but with dots and their own mirror. Not realy a distro,nut not just config, idk. Current |
+| | **# DE/WM** |
 | [Gnome](https://www.gnome.org/) | It works. Very modern libadwaita theme, and [apps](https://circle.gnome.org/). |
 | [Sway](https://swaywm.org/) | Simplest tiling WM i know. Tried many of them, always felt like it took too much effort to feel ok. |
 | [Hyprland](https://hypr.land/) | /in_progress/ |
-|  | **# Terminal Emulator** |
+| | **# Terminal Emulator** |
 | [Foot](https://codeberg.org/dnkl/foot) | modern basish terminal |
 | [Alacritty](https://alacritty.org) | modern terminal + live config reload |
 | [Ghostty](https://ghostty.org/) | modern terminal + live reload + dark/light theme switching. Current |
-|  | **# Shell** |
+| | **# Shell** |
 | [Zsh](https://www.zsh.org/) | A lot of power without any framework. Just add [P10k instant theme](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#instant-prompt), [fzf-tab](https://github.com/Aloxaf/fzf-tab), [autosuggestions](https://github.com/zsh-users/zsh-autosuggestions), [syntax highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) and it start to feel like a starship. Current |
 | [Bash](https://www.gnu.org/software/bash/) + [ble.sh](https://github.com/akinomyoga/ble.sh#discl-pronun) | Fuck yeah, syntax highlighting, powerful completion and all shit on default bash shell. So cool! |
-|  | **# .config manager** |
+| | **# .config manager** |
 | [Chezmoi](https://www.chezmoi.io/) | Not really tried alternatives. It really just works. Very helpful tool |
 | [GNU Stow](https://www.gnu.org/software/stow/) | /i_really_should_try_this_out/ |
-|  | **# Browser** |
+| | **# Browser** |
 | [Zen](https://zen-browser.app/) | From alpha, to stable beta. Fast, private and with great interface, and crazy abilities like mods store. Firefox-based. Current |
 | [Firefox](https://www.mozilla.org/en-US/firefox/) | OG. Using on phone (fennec from fdroid). |
-|  | **# Notes** |
+| | **# Notes** |
 | [Obsidian](https://obsidian.md/) | Not opensource, but great community support. More stable and polished expirience than Logseq. Currently using. |
 | [Logseq](https://logseq.com/) | My note-taking habits developed from using it - bullets, journals, all notes just linked, no folders. Lacks extensions on mobile and definitely not so polished and community-supported as Obsidian. Opensource, but feels laggy. Used previously. |
 | [Silverbullet](https://silverbullet.md/) | Great self-hosted app. Almost all I need works out of the box. Very hackable and scriptable. The problem is that there are almost no plugins and the graphical options are limited. But still, app feels good and it's oss. |
-|  | **# Editor** |
+| | **# Editor** |
 | [Helix](https://helix-editor.com/) | Great terminal text editor with all needed features, themes backed in. Static config in toml and that's enough. Feels great, current editor. |
 | [Neovim](https://neovim.io/) | Previously used. Customizible af. Config in some script language. Good for pro, but coding is not my job. With omarchy comes lazynvim, and I use it sometimes. |
-|  | **# Passwords** |
-| [KeepassXC](https://keepassxc.org/) +  [KeepassDX](https://www.keepassdx.com/) | Local, easy, simple, with ssh-agent and browser integration, and android app. Best of the best. |
-|  | **# Syncing** |
+| | **# Passwords** |
+| [KeepassXC](https://keepassxc.org/) + [KeepassDX](https://www.keepassdx.com/) | Local, easy, simple, with ssh-agent and browser integration, and android app. Best of the best. |
+| | **# Syncing** |
 | [Syncthing](https://syncthing.net/) | Sync between devices without leaving local network. I just disabled public discovery. Works fairly well. |
-|  | **# RSS** |
+| | **# RSS** |
 | [Miniflux](https://miniflux.app/) | Minimalistic, but very functional program for reading rss feeds. A bit ugly at first glance, but it's very easy to get used to. I also installed [RSS-Bridge](https://rss-bridge.org/) to expand its capabilities. |
-| VPN | [Error code: 451 ](http://publication.pravo.gov.ru/document/0001202312010036) |
+| VPN | [Error code: 451](http://publication.pravo.gov.ru/document/0001202312010036) |
 
 # Selfhosting
 
@@ -65,15 +67,15 @@ Right now I'm using a simple system - a router with openwrt, and an always-on la
 {% sidebyside %}
 
 ```ascii
-,           , 
- /             \ 
-((__-^^-,-^^-__)) 
- `-_---' `---_-' 
-  `--|o` 'o|--' 
-     \  `  / 
-      ): :( 
-      :o_o: 
-       "-" 
+  ,           ,
+ /             \
+((__-^^-,-^^-__))
+ `-_---' `---_-'
+  `--|o` 'o|--'
+     \  `  /
+      ): :(
+      :o_o:
+       "-"
 ```
 
 {% endsidebyside %}
