@@ -19,8 +19,7 @@ I change [distributions](https://eylenburg.github.io/os_comparison.htm), termina
 The tools I keep using usually have something in common: they give me control without making the whole system feel like homework. I like software that is understandable, local-first when possible, hackable when needed, and pleasant enough that I do not have to fight it every day.
 
 ## Tools that I use and have used for some time now
-Current tools are highlighted.
-
+##### Current tools are highlighted in red.
 |                                                                                                          |                                                                                                                                                                                                                                                                                                                                                                                       |
 | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |                                                                                                          | **# Distributions**                                                                                                                                                                                                                                                                                                                                                                   |
