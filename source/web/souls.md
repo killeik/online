@@ -1,6 +1,6 @@
 ---
 title: chamber-of-echoes
-layout: collection.liquid
+layout: webindex.liquid
 collection: souls
 eleventyImport.collections: souls
 ---

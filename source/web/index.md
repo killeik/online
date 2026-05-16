@@ -1,6 +1,6 @@
 ---
 title: infinite-index
-layout: collection.liquid
+layout: webindex.liquid
 eleventyImport.collections: webindex
 collection: webindex
 redirectFrom:

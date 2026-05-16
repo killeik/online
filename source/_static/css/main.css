@@ -36,7 +36,6 @@ body {
 	box-sizing: border-box;
 }
 
-
 ::selection {
 	background: var(--primary);
 	color: var(--foreground)
@@ -134,6 +133,19 @@ th {
 .card * {
 	margin: auto;
 	text-align: center;
+}
+
+.marginalia-feed {
+	max-width: 35em;
+	margin: 1em auto;
+}
+
+.marginalia-post {
+	padding: 0.7em 0;
+}
+
+.marginalia-post p {
+	margin: 0.5em 0;
 }
 
 details {

@@ -1,6 +1,6 @@
 ---
 title: archivum-scripturarum
-layout: collection.liquid
+layout: webindex.liquid
 collection: scrolls
 eleventyImport.collections: scrolls
 ---

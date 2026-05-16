@@ -1,6 +1,6 @@
 ---
 title: mechanica-arcana
-layout: collection.liquid
+layout: webindex.liquid
 collection: gears
 eleventyImport.collections: gears
 ---

@@ -5,7 +5,7 @@ date: git Last Modified
 created: 2026-05-10
 tags:
   - webindex
-  - scrolls
+  - oddities
 layout: websitecard.liquid
 draft: false
 ---

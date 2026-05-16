@@ -39,6 +39,23 @@ collections:
       - { label: "Draft", name: "draft", widget: "boolean", default: false, required: false }
       - { label: "Body", name: "body", widget: "richtext" }
 
+  - name: "marginalia"
+    label: "Marginalia"
+    label_singular: "Marginalium"
+    folder: "source/marginalia/posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{hour}}-{{minute}}-{{second}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Created", name: "created", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss", date_format: "YYYY-MM-DD", time_format: "HH:mm:ss" }
+      - { name: "title", widget: "hidden", default: "marginalia" }
+      - { name: "date", widget: "hidden", default: "git Last Modified" }
+      - { name: "layout", widget: "hidden", default: "marginalia-post.liquid" }
+      - { name: "tags", widget: "hidden", default: ["marginalia"] }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false, required: false }
+      - { label: "Body", name: "body", widget: "richtext" }
+
   - name: "websites"
     label: "Websites"
     label_singular: "Website"
@@ -73,7 +90,7 @@ collections:
           - { label: "Body", name: "body", widget: "richtext" }
       - label: "About"
         name: "about"
-        file: "source/about.md"
+        file: "source/thoughts/about.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Created", name: "created", widget: "string", required: false }

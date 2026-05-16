@@ -1,6 +1,6 @@
 ---
 title: box-of-wonders
-layout: collection.liquid
+layout: webindex.liquid
 collection: oddities
 eleventyImport.collections: oddities
 ---
