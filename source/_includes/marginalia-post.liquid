@@ -1,0 +1,12 @@
+---
+layout: base.liquid
+---
+<article class="marginalia-post">
+	<p>
+		<a class="primary" href="/marginalia/">&lt;-+- marginalia</a>
+	</p>
+	{% if created %}
+	<time datetime="{{ created | htmlDateString }}">{{ created | humandate }}</time>
+	{% endif %}
+	{{ content }}
+</article>

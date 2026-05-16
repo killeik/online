@@ -1,0 +1,19 @@
+---
+layout: html.liquid
+---
+{% include "./header.liquid" %}
+
+<article>
+{{ content }}
+
+<div class="marginalia-feed">
+{%- for post in collections.marginalia reversed -%}
+<article class="marginalia-post">
+	<a class="primary" href="{{ post.url }}">
+		<time datetime="{{ post.data.created | htmlDateString }}">{{ post.data.created | humandate }}</time>
+	</a>
+	{{ post.content }}
+</article>
+{%- endfor -%}
+</div>
+</article>

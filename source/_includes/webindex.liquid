@@ -1,0 +1,27 @@
+---
+layout: html.liquid
+---
+{% include "./header.liquid" %}
+
+{{content}}
+
+<div class="sidebyside webindex">
+{%- for post in collections[collection] reversed -%}
+<article class=card>
+	<a class=primary href="{{ post.data.link }}"> <h3>{{ post.data.title }}</h3></a>
+	<a href="{{ post.data.link }}"><p>{{ post.content }}</p> </a>
+	{% sidebyside %}
+	{%- for tag in post.data.tags -%}
+		{% if tag != 'webindex' %}
+		<mark>
+		<a href='/web/{{tag}}' > #{{tag}} </a>
+		</mark>
+		{% endif %}
+	{%- endfor -%}
+	<mark>
+		<a href="{{ post.url }}"> -+-> </a>
+	</mark>
+	{% endsidebyside %}
+</article>
+{%- endfor -%}
+</div>
