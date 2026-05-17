@@ -49,7 +49,7 @@ collections:
       preview: false
     fields:
       - { label: "Created", name: "created", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss", date_format: "YYYY-MM-DD", time_format: "HH:mm:ss" }
-      - { name: "title", widget: "hidden", default: "marginalia" }
+      - { name: "title", widget: "hidden", default: "{{datetime}}" }
       - { name: "date", widget: "hidden", default: "git Last Modified" }
       - { name: "layout", widget: "hidden", default: "marginalia-post.liquid" }
       - { name: "tags", widget: "hidden", default: ["marginalia"] }
