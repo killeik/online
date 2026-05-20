@@ -162,7 +162,8 @@ code {
 	margin: 0.5em 0;
 }
 
-code.language-ascii {
+code.language-ascii,
+code.language-asciidoc {
 	font-size: var(--scale);
 	line-height: calc(var(--scale) * 0.95);
 	letter-spacing: calc(var(--scale) * -0.05);
