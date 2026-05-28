@@ -34,6 +34,15 @@ export default async function(eleventyConfig) {
 	eleventyConfig.addPairedShortcode("sidebyside", function(content) {
 		return `<div class='sidebyside'>${content}</div>`
 	});
+	eleventyConfig.addShortcode("youtube", function(id) {
+		const videoId = String(id).trim();
+
+		if (!/^[a-zA-Z0-9_-]{11}$/.test(videoId)) {
+			throw new Error(`Invalid YouTube video id: ${videoId}`);
+		}
+
+		return `<iframe class="youtube-embed" src="https://www.youtube-nocookie.com/embed/${videoId}" title="YouTube video" loading="lazy" allowfullscreen></iframe>`;
+	});
 
 	eleventyConfig.addCollection("redirects", function(collectionApi) {
 		return collectionApi.getAll().flatMap((page) => {
