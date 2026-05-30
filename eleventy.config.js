@@ -2,7 +2,7 @@ import { IdAttributePlugin, RenderPlugin } from "@11ty/eleventy";
 import pluginRss from "@11ty/eleventy-plugin-rss";
 import { HtmlBasePlugin } from "@11ty/eleventy";
 // import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
-// 
+//
 import markdownIt from "markdown-it";
 import MarkdownItMark from "markdown-it-mark";
 //
@@ -16,7 +16,7 @@ export const config = {
 	htmlTemplateEngine: "liquid",
 	markdownTemplateEngine: "liquid",
 	dataTemplateEngine: "liquid",
-	templateFormats: ["md", "liquid"] 
+	templateFormats: ["md", "liquid"]
 };
 
 export default async function(eleventyConfig) {
@@ -71,25 +71,6 @@ export default async function(eleventyConfig) {
 	eleventyConfig.addPlugin(pluginRss);
 	// eleventyConfig.addPlugin(eleventyNavigationPlugin);
 	eleventyConfig.addPlugin(IdAttributePlugin);
-
-	// eleventyConfig.addPlugin(feedPlugin, {
-	// 	type: "atom", // or "rss", "json"
-	// 	outputPath: "/feed.xml",
-	// 	collection: {
-	// 		name: "all", // iterate over `collections.all` - all the pages
-	// 		limit: 0,     // 0 means no limit
-	// 	},
-	// 	metadata: {
-	// 		language: "en",
-	// 		title: "killeik grimoire",
-	// 		subtitle: "personal magical book on the web",
-	// 		base: "https://killeik.net/",
-	// 		author: {
-	// 			name: "killeik",
-	// 			email: "qadol4zpb@mozmail.com", // Optional
-	// 		}
-	// 	}
-	// });
 
 	let markdownOptions = {
 		html: true,
