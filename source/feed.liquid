@@ -22,6 +22,7 @@ metadata:
     <name>{{ metadata.author.name }}</name>
   </author>
   {%- for post in collections.all | reverse -%}
+  {%- if post.data.created  -%}
   {% assign absolutePostUrl = post.url | htmlBaseUrl: metadata.base %}
   <entry>
     <title>{{ post.data.title }}</title>
@@ -30,5 +31,6 @@ metadata:
     <id>{{ absolutePostUrl }}</id>
     <content type="html">{{ post.content | renderTransforms:post.data.page, metadata.base |escape}}</content>
   </entry>
+  {%- endif -%}
   {%- endfor %}
 </feed>
