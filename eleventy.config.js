@@ -58,7 +58,7 @@ export default async function(eleventyConfig) {
 	});
 
 	eleventyConfig.addFilter("humandate", function(dateObj) {
-		return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
+		return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("LLL d, yyyy");
 	});
 	eleventyConfig.addFilter("htmlDateString", (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");

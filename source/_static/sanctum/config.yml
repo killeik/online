@@ -48,8 +48,8 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: "Created", name: "created", widget: "datetime", picker_utc: true }
-      - { name: "title", widget: "hidden", default: "{{datetime}}" }
+      - { label: "Title", name: "title", widget: "datetime", format: "MMM D, YYYY", picker_utc: true }
+      - { name: "created", widget: "hidden", default: "{{datetime}}" }
       - { name: "date", widget: "hidden", default: "git Last Modified" }
       - { name: "layout", widget: "hidden", default: "marginalia-post.liquid" }
       - { name: "tags", widget: "hidden", default: ["marginalia"] }
