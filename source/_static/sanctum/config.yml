@@ -32,7 +32,7 @@ collections:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Created", name: "created", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: "Created", name: "created", widget: "datetime", picker_utc: true }
       - { name: "date", widget: "hidden", default: "git Last Modified" }
       - { name: "layout", widget: "hidden", default: "base.liquid" }
       - { name: "tags", widget: "hidden", default: ["thought"] }
@@ -48,7 +48,7 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: "Created", name: "created", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss", date_format: "YYYY-MM-DD", time_format: "HH:mm:ss" }
+      - { label: "Created", name: "created", widget: "datetime", picker_utc: true }
       - { name: "title", widget: "hidden", default: "{{datetime}}" }
       - { name: "date", widget: "hidden", default: "git Last Modified" }
       - { name: "layout", widget: "hidden", default: "marginalia-post.liquid" }
@@ -67,7 +67,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Link", name: "link", widget: "string", required: false }
-      - { label: "Created", name: "created", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: "Created", name: "created", widget: "datetime", picker_utc: true }
       - { name: "date", widget: "hidden", default: "git Last Modified" }
       - { name: "layout", widget: "hidden", default: "websitecard.liquid" }
       - { label: "Tags", name: "tags", widget: "list", default: ["webindex"] }
