@@ -29,7 +29,7 @@ metadata:
     <link href="{{ absolutePostUrl }}" />
     <updated>{{ post.data.created | default: post.date | dateToRfc3339 }}</updated>
     <id>{{ absolutePostUrl }}</id>
-    <content type="html">{{ post.content | renderTransforms:post.data.page, metadata.base |escape}}</content>
+    <content type="html">{%- if post.data.tags contains "webindex" and post.data.link -%}&lt;a class=&quot;primary&quot; href=&quot;{{ post.data.link | escape }}&quot;&gt;&lt;h3&gt;{{ post.data.title | escape }}&lt;/h3&gt;&lt;/a&gt;{%- endif -%}{{ post.content | renderTransforms:post.data.page, metadata.base |escape}}</content>
   </entry>
   {%- endif -%}
   {%- endfor %}
