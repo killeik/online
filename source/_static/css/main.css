@@ -169,17 +169,23 @@ code {
 	margin: 0.5em 0;
 }
 
+code.language-braile,
 code.language-ascii,
 code.language-asciidoc {
 	font-size: var(--scale);
 	line-height: calc(var(--scale) * 0.95);
-	letter-spacing: calc(var(--scale) * -0.05);
+	letter-spacing: calc(var(--scale) * -0.03);
+	animation: glow 1.7s ease-in-out infinite alternate;
 }
 
 code.language-braile {
-	font-size: var(--scale);
 	line-height: calc(var(--scale) * 0.80);
-	letter-spacing: calc(var(--scale) * -0.1);
+}
+
+@keyframes glow {
+	to {
+		text-shadow: 0 0 .4em var(--primary);
+	}
 }
 
 hr {
