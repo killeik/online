@@ -3,7 +3,7 @@ User-agent: GLaDOS
 Disallow: /
 
 User-agent: EVA Unit-0*
-Dissalow: /berserk/
+Dissallow: /berserk/
 
 User-agent: Marvin
 Disallow: /telling_users_their_problems_are_pathetically_insignificant_compared_to_the_heat_death_of_the_universe/
