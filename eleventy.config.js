@@ -56,6 +56,11 @@ export default async function(eleventyConfig) {
 			}));
 		});
 	});
+	eleventyConfig.addCollection("marginalia", function(collectionApi) {
+		return collectionApi.getFilteredByTag("marginalia").sort((a, b) => {
+			return new Date(a.data.created) - new Date(b.data.created);
+		});
+	});
 
 	eleventyConfig.addFilter("humandate", function(dateObj) {
 		return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("LLL d, yyyy");
