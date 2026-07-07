@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% if page is defined and page.description %}
+    <meta name="description" content="{{ page.description }}">
+  {% elif section is defined and section.description %}
+    <meta name="description" content="{{ section.description }}">
+  {% elif config.description %}
+    <meta name="description" content="{{ config.description }}">
+  {% endif %}
+  {% block title %}
+    {% if page is defined %}
+      <title>grimoire://{{ page.title }}/</title>
+    {% elif section is defined %}
+      <title>grimoire://{{ section.title }}/</title>
+    {% else %}
+      <title>grimoire://{{ config.title }}/</title>
+    {% endif %}
+  {% endblock title %}
+  <link rel="stylesheet" href="{{ get_url(path='css/main.css') | safe }}">
+  <link rel="preload" href="{{ get_url(path='Px437_IBM_VGA_8x16_braille.woff2') | safe }}" as="font" type="font/woff2" crossorigin>
+  <link rel="alternate" type="application/atom+xml" title="{{ config.title }}" href="{{ get_url(path='feed.xml') | safe }}">
+  <link rel="icon" href="{{ get_url(path='favicon.png') | safe }}">
+</head>
+
+<body>
+  {% block body %}{% endblock body %}
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block body %}
+  {% include "partials/header.html" %}
+
+  <article class="marginalia-post">
+    <p><a class="primary" href="{{ get_url(path='/marginalia/') | safe }}">&lt;-+- marginalia</a></p>
+    {% if page.date %}
+      <time datetime="{{ page.date | date(format='%Y-%m-%d') }}">{{ page.date | date(format="%b %-d, %Y") }}</time>
+    {% endif %}
+    {{ page.content | safe }}
+  </article>
+{% endblock body %}

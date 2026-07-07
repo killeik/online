@@ -1,0 +1,130 @@
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
+
+backend:
+  name: github
+  repo: killeik/online
+  branch: zola
+  squash_merges: true
+  site_domain: d09d1d54-27d1-4d2b-b7c4-67dc5509d2ab
+
+publish_mode: editorial_workflow
+media_folder: "static/uploads"
+public_folder: "/uploads"
+
+site_url: "https://killeik.net"
+display_url: "https://killeik.net"
+logo:
+  src: "/favicon.png"
+
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "_"
+
+collections:
+  - name: "thoughts"
+    label: "Whispers"
+    label_singular: "Whisper"
+    folder: "content/thoughts"
+    create: true
+    slug: "{{slug}}"
+    format: "toml-frontmatter"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime", picker_utc: true }
+      - { name: "template", widget: "hidden", default: "page.html" }
+      - label: "Taxonomies"
+        name: "taxonomies"
+        widget: "object"
+        fields:
+          - { name: "tags", widget: "hidden", default: ["thought"] }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false, required: false }
+      - { label: "Body", name: "body", widget: "richtext" }
+
+  - name: "marginalia"
+    label: "Marginalia"
+    label_singular: "Marginalium"
+    folder: "content/marginalia/posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{hour}}-{{minute}}-{{second}}"
+    format: "toml-frontmatter"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "datetime", format: "MMM D, YYYY", picker_utc: true }
+      - { label: "Date", name: "date", widget: "datetime", picker_utc: true }
+      - { name: "template", widget: "hidden", default: "marginalia-post.html" }
+      - label: "Taxonomies"
+        name: "taxonomies"
+        widget: "object"
+        fields:
+          - { name: "tags", widget: "hidden", default: ["marginalia"] }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false, required: false }
+      - { label: "Body", name: "body", widget: "richtext" }
+
+  - name: "websites"
+    label: "Websites"
+    label_singular: "Website"
+    folder: "content/web/websites"
+    create: true
+    slug: "{{slug}}"
+    format: "toml-frontmatter"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime", picker_utc: true }
+      - { name: "template", widget: "hidden", default: "website-card.html" }
+      - label: "Taxonomies"
+        name: "taxonomies"
+        widget: "object"
+        fields:
+          - { label: "Tags", name: "tags", widget: "list", default: ["webindex"] }
+      - label: "Extra"
+        name: "extra"
+        widget: "object"
+        fields:
+          - { label: "Link", name: "link", widget: "string" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false, required: false }
+      - { label: "Description", name: "body", widget: "richtext", required: false }
+
+  - name: "pages"
+    label: "Main pages"
+    format: "toml-frontmatter"
+    editor:
+      preview: false
+    files:
+      - label: "Home"
+        name: "home"
+        file: "content/_index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Date", name: "date", widget: "datetime", required: false }
+          - { name: "template", widget: "hidden", default: "home.html" }
+          - { label: "Body", name: "body", widget: "richtext" }
+      - label: "About"
+        name: "about"
+        file: "content/thoughts/about.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Date", name: "date", widget: "datetime", required: false }
+          - { name: "template", widget: "hidden", default: "page.html" }
+          - { label: "Body", name: "body", widget: "richtext" }
+      - label: "Tinkering"
+        name: "tinkering"
+        file: "content/tinkering.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Date", name: "date", widget: "datetime", required: false }
+          - { name: "template", widget: "hidden", default: "page.html" }
+          - { label: "Body", name: "body", widget: "richtext" }
+      - label: "Contact"
+        name: "contact"
+        file: "content/contact.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Date", name: "date", widget: "datetime", required: false }
+          - { name: "template", widget: "hidden", default: "page.html" }
+          - { label: "Body", name: "body", widget: "richtext" }

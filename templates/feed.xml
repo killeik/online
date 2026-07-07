@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ lang }}">
+  <title>{{ config.title }}</title>
+  <subtitle>{{ config.description }}</subtitle>
+  <link href="{{ feed_url | safe }}" rel="self" />
+  <link href="{{ config.base_url | safe }}" />
+  <updated>{{ last_updated | date(format="%+") }}</updated>
+  <id>{{ config.base_url | safe }}</id>
+  <author>
+    <name>{{ config.extra.author }}</name>
+    <email>{{ config.extra.email }}</email>
+  </author>
+  {% for page in pages %}
+    <entry>
+      <title>{{ page.title }}</title>
+      <link href="{{ page.permalink | safe }}" />
+      <updated>{{ page.updated | default(value=page.date) | date(format="%+") }}</updated>
+      <id>{{ page.permalink | safe }}</id>
+      <content type="html">{% if page.extra.link is defined %}&lt;a class=&quot;primary&quot; href=&quot;{{ page.extra.link | escape | safe }}&quot;&gt;&lt;h3&gt;{{ page.title | escape | safe }}&lt;/h3&gt;&lt;/a&gt;{% endif %}{{ page.content | escape | safe }}</content>
+    </entry>
+  {% endfor %}
+</feed>

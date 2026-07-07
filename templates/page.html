@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block body %}
+  {% include "partials/header.html" %}
+
+  <article>
+    {% if page is defined %}
+      {{ page.content | safe }}
+    {% else %}
+      {{ section.content | safe }}
+    {% endif %}
+  </article>
+
+  {% if page is defined and page.date %}
+    <footer>
+      <p class="gray" align="center">
+        written: {{ page.date | date(format="%b %-d, %Y") }}{% if page.updated %}; mutated: {{ page.updated | date(format="%b %-d, %Y") }}{% endif %}
+      </p>
+    </footer>
+  {% endif %}
+{% endblock body %}

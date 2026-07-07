@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block body %}
+  {% include "partials/header.html" %}
+
+  <article class="card">
+    <a class="primary" href="{{ page.extra.link | safe }}"><h3>{{ page.title }}</h3></a>
+    {{ page.content | safe }}
+    <div class="sidebyside">
+      {% for tag in page.taxonomies.tags %}
+        {% if tag != "webindex" %}
+          <a class="primary" href="{{ get_url(path='web/' ~ tag ~ '/') | safe }}">#{{ tag }}</a>
+        {% endif %}
+      {% endfor %}
+      <a class="primary" href="{{ get_url(path='/web/') | safe }}">&lt;-+-</a>
+    </div>
+  </article>
+{% endblock body %}

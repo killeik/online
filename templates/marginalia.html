@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block body %}
+  {% include "partials/header.html" %}
+
+  {% set posts = get_section(path="marginalia/posts/_index.md") %}
+  <article>
+    {{ section.content | safe }}
+
+    <div class="marginalia-feed">
+      {% for post in posts.pages %}
+        <article class="marginalia-post">
+          <a class="primary" href="{{ post.permalink | safe }}">
+            <time datetime="{{ post.date | date(format='%Y-%m-%d') }}">{{ post.date | date(format="%b %-d, %Y") }}</time>
+          </a>
+          {{ post.content | safe }}
+        </article>
+      {% endfor %}
+    </div>
+  </article>
+{% endblock body %}

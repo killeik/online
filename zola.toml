@@ -1,0 +1,20 @@
+base_url = "https://killeik.net"
+title = "killeik grimoire"
+description = "personal magical book on the web"
+default_language = "en"
+compile_sass = false
+build_search_index = false
+minify_html = true
+generate_feeds = true
+feed_filenames = ["feed.xml"]
+
+taxonomies = [
+  { name = "tags", feed = true },
+]
+
+[markdown]
+smart_punctuation = false
+
+[extra]
+author = "killeik"
+email = "sixwingedkilleik@gmail.com"

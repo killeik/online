@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block body %}
+  {% include "partials/header.html" %}
+
+  {% if page is defined %}
+    {% set collection = page.extra.collection %}
+  {% else %}
+    {% set collection = section.extra.collection %}
+  {% endif %}
+  {% set websites = get_section(path="web/websites/_index.md") %}
+
+  <article>
+    {% if page is defined %}
+      {{ page.content | safe }}
+    {% else %}
+      {{ section.content | safe }}
+    {% endif %}
+  </article>
+
+  <div class="sidebyside webindex">
+    {% for website in websites.pages %}
+      {% if collection in website.taxonomies.tags %}
+        <article class="card">
+          <a class="primary" href="{{ website.extra.link | safe }}"><h3>{{ website.title }}</h3></a>
+          <a href="{{ website.extra.link | safe }}"><p>{{ website.content | striptags | trim }}</p></a>
+          <div class="sidebyside">
+            {% for tag in website.taxonomies.tags %}
+              {% if tag != "webindex" %}
+                <a class="primary" href="{{ get_url(path='web/' ~ tag ~ '/') | safe }}">#{{ tag }}</a>
+              {% endif %}
+            {% endfor %}
+            <a class="primary" href="{{ website.permalink | safe }}">-+-&gt;</a>
+          </div>
+        </article>
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endblock body %}

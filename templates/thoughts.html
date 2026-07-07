@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block body %}
+  {% include "partials/header.html" %}
+
+  <article>
+    <div class="sidebyside">
+      <div class="widthtocontent">
+        <h3><em>it whispers to you</em></h3>
+        <ul>
+          {% for thought in section.pages %}
+            <li><a href="{{ thought.permalink | safe }}">{{ thought.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      {{ section.content | safe }}
+    </div>
+  </article>
+{% endblock body %}
