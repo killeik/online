@@ -3,6 +3,7 @@ title = "unsocial-networks"
 date = 2024-09-07
 updated = 2026-06-27T13:58:05+03:00
 template = "page.html"
+aliases = ["/thoughts/social_networks/", "/thoughts/social-networks/"]
 
 [taxonomies]
 tags = ["thought"]
@@ -47,4 +48,3 @@ I don't really know how to describe it, but it's somewhere between creepy and co
 ```
 
 {% end %}
-

@@ -12,6 +12,9 @@ taxonomies = [
   { name = "tags", feed = true },
 ]
 
+[slugify]
+paths = "off"
+
 [markdown]
 smart_punctuation = false
 
