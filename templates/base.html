@@ -20,7 +20,7 @@
       <title>grimoire://{{ config.title }}/</title>
     {% endif %}
   {% endblock title %}
-  <link rel="stylesheet" href="{{ get_url(path='css/main.css') | safe }}">
+  <link rel="stylesheet" href="{{ get_url(path='main.css') | safe }}">
   <link rel="preload" href="{{ get_url(path='Px437_IBM_VGA_8x16_braille.woff2') | safe }}" as="font" type="font/woff2" crossorigin>
   <link rel="alternate" type="application/atom+xml" title="{{ config.title }}" href="{{ get_url(path='feed.xml') | safe }}">
   <link rel="icon" href="{{ get_url(path='favicon.png') | safe }}">
