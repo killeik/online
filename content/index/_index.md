@@ -2,7 +2,7 @@
 title = "WHAT-ARE-YE-DOIN?"
 template = "page.html"
 +++
-{% sidebyside() %}
+{% <sidebyside> %}
 
 ```ascii
                                  &&    &&&XX&&         &
@@ -57,4 +57,4 @@ template = "page.html"
    |_____|_| \_|_____/|______/_/ \_\_____|_| \_|\_____| |_|  |_|______|(_) (_)
 ```
 
-{% end %}
+{% </sidebyside> %}

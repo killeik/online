@@ -28,7 +28,7 @@ I don't really know how to describe it, but it's somewhere between creepy and co
 ### And I just don't want to be part of that system.
 
 
-{% sidebyside() %}
+{% <sidebyside> %}
 
 ```braile
 ⣶⠒⠿⣶⠒⠚⢿⡒⠛⣻⣿⣿⣿⡛⠛⢻⡟⠛⣻⠟⢻⣿⡿⣿⠉⠉⠛⢿⡛⠛⢻⡟⠛⢿⣿⣿⣿⣿⣹⡿⠋⣿⠟⠛⣻⠟⢻⡿⠛⠿⣿⠻⢿⡛⢿⡛⢿⣿⣿⣿⣿⣿⣿⠟⠛⣿⠟⣻⠟⢛
@@ -47,4 +47,4 @@ I don't really know how to describe it, but it's somewhere between creepy and co
      F O L L O W   L I K E   S H A R E
 ```
 
-{% end %}
+{% </sidebyside> %}

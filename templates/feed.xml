@@ -4,7 +4,7 @@
   <subtitle>{{ config.description }}</subtitle>
   <link href="{{ feed_url | safe }}" rel="self" />
   <link href="{{ config.base_url | safe }}" />
-  <updated>{{ last_updated | date(format="%+") }}</updated>
+  <updated>{{ last_updated | date(format="%Y-%m-%dT%H:%M:%S%:z") }}</updated>
   <id>{{ config.base_url | safe }}</id>
   <author>
     <name>{{ config.extra.author }}</name>
@@ -14,9 +14,9 @@
     <entry>
       <title>{{ page.title }}</title>
       <link href="{{ page.permalink | safe }}" />
-      <updated>{{ page.updated | default(value=page.date) | date(format="%+") }}</updated>
+      {% if page.updated %}<updated>{{ page.updated | date(format="%Y-%m-%dT%H:%M:%S%:z") }}</updated>{% elif page.date %}<updated>{{ page.date | date(format="%Y-%m-%dT%H:%M:%S%:z") }}</updated>{% endif %}
       <id>{{ page.permalink | safe }}</id>
-      <content type="html">{% if page.extra.link is defined %}&lt;a class=&quot;primary&quot; href=&quot;{{ page.extra.link | escape | safe }}&quot;&gt;&lt;h3&gt;{{ page.title | escape | safe }}&lt;/h3&gt;&lt;/a&gt;{% endif %}{{ page.content | escape | safe }}</content>
+      <content type="html">{% if page.extra.link is defined %}&lt;a class=&quot;primary&quot; href=&quot;{{ page.extra.link | escape_html | safe }}&quot;&gt;&lt;h3&gt;{{ page.title | escape_html | safe }}&lt;/h3&gt;&lt;/a&gt;{% endif %}{{ page.content | escape_html | safe }}</content>
     </entry>
   {% endfor %}
 </feed>

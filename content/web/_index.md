@@ -6,4 +6,4 @@ aliases = ["/web/websites/"]
 [extra]
 collection = "webindex"
 +++
-# {{ primarylink(href="/thoughts/web-beyond-platforms/", text="The Web Beyond Platforms") }}
+# {{ <primarylink href="/thoughts/web-beyond-platforms/" text="The Web Beyond Platforms" /> }}

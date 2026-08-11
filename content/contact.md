@@ -4,9 +4,9 @@ date = 2024-10-27
 updated = 2026-05-16T15:59:36+03:00
 template = "page.html"
 +++
-{% sidebyside() %}
+{% <sidebyside> %}
 
-{% widthtocontent() %}
+{% <widthtocontent> %}
 
 # SUMMON ME
 
@@ -14,7 +14,7 @@ template = "page.html"
 - [EMAIL](mailto:sixwingedkilleik@gmail.com)
 - [GITHUB](https://github.com/killeik)
 
-{% end %}
+{% </widthtocontent> %}
 
 ```ascii
               -                               -
@@ -48,4 +48,4 @@ template = "page.html"
                              -
 ```
 
-{% end %}
+{% </sidebyside> %}

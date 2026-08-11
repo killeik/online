@@ -33,7 +33,7 @@ Mixed Markdown and [semantic HTML](https://www.w3.org/WAI/WCAG21/Techniques/html
 - Rendering from templates/markdown with [Zola](https://www.getzola.org/)
 - Hosting on GitHub Pages
 
-{% sidebyside() %}
+{% <sidebyside> %}
 
 ```ascii
                                            ,--,  ,.-.
@@ -60,4 +60,4 @@ Mixed Markdown and [semantic HTML](https://www.w3.org/WAI/WCAG21/Techniques/html
  \( `   <.,../`     `-.._   _,-`
 ```
 
-{% end %}
+{% </sidebyside> %}

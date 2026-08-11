@@ -1,0 +1,19 @@
+{% component primarylink(href: string, text: string) -%}
+<a href="{{ href | safe }}" class="primary">{{ text }}</a>
+{%- endcomponent %}
+
+{% component sidebyside() -%}
+<div class="sidebyside">
+  {{ body | markdown | safe }}
+</div>
+{%- endcomponent %}
+
+{% component widthtocontent() -%}
+<div class="widthtocontent">
+  {{ body | markdown | safe }}
+</div>
+{%- endcomponent %}
+
+{% component youtube(id: string) -%}
+<iframe class="youtube-embed" src="https://www.youtube-nocookie.com/embed/{{ id }}" title="YouTube video" loading="lazy" allowfullscreen></iframe>
+{%- endcomponent %}
