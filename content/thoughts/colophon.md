@@ -1,14 +1,15 @@
 +++
-title = "about"
+title = "colophon"
 date = 2024-08-28
 updated = 2026-05-16T15:59:58+03:00
 template = "page.html"
-aliases = ["/about/"]
+path = "colophon"
+aliases = ["/about/", "/thoughts/about/"]
 
 [taxonomies]
 tags = ["thought"]
 +++
-# What this place is about
+# Colophon
 
 - This website is manifestation of what I actually like
 - I plan to gradually expand the lists in each category.
