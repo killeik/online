@@ -3,18 +3,30 @@ $foreground: #faebd7;
 $background: #000;
 $gray: #333;
 $scale: min(2.3vw, 1.5rem);
-$font-main: 'IBM VGA 8x16 Braille', monospace;
+$font-main: VGA, Braille, 'VGA Cyrillic', monospace;
 
 @mixin glow($duration) {
 	animation: glow $duration ease-in-out infinite alternate;
 }
 
 @font-face {
-	font-family: 'IBM VGA 8x16 Braille';
-	src: url(/Px437_IBM_VGA_8x16_braille.woff2) format('woff2');
-	font-weight: normal;
-	font-style: normal;
+	font-family: VGA;
+	src: url(/vga.woff2) format('woff2');
 	font-display: block;
+}
+
+@font-face {
+	font-family: Braille;
+	src: url(/braille.woff2) format('woff2');
+	font-display: block;
+	unicode-range: U+2800-28FF;
+}
+
+@font-face {
+	font-family: 'VGA Cyrillic';
+	src: url(/vga-ru.woff2) format('woff2');
+	font-display: block;
+	unicode-range: U+0401, U+0410-044F, U+0451;
 }
 
 * {
